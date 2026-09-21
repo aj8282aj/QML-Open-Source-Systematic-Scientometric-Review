@@ -1,0 +1,1 @@
+Data availability: The complete dataset and supporting files used in this study, including the final 68-paper dataset, extracted metadata and classifications, reproducibility assessments, country and institutional counting data, figure datasets, and VOSviewer input files, are publicly available at [GITHUB REPOSITORY URL].

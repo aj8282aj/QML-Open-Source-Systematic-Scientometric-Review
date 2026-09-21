@@ -1,0 +1,151 @@
+{
+  "final_papers": 68,
+  "ris_records": 136,
+  "unmatched": [],
+  "matched_author_records": 68,
+  "arxiv_categories_available_rows": 38,
+  "top_authors": [
+    [
+      "Dunjko, Vedran",
+      5
+    ],
+    [
+      "Schuld, Maria",
+      4
+    ],
+    [
+      "Lockwood, Owen",
+      3
+    ],
+    [
+      "Zlokapa, Alexander",
+      3
+    ],
+    [
+      "Jerbi, Sofiene",
+      3
+    ],
+    [
+      "Wang, Xin",
+      3
+    ],
+    [
+      "Aspuru-Guzik, Alán",
+      2
+    ],
+    [
+      "Ahmed, Shahnawaz",
+      2
+    ],
+    [
+      "Ijaz, Aroosa",
+      2
+    ],
+    [
+      "Meyer, Johannes Jakob",
+      2
+    ],
+    [
+      "Vargas-Hernández, Rodrigo A.",
+      2
+    ],
+    [
+      "Wiersema, Roeland",
+      2
+    ],
+    [
+      "Willmann, Moritz",
+      2
+    ],
+    [
+      "Neven, Hartmut",
+      2
+    ],
+    [
+      "Da Silva, Adenilton J.",
+      2
+    ]
+  ],
+  "top_arxiv_categories": [
+    [
+      "Quantum Physics",
+      37
+    ],
+    [
+      "Computer Science - Machine Learning",
+      32
+    ],
+    [
+      "Statistics - Machine Learning",
+      8
+    ],
+    [
+      "Computer Science - Artificial Intelligence",
+      7
+    ],
+    [
+      "Computer Science - Neural and Evolutionary Computing",
+      3
+    ],
+    [
+      "Physics - Computational Physics",
+      3
+    ],
+    [
+      "Computer Science - Emerging Technologies",
+      3
+    ],
+    [
+      "Mathematics - Optimization and Control",
+      2
+    ],
+    [
+      "Computer Science - Data Structures and Algorithms",
+      1
+    ],
+    [
+      "Computer Science - Information Retrieval",
+      1
+    ],
+    [
+      "Computer Science - Programming Languages",
+      1
+    ],
+    [
+      "Condensed Matter - Disordered Systems and Neural Networks",
+      1
+    ],
+    [
+      "High Energy Physics - Phenomenology",
+      1
+    ],
+    [
+      "Computer Science - Information Theory",
+      1
+    ],
+    [
+      "Condensed Matter - Statistical Mechanics",
+      1
+    ],
+    [
+      "Computer Science - Computer Vision and Pattern Recognition",
+      1
+    ],
+    [
+      "Computer Science - Distributed, Parallel, and Cluster Computing",
+      1
+    ],
+    [
+      "Computer Science - Computational Complexity",
+      1
+    ],
+    [
+      "Condensed Matter - Quantum Gases",
+      1
+    ],
+    [
+      "Computer Science - Hardware Architecture",
+      1
+    ]
+  ]
+}

@@ -1,0 +1,2759 @@
+TY  - CONF
+TI  - QuLTSF: Long-Term Time Series Forecasting with Quantum Machine Learning
+AU  - Chittoor, Hari Hara Suthan
+AU  - Griffin, Paul Robert
+AU  - Neufeld, Ariel
+AU  - Thompson, Jayne
+AU  - Gu, Mile
+AB  - Long-term time series forecasting (LTSF) involves predicting a large number of future values of a time series based on the past values and is an essential task in a wide range of domains including weather forecasting, stock market analysis, disease outbreak prediction. Over the decades LTSF algorithms have transitioned from statistical models to deep learning models like transformer models. Despite the complex architecture of transformer based LTSF models ‘Are Transformers Effective for Time Series Forecasting? (Zeng et al., 2023)’ showed that simple linear models can outperform the state-of-the-art transformer based LTSF models. Recently, quantum machine learning (QML) is evolving as a domain to enhance the capabilities of classical machine learning models. In this paper we initiate the application of QML to LTSF problems by proposing QuLTSF, a simple hybrid QML model for multivariate LTSF. Through extensive experiments on a widely used weather dataset we show the advantages of QuLTSF over the state-of-the-art classical linear models, in terms of reduced mean squared error and mean absolute error.
+C3  - Proceedings of the 17th International Conference on Agents and Artificial Intelligence
+DA  - 2025///
+PY  - 2025
+DO  - 10.5220/0013395500003890
+DP  - arXiv.org
+SP  - 824
+EP  - 829
+LA  - en
+ST  - QuLTSF
+UR  - http://arxiv.org/abs/2412.13769
+Y2  - 2026/07/13/09:06:42
+N1  - Comment: Published in ICAART 2025
+KW  - Computer Science - Artificial Intelligence
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - GEN
+TI  - Feature Importance and Explainability in Quantum Machine Learning
+AU  - Power, Luke
+AU  - Guha, Krishnendu
+AB  - Many Machine Learning (ML) models are referred to as black-box models, providing no real insights into why a prediction is made. Feature importance and explainability are important for increasing transparency and trust in ML models, particularly in settings such as healthcare and finance. With quantum computing’s unique capabilities, such as leveraging quantum mechanical phenomena like superposition, this can be combined with ML techniques to create the field of Quantum Machine Learning (QML), and such techniques may be applied to QML models. This article explores feature importance and explainability insights in QML compared to Classical ML models. Utilizing the widely recognized Iris dataset, classical ML algorithms— SVM and Random Forests, are compared against hybrid quantum counterparts, implemented via IBM’s Qiskit platform: the Variational Quantum Classifier (VQC) and Quantum Support Vector Classifier (QSVC). This article aims to provide an in-depth comparison of the insights generated in ML by employing permutation and leave-one-out feature importance methods, alongside ALE (Accumulated Local Effects) and SHAP (SHapley Additive exPlanations) explainers.
+DA  - 2024/05/14/
+PY  - 2024
+DO  - 10.48550/arXiv.2405.08917
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/2405.08917
+Y2  - 2026/07/13/09:08:36
+N1  - Comment: Amended final year project. 23 pages
+KW  - Computer Science - Machine Learning
+KW  - Mathematics - Quantum Algebra
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - GEN
+TI  - Better than classical? The subtle art of benchmarking quantum machine learning models
+AU  - Bowles, Joseph
+AU  - Ahmed, Shahnawaz
+AU  - Schuld, Maria
+AB  - Benchmarking models via classical simulations is one of the main ways to judge ideas in quantum machine learning before noise-free hardware is available. However, the huge impact of the experimental design on the results, the small scales within reach today, as well as narratives influenced by the commercialisation of quantum technologies make it difficult to gain robust insights. To facilitate better decision-making we develop an open-source package based on the PennyLane software framework and use it to conduct a large-scale study that systematically tests 12 popular quantum machine learning models on 6 binary classification tasks used to create 160 individual datasets. We find that overall, out-of-the-box classical machine learning models outperform the quantum classifiers. Moreover, removing entanglement from a quantum model often results in as good or better performance, suggesting that "quantumness" may not be the crucial ingredient for the small learning tasks considered here. Our benchmarks also unlock investigations beyond simplistic leaderboard comparisons, and we identify five important questions for quantum model design that follow from our results.
+DA  - 2024/03/14/
+PY  - 2024
+DO  - 10.48550/arXiv.2403.07059
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - Better than classical?
+UR  - http://arxiv.org/abs/2403.07059
+Y2  - 2026/07/13/09:08:38
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - GEN
+TI  - Élivágar: Efficient Quantum Circuit Search for Classification
+AU  - Anagolum, Sashwat
+AU  - Alavisamani, Narges
+AU  - Das, Poulami
+AU  - Qureshi, Moinuddin
+AU  - Kessler, Eric
+AU  - Shi, Yunong
+AB  - Designing performant and noise-robust circuits for Quantum Machine Learning (QML) is challenging — the design space scales exponentially with circuit size, and there are few well-supported guiding principles for QML circuit design. Although recent Quantum Circuit Search (QCS) methods attempt to search for performant QML circuits that are also robust to hardware noise, they directly adopt designs from classical Neural Architecture Search (NAS) that are misaligned with the unique constraints of quantum hardware, resulting in high search overheads and severe performance bottlenecks.
+DA  - 2024/01/17/
+PY  - 2024
+DO  - 10.48550/arXiv.2401.09393
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - Élivágar
+UR  - http://arxiv.org/abs/2401.09393
+Y2  - 2026/07/13/09:08:40
+N1  - Comment: 13 pages, 11 figures. To appear in ASPLOS 2024
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Computer Science - Hardware Architecture
+ER  - 
+
+TY  - GEN
+TI  - Challenges for Reinforcement Learning in Quantum Circuit Design
+AU  - Altmann, Philipp
+AU  - Stein, Jonas
+AU  - Kölle, Michael
+AU  - Bärligea, Adelina
+AU  - Gabor, Thomas
+AU  - Phan, Thomy
+AU  - Feld, Sebastian
+AU  - Linnhoff-Popien, Claudia
+AB  - Quantum computing (QC) in the current NISQ era is still limited in size and precision. Hybrid applications mitigating those shortcomings are prevalent to gain early insight and advantages. Hybrid quantum machine learning (QML) comprises both the application of QC to improve machine learning (ML) and ML to improve QC architectures. This work considers the latter, leveraging reinforcement learning (RL) to improve quantum circuit design (QCD), which we formalize by a set of generic objectives. Furthermore, we propose qcd-gym, a concrete framework formalized as a Markov decision process, to enable learning policies capable of controlling a universal set of continuously parameterized quantum gates. Finally, we provide benchmark comparisons to assess the shortcomings and strengths of current state-of-the-art RL algorithms.
+DA  - 2024/08/08/
+PY  - 2024
+DO  - 10.48550/arXiv.2312.11337
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/2312.11337
+Y2  - 2026/07/13/09:08:42
+N1  - Comment: 11 pages, 4 figures, accepted for publication at the 2024 IEEE International Conference on Quantum Computing and Engineering (QCE)
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Training robust and generalizable quantum models
+AU  - Berberich, Julian
+AU  - Fink, Daniel
+AU  - Pranjić, Daniel
+AU  - Tutschku, Christian
+AU  - Holm, Christian
+T2  - Physical Review Research
+AB  - Adversarial robustness and generalization are both crucial properties of reliable machine learning models. In this paper, we study these properties in the context of quantum machine learning based on Lipschitz bounds. We derive parameter-dependent Lipschitz bounds for quantum models with trainable encoding, showing that the norm of the data encoding has a crucial impact on the robustness against data perturbations. Further, we derive a bound on the generalization error which explicitly involves the parameters of the data encoding. Our theoretical findings give rise to a practical strategy for training robust and generalizable quantum models by regularizing the Lipschitz bound in the cost. Further, we show that, for fixed and non-trainable encodings, as those frequently employed in quantum machine learning, the Lipschitz bound cannot be influenced by tuning the parameters. Thus, trainable encodings are crucial for systematically adapting robustness and generalization during training. The practical implications of our theoretical findings are illustrated with numerical results.
+DA  - 2024/12/27/
+PY  - 2024
+DO  - 10.1103/PhysRevResearch.6.043326
+DP  - arXiv.org
+VL  - 6
+IS  - 4
+SP  - 043326
+J2  - Phys. Rev. Research
+LA  - en
+SN  - 2643-1564
+UR  - http://arxiv.org/abs/2311.11871
+Y2  - 2026/07/13/09:08:45
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Mathematics - Optimization and Control
+ER  - 
+
+TY  - GEN
+TI  - sQUlearn -- A Python Library for Quantum Machine Learning
+AU  - Kreplin, David A.
+AU  - Willmann, Moritz
+AU  - Schnabel, Jan
+AU  - Rapp, Frederic
+AU  - Hagelüken, Manuel
+AU  - Roth, Marco
+AB  - sQUlearn introduces a user-friendly, NISQ-ready Python library for quantum machine learning (QML), designed for seamless integration with classical machine learning tools like scikit-learn. The library's dual-layer architecture serves both QML researchers and practitioners, enabling efficient prototyping, experimentation, and pipelining. sQUlearn provides a comprehensive toolset that includes both quantum kernel methods and quantum neural networks, along with features like customizable data encoding strategies, automated execution handling, and specialized kernel regularization techniques. By focusing on NISQ-compatibility and end-to-end automation, sQUlearn aims to bridge the gap between current quantum computing capabilities and practical machine learning applications. The library provides substantial flexibility, enabling quick transitions between the underlying quantum frameworks Qiskit and PennyLane, as well as between simulation and running on actual hardware.
+DA  - 2024/04/19/
+PY  - 2024
+DO  - 10.48550/arXiv.2311.08990
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/2311.08990
+Y2  - 2026/07/13/09:08:47
+N1  - Comment: 11+4 pages, 5+3 figures; This work has been submitted to the IEEE for possible publication
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - A general learning scheme for classical and quantum Ising machines
+AU  - Schmid, Ludwig
+AU  - Zardini, Enrico
+AU  - Pastorello, Davide
+T2  - SciPost Physics Core
+AB  - An Ising machine is any hardware specifically designed for finding the ground state of the Ising model. Relevant examples are coherent Ising machines and quantum annealers. In this paper, we propose a new machine learning model that is based on the Ising structure and can be efficiently trained using gradient descent. We provide a mathematical characterization of the training process, which is based upon optimizing a loss function whose partial derivatives are not explicitly calculated but estimated by the Ising machine itself. Moreover, we present some experimental results on the training and execution of the proposed learning model. These results point out new possibilities offered by Ising machines for different learning tasks. In particular, in the quantum realm, the quantum resources are used for both the execution and the training of the model, providing a promising perspective in quantum machine learning.
+DA  - 2024/03/14/
+PY  - 2024
+DO  - 10.21468/SciPostPhysCore.7.1.013
+DP  - arXiv.org
+VL  - 7
+IS  - 1
+SP  - 013
+J2  - SciPost Phys. Core
+LA  - en
+SN  - 2666-9366
+UR  - http://arxiv.org/abs/2310.18411
+Y2  - 2026/07/13/09:08:49
+N1  - Comment: 25 pages, 9 figures, updated to the version published on SciPost
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Generative quantum machine learning via denoising diffusion probabilistic models
+AU  - Zhang, Bingzhi
+AU  - Xu, Peng
+AU  - Chen, Xiaohui
+AU  - Zhuang, Quntao
+T2  - Physical Review Letters
+AB  - Deep generative models are key-enabling technology to computer vision, text generation, and large language models. Denoising diffusion probabilistic models (DDPMs) have recently gained much attention due to their ability to generate diverse and high-quality samples in many computer vision tasks, as well as to incorporate flexible model architectures and a relatively simple training scheme. Quantum generative models, empowered by entanglement and superposition, have brought new insight to learning classical and quantum data. Inspired by the classical counterpart, we propose the quantum denoising diffusion probabilistic model (QuDDPM) to enable efficiently trainable generative learning of quantum data. QuDDPM adopts sufficient layers of circuits to guarantee expressivity, while it introduces multiple intermediate training tasks as interpolation between the target distribution and noise to avoid barren plateau and guarantee efficient training. We provide bounds on the learning error and demonstrate QuDDPM's capability in learning correlated quantum noise model, quantum many-body phases, and topological structure of quantum data. The results provide a paradigm for versatile and efficient quantum generative learning.
+DA  - 2024/03/05/
+PY  - 2024
+DO  - 10.1103/PhysRevLett.132.100602
+DP  - arXiv.org
+VL  - 132
+IS  - 10
+SP  - 100602
+J2  - Phys. Rev. Lett.
+LA  - en
+SN  - 0031-9007, 1079-7114
+UR  - http://arxiv.org/abs/2310.05866
+Y2  - 2026/07/13/09:08:53
+N1  - Comment: 5+10 pages, 16 figures. PRL accepted version. Code available at: https://github.com/francis-hsu/quantgenmdl
+KW  - Computer Science - Artificial Intelligence
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Learning Quantum Processes with Quantum Statistical Queries
+AU  - Wadhwa, Chirag
+AU  - Doosti, Mina
+T2  - Quantum
+AB  - Learning complex quantum processes is a central challenge in many areas of quantum computing and quantum machine learning, with applications in quantum benchmarking, cryptanalysis, and variational quantum algorithms. This paper introduces the first learning framework for studying quantum process learning within the Quantum Statistical Query (QSQ) model, providing the first formal definition of statistical queries to quantum processes (QPSQs). The framework allows us to propose an efficient QPSQ learner for arbitrary quantum processes accompanied by a provable performance guarantee. We also provide numerical simulations to demonstrate the efficacy of this algorithm. In our new framework, we prove exponential query complexity lower bounds for learning unitary 2-designs, and a doubly exponential lower bound for learning haar-random unitaries. The practical relevance of this framework is exemplified through application in cryptography, highlighting vulnerabilities of a large class of Classical-Readout Quantum Physical Unclonable Functions (CR-QPUFs), addressing an important open question in the field of quantum hardware security. This work marks a significant step towards understanding the learnability of quantum processes and shedding light on their security implications.
+DA  - 2025/05/12/
+PY  - 2025
+DO  - 10.22331/q-2025-05-12-1739
+DP  - arXiv.org
+VL  - 9
+SP  - 1739
+J2  - Quantum
+LA  - en
+SN  - 2521-327X
+UR  - http://arxiv.org/abs/2310.02075
+Y2  - 2026/07/13/09:08:55
+N1  - Comment: 32 pages, 2 figures. Corrected proofs and improved presentation. Accepted in Quantum
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Computer Science - Computational Complexity
+ER  - 
+
+TY  - JOUR
+TI  - Sub-universal variational circuits for combinatorial optimization problems
+AU  - Weitz, Gal
+AU  - Pira, Lirandë
+AU  - Ferrie, Chris
+AU  - Combes, Joshua
+T2  - Physical Review A
+AB  - Quantum variational circuits have gained significant attention due to their applications in the quantum approximate optimization algorithm and quantum machine learning research. This work introduces a novel class of classical probabilistic circuits designed for generating approximate solutions to combinatorial optimization problems constructed using two-bit stochastic matrices. Through a numerical study, we investigate the performance of our proposed variational circuits in solving the Max-Cut problem on various graphs of increasing sizes. Our classical algorithm demonstrates improved performance for several graph types to the quantum approximate optimization algorithm. Our findings suggest that evaluating the performance of quantum variational circuits against variational circuits with sub-universal gate sets is a valuable benchmark for identifying areas where quantum variational circuits can excel.
+DA  - 2025/09/09/
+PY  - 2025
+DO  - 10.1103/v1sh-fg6f
+DP  - arXiv.org
+VL  - 112
+IS  - 3
+SP  - 032418
+J2  - Phys. Rev. A
+LA  - en
+SN  - 2469-9926, 2469-9934
+UR  - http://arxiv.org/abs/2308.14981
+Y2  - 2026/07/13/09:08:57
+N1  - Comment: 10 pages, 7 figures
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - CONF
+TI  - Application-Oriented Benchmarking of Quantum Generative Learning Using QUARK
+AU  - Kiwit, Florian J.
+AU  - Marso, Marwa
+AU  - Ross, Philipp
+AU  - Riofrío, Carlos A.
+AU  - Klepsch, Johannes
+AU  - Luckow, Andre
+AB  - Benchmarking of quantum machine learning (QML) algorithms is challenging due to the complexity and variability of QML systems, e. g., regarding model ansatzes, data sets, training techniques, and hyper-parameters selection. The QUantum computing Application benchmaRK (QUARK) framework simplifies and standardizes benchmarking studies for quantum computing applications. Here, we propose several extensions of QUARK to include the ability to evaluate the training and deployment of quantum generative models. We describe the updated software architecture and illustrate its flexibility through several example applications: (1) We trained different quantum generative models using several circuit ansatzes, data sets, and data transformations. (2) We evaluated our models on GPU and real quantum hardware. (3) We assessed the generalization capabilities of our generative models using a broad set of metrics that capture, e. g., the novelty and validity of the generated data.
+C3  - 2023 IEEE International Conference on Quantum Computing and Engineering (QCE)
+DA  - 2023/09/17/
+PY  - 2023
+DO  - 10.1109/QCE57702.2023.00061
+DP  - arXiv.org
+SP  - 475
+EP  - 484
+LA  - en
+UR  - http://arxiv.org/abs/2308.04082
+Y2  - 2026/07/13/09:09:00
+N1  - Comment: 10 pages, 10 figures
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Computer Science - Distributed, Parallel, and Cluster Computing
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Convolutional Neural Networks with Interaction Layers for Classification of Classical Data
+AU  - Mahmud, Jishnu
+AU  - Mashtura, Raisa
+AU  - Fattah, Shaikh Anowarul
+AU  - Saquib, Mohammad
+T2  - Quantum Machine Intelligence
+AB  - Quantum Machine Learning (QML) has come into the limelight due to the exceptional computational abilities of quantum computers. With the promises of near error-free quantum computers in the not-so-distant future, it is important that the effect of multi-qubit interactions on quantum neural networks is studied extensively. This paper introduces a Quantum Convolutional Network with novel Interaction layers exploiting three-qubit interactions, while studying the network’s expressibility and entangling capability, for classifying both image and one-dimensional data. The proposed approach is tested on three publicly available datasets namely MNIST, Fashion MNIST, and Iris datasets, flexible in performing binary and multiclass classifications, and is found to supersede the performance of existing state-of-the-art methods.
+DA  - 2024/06//
+PY  - 2024
+DO  - 10.1007/s42484-024-00145-4
+DP  - arXiv.org
+VL  - 6
+IS  - 1
+SP  - 11
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+UR  - http://arxiv.org/abs/2307.11792
+Y2  - 2026/07/13/09:09:02
+N1  - Comment: 31 pages, 13 figures, 6 tables
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Understanding quantum machine learning also requires rethinking generalization
+AU  - Gil-Fuster, Elies
+AU  - Eisert, Jens
+AU  - Bravo-Prieto, Carlos
+T2  - Nature Communications
+AB  - Quantum machine learning models have shown successful generalization performance even when trained with few data. In this work, through systematic randomization experiments, we show that traditional approaches to understanding generalization fail to explain the behavior of such quantum models. Our experiments reveal that state-of-the-art quantum neural networks accurately fit random states and random labeling of training data. This ability to memorize random data defies current notions of small generalization error, problematizing approaches that build on complexity measures such as the VC dimension, the Rademacher complexity, and all their uniform relatives. We complement our empirical results with a theoretical construction showing that quantum neural networks can fit arbitrary labels to quantum states, hinting at their memorization ability. Our results do not preclude the possibility of good generalization with few training data but rather rule out any possible guarantees based only on the properties of the model family. These findings expose a fundamental challenge in the conventional understanding of generalization in quantum machine learning and highlight the need for a paradigm shift in the study of quantum models for machine learning tasks.
+DA  - 2024/03/13/
+PY  - 2024
+DO  - 10.1038/s41467-024-45882-z
+DP  - arXiv.org
+VL  - 15
+IS  - 1
+SP  - 2277
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - http://arxiv.org/abs/2306.13461
+Y2  - 2026/07/13/09:09:05
+N1  - Comment: 14+4 pages, 3 figures
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Statistics - Machine Learning
+KW  - Condensed Matter - Quantum Gases
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing variational quantum state diagonalization using reinforcement learning techniques
+AU  - Kundu, Akash
+AU  - Bedełek, Przemysław
+AU  - Ostaszewski, Mateusz
+AU  - Danaci, Onur
+AU  - Patel, Yash J.
+AU  - Dunjko, Vedran
+AU  - Miszczak, Jarosław A.
+T2  - New Journal of Physics
+AB  - The variational quantum algorithms are crucial for the application of NISQ computers. Such algorithms require short quantum circuits, which are more amenable to implementation on near-term hardware, and many such methods have been developed. One of particular interest is the so-called variational quantum state diagonalization method, which constitutes an important algorithmic subroutine and can be used directly to work with data encoded in quantum states. In particular, it can be applied to discern the features of quantum states, such as entanglement properties of a system, or in quantum machine learning algorithms. In this work, we tackle the problem of designing a very shallow quantum circuit, required in the quantum state diagonalization task, by utilizing reinforcement learning (RL). We use a novel encoding method for the RL-state, a dense reward function, and an ϵ-greedy policy to achieve this. We demonstrate that the circuits proposed by the reinforcement learning methods are shallower than the standard variational quantum state diagonalization algorithm and thus can be used in situations where hardware capabilities limit the depth of quantum circuits. The methods we propose in the paper can be readily adapted to address a wide range of variational quantum algorithms.
+DA  - 2024/01/01/
+PY  - 2024
+DO  - 10.1088/1367-2630/ad1b7f
+DP  - arXiv.org
+VL  - 26
+IS  - 1
+SP  - 013034
+J2  - New J. Phys.
+LA  - en
+SN  - 1367-2630
+UR  - http://arxiv.org/abs/2306.11086
+Y2  - 2026/07/13/09:09:07
+N1  - Comment: 24 pages with 13 figures, accepted in the New Journal of Physics, code available at https://github.com/iitis/RL_for_VQSD_ansatz_optimization
+KW  - Computer Science - Artificial Intelligence
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - CONF
+TI  - Software Supply Chain Vulnerabilities Detection in Source Code: Performance Comparison between Traditional and Quantum Machine Learning Algorithms
+AU  - Akter, Mst Shapna
+AU  - Faruk, Md Jobair Hossain
+AU  - Anjum, Nafisa
+AU  - Masum, Mohammad
+AU  - Shahriar, Hossain
+AU  - Sakib, Nazmus
+AU  - Rahman, Akond
+AU  - Wu, Fan
+AU  - Cuzzocrea, Alfredo
+T2  - 2022 IEEE International Conference on Big Data (Big Data)
+AB  - The software supply chain (SSC) attack has become one of the crucial issues that are being increased rapidly with the advancement of the software development domain. In general, SSC attacks execute during the software development processes lead to vulnerabilities in software products targeting downstream customers and even involved stakeholders. Machine Learning approaches are proven in detecting and preventing software security vulnerabilities. Besides, emerging quantum machine learning can be promising in addressing SSC attacks. Considering the distinction between traditional and quantum machine learning, performance could be varies based on the proportions of the experimenting dataset. In this paper, we conduct a comparative analysis between quantum neural networks (QNN) and conventional neural networks (NN) with a software supply chain attack dataset known as ClaMP. Our goal is to distinguish the performance between QNN and NN and to conduct the experiment, we develop two different models for QNN and NN by utilizing Pennylane for quantum and TensorFlow and Keras for traditional respectively. We evaluated the performance of both models with different proportions of the ClaMP dataset to identify the f1 score, recall, precision, and accuracy. We also measure the execution time to check the efficiency of both models. The demonstration result indicates that execution time for QNN is slower than NN with a higher percentage of datasets. Due to recent advancements in QNN, a large level of experiments shall be carried out to understand both models accurately in our future research.
+C1  - Osaka, Japan
+C3  - 2022 IEEE International Conference on Big Data (Big Data)
+DA  - 2022/12/17/
+PY  - 2022
+DO  - 10.1109/BigData55660.2022.10020813
+DP  - DOI.org (Crossref)
+SP  - 5639
+EP  - 5645
+LA  - en
+PB  - IEEE
+SN  - 978-1-6654-8045-1
+ST  - Software Supply Chain Vulnerabilities Detection in Source Code
+UR  - https://ieeexplore.ieee.org/document/10020813/
+Y2  - 2026/07/13/09:09:09
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Convolutional Neural Networks for Multi-Channel Supervised Learning
+AU  - Smaldone, Anthony M.
+AU  - Kyro, Gregory W.
+AU  - Batista, Victor S.
+T2  - Quantum Machine Intelligence
+AB  - As the rapidly evolving field of machine learning continues to produce incredibly useful tools and models, the potential for quantum computing to provide speed up for machine learning algorithms is becoming increasingly desirable. In particular, quantum circuits in place of classical convolutional filters for image detection-based tasks are being investigated for the ability to exploit quantum advantage. However, these attempts, referred to as quantum convolutional neural networks (QCNNs), lack the ability to efficiently process data with multiple channels and therefore are limited to relatively simple inputs. In this work, we present a variety of hardware-adaptable quantum circuit ansatzes for use as convolutional kernels, and demonstrate that the quantum neural networks we report outperform existing QCNNs on classification tasks involving multi-channel data. We envision that the ability of these implementations to effectively learn interchannel information will allow quantum machine learning methods to operate with more complex data.
+DA  - 2023/12//
+PY  - 2023
+DO  - 10.1007/s42484-023-00130-3
+DP  - arXiv.org
+VL  - 5
+IS  - 2
+SP  - 41
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+UR  - http://arxiv.org/abs/2305.18961
+Y2  - 2026/07/13/09:09:12
+KW  - Quantum Physics
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - JOUR
+TI  - Explaining Quantum Circuits with Shapley Values: Towards Explainable Quantum Machine Learning
+AU  - Heese, Raoul
+AU  - Gerlach, Thore
+AU  - Mücke, Sascha
+AU  - Müller, Sabine
+AU  - Jakobs, Matthias
+AU  - Piatkowski, Nico
+T2  - Quantum Machine Intelligence
+AB  - Methods of artiﬁcial intelligence (AI) and especially machine learning (ML) have been growing ever more complex, and at the same time have more and more impact on people’s lives. This leads to explainable AI (XAI) manifesting itself as an important research ﬁeld that helps humans to better comprehend ML systems. In parallel, quantum machine learning (QML) is emerging with the ongoing improvement of quantum computing hardware combined with its increasing availability via cloud services. QML enables quantum-enhanced ML in which quantum mechanics is exploited to facilitate ML tasks, typically in form of quantum-classical hybrid algorithms that combine quantum and classical resources. Quantum gates constitute the building blocks of gate-based quantum hardware and form circuits that can be used for quantum computations. For QML applications, quantum circuits are typically parameterized and their parameters are optimized classically such that a suitably deﬁned objective function is minimized. Inspired by XAI, we raise the question of explainability of such circuits by quantifying the importance of (groups of) gates for speciﬁc goals. To this end, we transfer and adapt the well-established concept of Shapley values to the quantum realm. The resulting attributions can be interpreted as explanations for why a speciﬁc circuit works well for a given task, improving the understanding of how to construct parameterized (or variational) quantum circuits, and fostering their human interpretability in general. An experimental evaluation on simulators and two superconducting quantum hardware devices demonstrates the beneﬁts of the proposed framework for classiﬁcation, generative modeling, transpilation, and optimization. Furthermore, our results shed some light on the role of speciﬁc gates in popular QML approaches.
+DA  - 2025/06//
+PY  - 2025
+DO  - 10.1007/s42484-025-00254-8
+DP  - arXiv.org
+VL  - 7
+IS  - 1
+SP  - 27
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+ST  - Explaining Quantum Circuits with Shapley Values
+UR  - http://arxiv.org/abs/2301.09138
+Y2  - 2026/07/13/09:09:14
+N1  - Comment: 41 pages, 27 figures, 3 tables
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - CONF
+TI  - SEQUENT: Towards Traceable Quantum Machine Learning using Sequential Quantum Enhanced Training
+AU  - Altmann, Philipp
+AU  - Sünkel, Leo
+AU  - Stein, Jonas
+AU  - Müller, Tobias
+AU  - Roch, Christoph
+AU  - Linnhoff-Popien, Claudia
+AB  - Applying new computing paradigms like quantum computing to the ﬁeld of machine learning has recently gained attention. However, as high-dimensional real-world applications are not yet feasible to be solved using purely quantum hardware, hybrid methods using both classical and quantum machine learning paradigms have been proposed. For instance, transfer learning methods have been shown to be successfully applicable to hybrid image classiﬁcation tasks. Nevertheless, beneﬁcial circuit architectures still need to be explored. Therefore, tracing the impact of the chosen circuit architecture and parameterization is crucial for the development of beneﬁcially applicable hybrid methods. However, current methods include processes where both parts are trained concurrently, therefore not allowing for a strict separability of classical and quantum impact. Thus, those architectures might produce models that yield a superior prediction accuracy whilst employing the least possible quantum impact. To tackle this issue, we propose Sequential Quantum Enhanced Training (SEQUENT) an improved architecture and training process for the traceable application of quantum computing methods to hybrid machine learning. Furthermore, we provide formal evidence for the disadvantage of current methods and preliminary experimental results as a proof-of-concept for the applicability of SEQUENT.
+C3  - Proceedings of the 15th International Conference on Agents and Artificial Intelligence
+DA  - 2023///
+PY  - 2023
+DO  - 10.5220/0011772400003393
+DP  - arXiv.org
+SP  - 744
+EP  - 751
+LA  - en
+ST  - SEQUENT
+UR  - http://arxiv.org/abs/2301.02601
+Y2  - 2026/07/13/09:09:16
+N1  - Comment: Published at ICAART 2023
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Hybrid Quantum-Classical Generative Adversarial Network for High Resolution Image Generation
+AU  - Tsang, Shu Lok
+AU  - West, Maxwell T.
+AU  - Erfani, Sarah M.
+AU  - Usman, Muhammad
+T2  - IEEE Transactions on Quantum Engineering
+AB  - Quantum machine learning (QML) has received increasing attention due to its potential to outperform classical machine learning methods in problems pertaining classification and identification tasks. A subclass of QML methods is quantum generative adversarial networks (QGANs) which have been studied as a quantum counterpart of classical GANs widely used in image manipulation and generation tasks. The existing work on QGANs is still limited to small-scale proof-of-concept examples based on images with significant downscaling. Here we integrate classical and quantum techniques to propose a new hybrid quantum-classical GAN framework. We demonstrate its superior learning capabilities by generating $28 \times 28$ pixels grey-scale images without dimensionality reduction or classical pre/post-processing on multiple classes of the standard MNIST and Fashion MNIST datasets, which achieves comparable results to classical frameworks with three orders of magnitude less trainable generator parameters. To gain further insight into the working of our hybrid approach, we systematically explore the impact of its parameter space by varying the number of qubits, the size of image patches, the number of layers in the generator, the shape of the patches and the choice of prior distribution. Our results show that increasing the quantum generator size generally improves the learning capability of the network. The developed framework provides a foundation for future design of QGANs with optimal parameter set tailored for complex image generation tasks.
+DA  - 2023///
+PY  - 2023
+DO  - 10.1109/TQE.2023.3319319
+DP  - arXiv.org
+VL  - 4
+SP  - 1
+EP  - 19
+J2  - IEEE Trans. Quantum Eng.
+LA  - en
+SN  - 2689-1808
+UR  - http://arxiv.org/abs/2212.11614
+Y2  - 2026/07/13/09:09:19
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Computer Science - Computer Vision and Pattern Recognition
+ER  - 
+
+TY  - GEN
+TI  - QuACK: Accelerating Gradient-Based Quantum Optimization with Koopman Operator Learning
+AU  - Luo, Di
+AU  - Shen, Jiayu
+AU  - Dangovski, Rumen
+AU  - Soljačić, Marin
+AB  - Quantum optimization, a key application of quantum computing, has traditionally been stymied by the linearly increasing complexity of gradient calculations with an increasing number of parameters. This work bridges the gap between Koopman operator theory, which has found utility in applications because it allows for a linear representation of nonlinear dynamical systems, and natural gradient methods in quantum optimization, leading to a significant acceleration of gradient-based quantum optimization. We present Quantum-circuit Alternating Controlled Koopman learning (QuACK), a novel framework that leverages an alternating algorithm for efficient prediction of gradient dynamics on quantum computers. We demonstrate QuACK’s remarkable ability to accelerate gradient-based optimization across a range of applications in quantum optimization and machine learning. In fact, our empirical studies, spanning quantum chemistry, quantum condensed matter, quantum machine learning, and noisy environments, have shown accelerations of more than 200x speedup in the overparameterized regime, 10x speedup in the smooth regime, and 3x speedup in the non-smooth regime. With QuACK, we offer a robust advancement that harnesses the advantage of gradient-based quantum optimization for practical benefits.
+DA  - 2024/05/04/
+PY  - 2024
+DO  - 10.48550/arXiv.2211.01365
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - QuACK
+UR  - http://arxiv.org/abs/2211.01365
+Y2  - 2026/07/13/09:09:21
+N1  - Comment: Advances in Neural Information Processing Systems 36 (NeurIPS 2023) spotlight
+KW  - Computer Science - Artificial Intelligence
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Mathematics - Optimization and Control
+KW  - Physics - Computational Physics
+ER  - 
+
+TY  - GEN
+TI  - A kernel-based quantum random forest for improved classification
+AU  - Srikumar, Maiyuren
+AU  - Hill, Charles D.
+AU  - Hollenberg, Lloyd C. L.
+AB  - The emergence of Quantum Machine Learning (QML) to enhance traditional classical learning methods has seen various limitations to its realisation. There is therefore an imperative to develop quantum models with unique model hypotheses to attain expressional and computational advantage. In this work we extend the linear quantum support vector machine (QSVM) with kernel function computed through quantum kernel estimation (QKE), to form a decision tree classifier constructed from a decision directed acyclic graph of QSVM nodes - the ensemble of which we term the quantum random forest (QRF). To limit overfitting, we further extend the model to employ a low-rank Nyström approximation to the kernel matrix. We provide generalisation error bounds on the model and theoretical guarantees to limit errors due to finite sampling on the Nyström-QKE strategy. In doing so, we show that we can achieve lower sampling complexity when compared to QKE. We numerically illustrate the effect of varying model hyperparameters and finally demonstrate that the QRF is able obtain superior performance over QSVMs, while also requiring fewer kernel estimations.
+DA  - 2023/02/19/
+PY  - 2023
+DO  - 10.48550/arXiv.2210.02355
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/2210.02355
+Y2  - 2026/07/13/09:09:23
+N1  - Comment: 33 pages, 11 figures
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Scalable Quantum Neural Networks for Classiﬁcation
+AU  - Wu, Jindi
+AU  - Tao, Zeyi
+AU  - Li, Qun
+AB  - Many recent machine learning tasks resort to quantum computing to improve classiﬁcation accuracy and training efﬁciency by taking advantage of quantum mechanics, known as quantum machine learning (QML). The variational quantum circuit (VQC) is frequently utilized to build a quantum neural network (QNN), which is a counterpart to the conventional neural network. Due to hardware limitations, however, current quantum devices only allow one to use few qubits to represent data and perform simple quantum computations. The limited quantum resource on a single quantum device degrades the data usage and limits the scale of the quantum circuits, preventing quantum advantage to some extent. To alleviate this constraint, we propose an approach to implementing a scalable quantum neural network (SQNN) by utilizing the quantum resource of multiple small-size quantum devices cooperatively. In an SQNN system, several quantum devices are used as quantum feature extractors, extracting local features from an input instance in parallel, and a quantum device works as a quantum predictor, performing prediction over the local features collected through classical communication channels. The quantum feature extractors in the SQNN system are independent of each other, so one can ﬂexibly use quantum devices of varying sizes, with larger quantum devices extracting more local features. Especially, the SQNN can be performed on a single quantum device in a modular fashion. Our work is exploratory and carried out on a quantum system simulator using the TensorFlow Quantum library. The evaluation conducts a binary classiﬁcation on the MNIST dataset. It shows that the SQNN model achieves a comparable classiﬁcation accuracy to a regular QNN model of the same scale. Furthermore, it demonstrates that the SQNN model with more quantum resources can signiﬁcantly improve classiﬁcation accuracy.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Machine Learning for Distributed Quantum Protocols with Local Operations and Noisy Classical Communications
+AU  - Chittoor, Hari Hara Suthan
+AU  - Simeone, Osvaldo
+T2  - Entropy
+AB  - Distributed quantum information processing protocols such as quantum entanglement distillation and quantum state discrimination rely on local operations and classical communications (LOCC). Existing LOCC-based protocols typically assume the availability of ideal, noiseless, communication channels. In this paper, we study the case in which classical communication takes place over noisy channels, and we propose to address the design of LOCC protocols in this setting via the use of quantum machine learning tools. We speciﬁcally focus on the important tasks of quantum entanglement distillation and quantum state discrimination, and implement local processing through parameterized quantum circuits (PQCs) that are optimized to maximize the average ﬁdelity and average success probability in the respective tasks, while accounting for communication errors. The introduced approach, Noise Aware-LOCCNet (NALOCCNet), is shown to have signiﬁcant advantages over existing protocols designed for noiseless communications.
+DA  - 2023/02/14/
+PY  - 2023
+DO  - 10.3390/e25020352
+DP  - DOI.org (Crossref)
+VL  - 25
+IS  - 2
+SP  - 352
+J2  - Entropy
+LA  - en
+SN  - 1099-4300
+UR  - https://www.mdpi.com/1099-4300/25/2/352
+Y2  - 2026/07/13/09:09:28
+ER  - 
+
+TY  - CHAP
+TI  - Verifying Fairness in Quantum Machine Learning
+AU  - Guan, Ji
+AU  - Fang, Wang
+AU  - Ying, Mingsheng
+T2  - Computer Aided Verification
+A2  - Shoham, Sharon
+A2  - Vizel, Yakir
+AB  - Due to the beyond-classical capability of quantum computing, quantum machine learning is applied independently or embedded in classical models for decision making, especially in the ﬁeld of ﬁnance. Fairness and other ethical issues are often one of the main concerns in decision making. In this work, we deﬁne a formal framework for the fairness veriﬁcation and analysis of quantum machine learning decision models, where we adopt one of the most popular notions of fairness in the literature based on the intuition — any two similar individuals must be treated similarly and are thus unbiased. We show that quantum noise can improve fairness and develop an algorithm to check whether a (noisy) quantum machine learning model is fair. In particular, this algorithm can ﬁnd bias kernels of quantum data (encoding individuals) during checking. These bias kernels generate inﬁnitely many bias pairs for investigating the unfairness of the model. Our algorithm is designed based on a highly eﬃcient data structure — Tensor Networks — and implemented on Google’s TensorFlow Quantum. The utility and eﬀectiveness of our algorithm are conﬁrmed by the experimental results, including income prediction and credit scoring on real-world data, for a class of random (noisy) quantum decision models with 27 qubits (227-dimensional state space) tripling (218 times more than) that of the state-of-the-art algorithms for verifying quantum machine learning models.
+CY  - Cham
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-13188-2_20
+DP  - DOI.org (Crossref)
+VL  - 13372
+SP  - 408
+EP  - 429
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-031-13187-5 978-3-031-13188-2
+UR  - https://link.springer.com/10.1007/978-3-031-13188-2_20
+Y2  - 2026/07/13/09:09:30
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Advantage Seeker with Kernels (QuASK): a software framework to speed up the research in quantum machine learning
+AU  - Di Marcantonio, Francesco
+AU  - Incudini, Massimiliano
+AU  - Tezza, Davide
+AU  - Grossi, Michele
+T2  - Quantum Machine Intelligence
+AB  - Abstract
+            Exploiting the properties of quantum information to the benefit of machine learning models is perhaps the most active field of research in quantum computation. This interest has supported the development of a multitude of software frameworks (e.g. Qiskit, Pennylane, Braket) to implement, simulate, and execute quantum algorithms. Most of them allow us to define quantum circuits, run basic quantum algorithms, and access low-level primitives depending on the hardware such software is supposed to run. For most experiments, these frameworks have to be manually integrated within a larger machine learning software pipeline. The researcher is in charge of knowing different software packages, integrating them through the development of long code scripts, analyzing the results, and generating the plots. Long code often leads to erroneous applications, due to the average number of bugs growing proportional with respect to the program length. Moreover, other researchers will struggle to understand and reproduce the experiment, due to the need to be familiar with all the different software frameworks involved in the code script. We propose QuASK, an open-source quantum machine learning framework written in Python that aids the researcher in performing their experiments, with particular attention to quantum kernel techniques. QuASK can be used as a command-line tool to download datasets, pre-process them, quantum machine learning routines, analyze and visualize the results. QuASK implements most state-of-the-art algorithms to analyze the data through quantum kernels, with the possibility to use projected kernels, (gradient-descent) trainable quantum kernels, and structure-optimized quantum kernels. Our framework can also be used as a library and integrated into pre-existing software, maximizing code reuse.
+DA  - 2023/06//
+PY  - 2023
+DO  - 10.1007/s42484-023-00107-2
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 1
+SP  - 20
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+ST  - Quantum Advantage Seeker with Kernels (QuASK)
+UR  - https://link.springer.com/10.1007/s42484-023-00107-2
+Y2  - 2026/07/13/09:09:32
+ER  - 
+
+TY  - JOUR
+TI  - Variational Quantum Approximate Support Vector Machine with Inference Transfer
+AU  - Park, Siheon
+AU  - Park, Daniel K
+AU  - Rhee, June-Koo Kevin
+AB  - A kernel-based quantum classiﬁer is the most practical and inﬂuential quantum machine learning technique for the hyper-linear classiﬁcation of complex data. We propose a Variational Quantum Approximate Support Vector Machine (VQASVM) algorithm that demonstrates empirical sub-quadratic run-time complexity with quantum operations feasible even in NISQ computers. We experimented our algorithm with toy example dataset on cloud-based NISQ machines as a proof of concept. We also numerically investigated its performance on the standard Iris ﬂower and MNIST datasets to conﬁrm the practicality and scalability.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Design and Implementation of a Quantum Kernel for Natural Language Processing
+AU  - Wright, Matt
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Discriminating Quantum States with Quantum Machine Learning
+AU  - Quiroga, David
+AU  - Date, Prasanna
+AU  - Pooser, Raphael
+AB  - Quantum machine learning (QML) algorithms have obtained great relevance in the machine learning (ML) ﬁeld due to the promise of quantum speedups when performing basic linear algebra subroutines (BLAS), a fundamental element in most ML algorithms. By making use of BLAS operations, we propose, implement and analyze a quantum k-means (qk-means) algorithm with a low time complexity of O(N Klog(D)I/C) to apply it to the fundamental problem of discriminating quantum states at readout. Discriminating quantum states allows the identiﬁcation of quantum states |0〉 and |1〉 from low-level inphase and quadrature signal (IQ) data, and can be done using custom ML models. In order to reduce dependency on a classical computer, we use the qk-means to perform state discrimination on the IBMQ Bogota device and managed to ﬁnd assignment ﬁdelities of up to 98.7% that were only marginally lower than that of the k-means algorithm. Inspection of assignment ﬁdelity scores resulting from applying both algorithms to a combination of quantum states showed concordance to our correlation analysis using Pearson Correlation coefﬁcients, where evidence shows cross-talk in the (1, 2) and (2, 3) neighboring qubit couples for the analyzed device.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Importance of Kernel Bandwidth in Quantum Machine Learning
+AU  - Shaydulin, Ruslan
+AU  - Wild, Stefan M
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum machine learning beyond kernel methods
+AU  - Jerbi, Sofiene
+AU  - Fiderer, Lukas J.
+AU  - Poulsen Nautrup, Hendrik
+AU  - Kübler, Jonas M.
+AU  - Briegel, Hans J.
+AU  - Dunjko, Vedran
+T2  - Nature Communications
+AB  - Abstract
+            Machine learning algorithms based on parametrized quantum circuits are prime candidates for near-term applications on noisy quantum computers. In this direction, various types of quantum machine learning models have been introduced and studied extensively. Yet, our understanding of how these models compare, both mutually and to classical models, remains limited. In this work, we identify a constructive framework that captures all standard models based on parametrized quantum circuits: that of linear quantum models. In particular, we show using tools from quantum information theory how data re-uploading circuits, an apparent outlier of this framework, can be efficiently mapped into the simpler picture of linear models in quantum Hilbert spaces. Furthermore, we analyze the experimentally-relevant resource requirements of these models in terms of qubit number and amount of data needed to learn. Based on recent results from classical machine learning, we prove that linear quantum models must utilize exponentially more qubits than data re-uploading models in order to solve certain learning tasks, while kernel methods additionally require exponentially more data points. Our results provide a more comprehensive view of quantum machine learning models as well as insights on the compatibility of different models with NISQ constraints.
+DA  - 2023/01/31/
+PY  - 2023
+DO  - 10.1038/s41467-023-36159-y
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 1
+SP  - 517
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-023-36159-y
+Y2  - 2026/07/13/09:09:43
+ER  - 
+
+TY  - JOUR
+TI  - Entangled Datasets for Quantum Machine Learning
+AU  - Schatzki, Louis
+AU  - Arrasmith, Andrew
+AU  - Coles, Patrick J
+AU  - Cerezo, M
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing Quantum Variational Circuits with Deep Reinforcement Learning
+AU  - Lockwood, Owen
+AB  - Quantum Machine Learning (QML) is considered to be one of the most promising applications of near term quantum devices. However, the optimization of quantum machine learning models presents numerous challenges arising from the imperfections of hardware and the fundamental obstacles in navigating an exponentially scaling Hilbert space. In this work, we evaluate the potential of contemporary methods in deep reinforcement learning to augment gradient based optimization routines in quantum variational circuits. We ﬁnd that reinforcement learning augmented optimizers consistently outperform gradient descent in noisy environments. All code and pretrained weights are available to replicate the results or deploy the models at: github.com/lockwo/rl qvc opt .
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum machine learning of large datasets using randomized measurements
+AU  - Haug, Tobias
+AU  - Self, Chris N
+AU  - Kim, M S
+T2  - Machine Learning: Science and Technology
+AB  - Abstract
+            Quantum computers promise to enhance machine learning for practical applications. Quantum machine learning for real-world data has to handle extensive amounts of high-dimensional data. However, conventional methods for measuring quantum kernels are impractical for large datasets as they scale with the square of the dataset size. Here, we measure quantum kernels using randomized measurements. The quantum computation time scales linearly with dataset size and quadratic for classical post-processing. While our method scales in general exponentially in qubit number, we gain a substantial speed-up when running on intermediate-sized quantum computers. Further, we efficiently encode high-dimensional data into quantum computers with the number of features scaling linearly with the circuit depth. The encoding is characterized by the quantum Fisher information metric and is related to the radial basis function kernel. Our approach is robust to noise via a cost-free error mitigation scheme. We demonstrate the advantages of our methods for noisy quantum computers by classifying images with the IBM quantum computer. To achieve further speedups we distribute the quantum computational tasks between different quantum computers. Our method enables benchmarking of quantum machine learning algorithms with large datasets on currently available quantum computers.
+DA  - 2023/03/01/
+PY  - 2023
+DO  - 10.1088/2632-2153/acb0b4
+DP  - DOI.org (Crossref)
+VL  - 4
+IS  - 1
+SP  - 015005
+J2  - Mach. Learn.: Sci. Technol.
+LA  - en
+SN  - 2632-2153
+UR  - https://iopscience.iop.org/article/10.1088/2632-2153/acb0b4
+Y2  - 2026/07/13/09:09:49
+ER  - 
+
+TY  - JOUR
+TI  - A quantum algorithm for training wide and deep classical neural networks
+AU  - Zlokapa, Alexander
+AU  - Neven, Hartmut
+AU  - Lloyd, Seth
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Trainable Discrete Feature Embeddings for Variational Quantum Classiﬁer
+AU  - Thumwanit, Napat
+AU  - Yano, Hiroshi
+AU  - Lortaraprasert, Chayaphol
+AU  - Raymond, Rudy
+AB  - Quantum classiﬁers provide sophisticated embeddings of input data in Hilbert space promising quantum advantage. The advantage stems from quantum feature maps encoding the inputs into quantum states with variational quantum circuits. A recent work shows how to map discrete features with fewer quantum bits using Quantum Random Access Coding (QRAC), an important primitive to encode binary strings into quantum states. We propose a new method to embed discrete features with trainable quantum circuits by combining QRAC and a recently proposed strategy for training quantum feature map called quantum metric learning. We show that the proposed trainable embedding requires not only as few qubits as QRAC but also overcomes the limitations of QRAC to classify inputs whose classes are based on hard Boolean functions. We numerically demonstrate its use in variational quantum classiﬁers to achieve better performances in classifying real-world datasets, and thus its possibility to leverage near-term quantum computers for quantum machine learning.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Variational Quanvolutional Neural Networks with enhanced image encoding
+AU  - Mattern, Denny
+AU  - Martyniuk, Darya
+AU  - Willems, Henri
+AU  - Bergmann, Fabian
+AU  - Paschke, Adrian
+AB  - Image classiﬁcation is an important task in various machine learning applications. In recent years, a number of classiﬁcation methods based on quantum machine learning and different quantum image encoding techniques have been proposed. In this paper, we study the effect of three different quantum image encoding approaches on the performance of a convolution-inspired hybrid quantum-classical image classiﬁcation algorithm called quanvolutional neural network (QNN). We furthermore examine the effect of variational – i.e. trainable – quantum circuits on the classiﬁcation results. Our experiments indicate that some image encodings are better suited for variational circuits. However, our experiments show as well that there is not one best image encoding, but that the choice of the encoding depends on the speciﬁc constraints of the application.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - The Dilemma of Quantum Neural Networks
+AU  - Qian, Yang
+AU  - Wang, Xinbiao
+AU  - Du, Yuxuan
+AU  - Wu, Xingyao
+AU  - Tao, Dacheng
+T2  - IEEE Transactions on Neural Networks and Learning Systems
+AB  - The core of quantum machine learning is to devise quantum models with good trainability and low generalization error bound than their classical counterparts to ensure better reliability and interpretability. Recent studies conﬁrmed that quantum neural networks (QNNs) have the ability to achieve this goal on speciﬁc datasets. With this regard, it is of great importance to understand whether these advantages are still preserved on real-world tasks. Through systematic numerical experiments, we empirically observe that current QNNs fail to provide any beneﬁt over classical learning models. Concretely, our results deliver two key messages. First, QNNs suﬀer from the severely limited eﬀective model capacity, which incurs poor generalization on real-world datasets. Second, the trainability of QNNs is insensitive to regularization techniques, which sharply contrasts with the classical scenario. These empirical results force us to rethink the role of current QNNs and to design novel protocols for solving real-world problems with quantum advantages.
+DA  - 2024/04//
+PY  - 2024
+DO  - 10.1109/TNNLS.2022.3208313
+DP  - DOI.org (Crossref)
+VL  - 35
+IS  - 4
+SP  - 5603
+EP  - 5615
+J2  - IEEE Trans. Neural Netw. Learning Syst.
+LA  - en
+SN  - 2162-237X, 2162-2388
+UR  - https://ieeexplore.ieee.org/document/9908575/
+Y2  - 2026/07/13/09:09:58
+ER  - 
+
+TY  - JOUR
+TI  - The Inductive Bias of Quantum Kernels
+AU  - Kübler, Jonas M
+AU  - Buchholz, Simon
+AU  - Schölkopf, Bernhard
+AB  - It has been hypothesized that quantum computers may lend themselves well to applications in machine learning. In the present work, we analyze function classes deﬁned via quantum kernels. Quantum computers offer the possibility to efﬁciently compute inner products of exponentially large density operators that are classically hard to compute. However, having an exponentially large feature space renders the problem of generalization hard. Furthermore, being able to evaluate inner products in high dimensional spaces efﬁciently by itself does not guarantee a quantum advantage, as already classically tractable kernels can correspond to highor inﬁnite-dimensional reproducing kernel Hilbert spaces (RKHS). We analyze the spectral properties of quantum kernels and ﬁnd that we can expect an advantage if their RKHS is low dimensional and contains functions that are hard to compute classically. If the target function is known to lie in this class, this implies a quantum advantage, as the quantum computer can encode this inductive bias, whereas there is no classically efﬁcient way to constrain the function class in the same way. However, we show that ﬁnding suitable quantum kernels is not easy because the kernel evaluation might require exponentially many measurements.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Perceptron Revisited: Computational-Statistical Tradeoﬀs
+AU  - Roget, Mathieu
+AU  - Université, Aix-Marseille
+AB  - Quantum machine learning algorithms could provide signiﬁcant speed-ups over their classical counterparts; however, whether they could also achieve good generalization remains unclear. Recently, two quantum perceptron models which give a quadratic improvement over the classical perceptron algorithm using Grover’s search have been proposed by Wiebe et al. [35]. While the ﬁrst model reduces the complexity with respect to the size of the training set, the second one improves the bound on the number of mistakes made by the perceptron. In this paper, we introduce a hybrid quantum-classical perceptron algorithm with lower complexity and better generalization ability than the classical perceptron. We show a quadratic improvement over the classical perceptron in both the number of samples and the margin of the data. We derive a bound on the expected error of the hypothesis returned by our algorithm, which compares favorably to the one obtained with the classical online perceptron. We use numerical experiments to illustrate the trade-oﬀ between computational complexity and statistical accuracy in quantum perceptron learning and discuss some of the key practical issues surrounding the implementation of quantum perceptron models into near-term quantum devices, whose practical implementation represents a serious challenge due to inherent noise. However, the potential beneﬁts make correcting this worthwhile.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - CONF
+TI  - Quantum Federated Learning with Quantum Data
+AU  - Chehimi, Mahdi
+AU  - Saad, Walid
+T2  - ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+AB  - Quantum machine learning (QML) has emerged as a promising ﬁeld that leans on the developments in quantum computing to explore large complex machine learning problems. Recently, some purely quantum machine learning models were proposed such as quantum convolutional neural networks (QCNN) to perform classiﬁcation on quantum data. However, all of the existing QML models rely on centralized solutions that cannot scale well for large-scale and distributed quantum networks. Hence, it is apropos to consider more practical quantum federated learning (QFL) solutions tailored towards emerging quantum network architectures. Indeed, developing QFL frameworks for quantum networks is critical given the fragile nature of computing qubits and the difﬁculty of transferring them. On top of its practical momentousness, QFL allows for distributing quantum learning by leveraging existing wireless communication infrastructure. This paper proposes the ﬁrst fully quantum federated learning framework that can operate over quantum data and, thus, share the learning of quantum circuit parameters in a decentralized manner. First, given the lack of existing quantum federated datasets in the literature, the proposed framework begins by generating the ﬁrst quantum federated dataset, with a hierarchical data format, for distributed quantum networks. Then, clients sharing QCNN models are fed with the quantum data to perform a classiﬁcation task. Subsequently, the server aggregates the learnable quantum circuit parameters from clients and performs federated averaging. Extensive experiments are conducted to evaluate and validate the effectiveness of the proposed QFL solution. This work is the ﬁrst to combine Google’s TensorFlow Federated and TensorFlow Quantum in a practical implementation.
+C1  - Singapore, Singapore
+C3  - ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+DA  - 2022/05/23/
+PY  - 2022
+DO  - 10.1109/ICASSP43922.2022.9746622
+DP  - DOI.org (Crossref)
+SP  - 8617
+EP  - 8621
+LA  - en
+PB  - IEEE
+SN  - 978-1-6654-0540-9
+UR  - https://ieeexplore.ieee.org/document/9746622/
+Y2  - 2026/07/13/09:10:04
+ER  - 
+
+TY  - JOUR
+TI  - Optimal training of variational quantum algorithms without barren plateaus
+AU  - Haug, Tobias
+AU  - Kim, M S
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Practical distributed quantum information processing with LOCCNet
+AU  - Zhao, Xuanqiang
+AU  - Zhao, Benchi
+AU  - Wang, Zihe
+AU  - Song, Zhixin
+AU  - Wang, Xin
+T2  - npj Quantum Information
+AB  - Abstract
+            Distributed quantum information processing is essential for building quantum networks and enabling more extensive quantum computations. In this regime, several spatially separated parties share a multipartite quantum system, and the most natural set of operations is Local Operations and Classical Communication (LOCC). As a pivotal part in quantum information theory and practice, LOCC has led to many vital protocols such as quantum teleportation. However, designing practical LOCC protocols is challenging due to LOCC’s intractable structure and limitations set by near-term quantum devices. Here we introduce LOCCNet, a machine learning framework facilitating protocol design and optimization for distributed quantum information processing tasks. As applications, we explore various quantum information tasks such as entanglement distillation, quantum state discrimination, and quantum channel simulation. We discover protocols with evident improvements, in particular, for entanglement distillation with quantum states of interest in quantum information. Our approach opens up new opportunities for exploring entanglement and its applications with machine learning, which will potentially sharpen our understanding of the power and limitations of LOCC. An implementation of LOCCNet is available in Paddle Quantum, a quantum machine learning Python package based on PaddlePaddle deep learning platform.
+DA  - 2021/11/04/
+PY  - 2021
+DO  - 10.1038/s41534-021-00496-x
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 159
+J2  - npj Quantum Inf
+LA  - en
+SN  - 2056-6387
+UR  - https://www.nature.com/articles/s41534-021-00496-x
+Y2  - 2026/07/13/09:10:09
+ER  - 
+
+TY  - JOUR
+TI  - Supervised quantum machine learning models are kernel methods
+AU  - Schuld, Maria
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - VSQL: Variational Shadow Quantum Learning for Classification
+AU  - Li, Guangxi
+AU  - Song, Zhixin
+AU  - Wang, Xin
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+AB  - Classiﬁcation of quantum data is essential for quantum machine learning and near-term quantum technologies. In this paper, we propose a new hybrid quantum-classical framework for supervised quantum learning, which we call Variational Shadow Quantum Learning (VSQL). Our method in particular utilizes the classical shadows of quantum data, which fundamentally represent the side information of quantum data with respect to certain physical observables. Speciﬁcally, we ﬁrst use variational shadow quantum circuits to extract classical features in a convolution way and then utilize a fullyconnected neural network to complete the classiﬁcation task. We show that this method could sharply reduce the number of parameters and thus better facilitate quantum circuit training. Simultaneously, less noise will be introduced since fewer quantum gates are employed in such shadow circuits. Moreover, we show that the Barren Plateau issue, a signiﬁcant gradient vanishing problem in quantum machine learning, could be avoided in VSQL. Finally, we demonstrate the efﬁciency of VSQL in quantum classiﬁcation via numerical experiments on the classiﬁcation of quantum states and the recognition of multi-labeled handwritten digits. In particular, our VSQL approach outperforms existing variational quantum classiﬁers in the test accuracy in the binary case of handwritten digit recognition and notably requires much fewer parameters.
+DA  - 2021/05/18/
+PY  - 2021
+DO  - 10.1609/aaai.v35i9.17016
+DP  - DOI.org (Crossref)
+VL  - 35
+IS  - 9
+SP  - 8357
+EP  - 8365
+J2  - AAAI
+LA  - en
+SN  - 2374-3468, 2159-5399
+ST  - VSQL
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/17016
+Y2  - 2026/07/13/09:10:14
+ER  - 
+
+TY  - JOUR
+TI  - The power of quantum neural networks
+AU  - Abbas, Amira
+AU  - Sutter, David
+AU  - Zoufal, Christa
+AU  - Lucchi, Aurelien
+AU  - Figalli, Alessio
+AU  - Woerner, Stefan
+T2  - Nature Computational Science
+AB  - Fault-tolerant quantum computers oﬀer the promise of dramatically improving machine learning through speed-ups in computation or improved model scalability. In the near-term, however, the beneﬁts of quantum machine learning are not so clear. Understanding expressibility and trainability of quantum models—and quantum neural networks in particular—requires further investigation. In this work, we use tools from information geometry to deﬁne a notion of expressibility for quantum and classical models. The eﬀective dimension, which depends on the Fisher information, is used to prove a novel generalisation bound and establish a robust measure of expressibility. We show that quantum neural networks are able to achieve a signiﬁcantly better eﬀective dimension than comparable classical neural networks. To then assess the trainability of quantum models, we connect the Fisher information spectrum to barren plateaus, the problem of vanishing gradients. Importantly, certain quantum neural networks can show resilience to this phenomenon and train faster than classical models due to their favourable optimisation landscapes, captured by a more evenly spread Fisher information spectrum. Our work is the ﬁrst to demonstrate that well-designed quantum neural networks oﬀer an advantage over classical neural networks through a higher eﬀective dimension and faster training ability, which we verify on real quantum hardware.
+DA  - 2021/06/24/
+PY  - 2021
+DO  - 10.1038/s43588-021-00084-1
+DP  - DOI.org (Crossref)
+VL  - 1
+IS  - 6
+SP  - 403
+EP  - 409
+J2  - Nat Comput Sci
+LA  - en
+SN  - 2662-8457
+UR  - https://www.nature.com/articles/s43588-021-00084-1
+Y2  - 2026/07/13/09:10:16
+ER  - 
+
+TY  - JOUR
+TI  - A rigorous and robust quantum speed-up in supervised machine learning
+AU  - Liu, Yunchao
+AU  - Arunachalam, Srinivasan
+AU  - Temme, Kristan
+T2  - Nature Physics
+DA  - 2021/09//
+PY  - 2021
+DO  - 10.1038/s41567-021-01287-z
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 9
+SP  - 1013
+EP  - 1017
+J2  - Nat. Phys.
+LA  - en
+SN  - 1745-2473, 1745-2481
+UR  - https://www.nature.com/articles/s41567-021-01287-z
+Y2  - 2026/07/13/09:10:18
+ER  - 
+
+TY  - JOUR
+TI  - The eﬀect of data encoding on the expressive power of variational quantum machine learning models
+AU  - Schuld, Maria
+AU  - Sweke, Ryan
+AU  - Meyer, Johannes Jakob
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - REINFORCEMENT LEARNING WITH QUANTUM VARIATIONAL CIRCUITS
+AU  - Lockwood, Owen
+AU  - Si, Mei
+AB  - The development of quantum computational techniques has advanced greatly in recent years, parallel to the advancements in techniques for deep reinforcement learning. This work explores the potential for quantum computing to facilitate reinforcement learning problems. Quantum computing approaches offer important potential improvements in time and space complexity over traditional algorithms because of its ability to exploit the quantum phenomena of superposition and entanglement. Speciﬁcally, we investigate the use of quantum variational circuits, a form of quantum machine learning. We present our techniques for encoding classical data for a quantum variational circuit, we further explore pure and hybrid quantum algorithms for DQN and Double DQN. Our results indicate both hybrid and pure quantum variational circuit have the ability to solve reinforcement learning tasks with a smaller parameter space. These comparison are conducted with two OpenAI Gym environments: CartPole and Blackjack, The success of this work is indicative of a strong future relationship between quantum machine learning and deep reinforcement learning.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - A divide-and-conquer algorithm for quantum state preparation
+AU  - Araujo, Israel F.
+AU  - Park, Daniel K.
+AU  - Petruccione, Francesco
+AU  - Da Silva, Adenilton J.
+T2  - Scientific Reports
+AB  - Advantages in several ﬁelds of research and industry are expected with the rise of quantum computers. However, the computational cost to load classical data in quantum computers can impose restrictions on possible quantum speedups. Known algorithms to create arbitrary quantum states require quantum circuits with depth O(N) to load an N-dimensional vector. Here, we show that it is possible to load an N-dimensional vector with exponential time advantage using a quantum circuit with polylogarithmic depth and entangled information in ancillary qubits. Results show that we can efﬁciently load data in quantum devices using a divide-and-conquer strategy to exchange computational time for space. We demonstrate a proof of concept on a real quantum device and present two applications for quantum machine learning. We expect that this new loading strategy allows the quantum speedup of tasks that require to load a signiﬁcant volume of information to quantum devices.
+DA  - 2021/03/18/
+PY  - 2021
+DO  - 10.1038/s41598-021-85474-1
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 1
+SP  - 6329
+J2  - Sci Rep
+LA  - en
+SN  - 2045-2322
+UR  - https://www.nature.com/articles/s41598-021-85474-1
+Y2  - 2026/07/13/09:10:25
+ER  - 
+
+TY  - CONF
+TI  - Quantum One-class Classification With a Distance-based Classifier
+AU  - De Oliveira, Nicolas M.
+AU  - De Albuquerque, Lucas P.
+AU  - De Oliveira, Wilson R.
+AU  - Ludermir, Teresa B.
+AU  - Da Silva, Adenilton J.
+T2  - 2021 International Joint Conference on Neural Networks (IJCNN)
+AB  - The advancement of technology in Quantum Computing has brought possibilities for the execution of algorithms in real quantum devices. However, the existing errors in the current quantum hardware and the low number of available qubits make it necessary to use solutions that use fewer qubits and fewer operations, mitigating such obstacles. Hadamard Classiﬁer (HC) is a distance-based quantum machine learning model for pattern recognition. We present a new classiﬁer based on HC named Quantum One-class Classiﬁer (QOCC) that consists of a minimal quantum machine learning model with fewer operations and qubits, thus being able to mitigate errors from NISQ (Noisy Intermediate-Scale Quantum) computers. Experimental results were obtained by running the proposed classiﬁer on a quantum device and show that QOCC has advantages over HC.
+C1  - Shenzhen, China
+C3  - 2021 International Joint Conference on Neural Networks (IJCNN)
+DA  - 2021/07/18/
+PY  - 2021
+DO  - 10.1109/IJCNN52387.2021.9533441
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 7
+LA  - en
+PB  - IEEE
+SN  - 978-1-6654-3900-8
+UR  - https://ieeexplore.ieee.org/document/9533441/
+Y2  - 2026/07/13/09:10:27
+ER  - 
+
+TY  - JOUR
+TI  - Recurrent Quantum Neural Networks
+AU  - Bausch, Johannes
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Variational Quantum Gibbs State Preparation with a Truncated Taylor Series
+AU  - Wang, Youle
+AU  - Li, Guangxi
+AU  - Wang, Xin
+T2  - Physical Review Applied
+DA  - 2021/11/18/
+PY  - 2021
+DO  - 10.1103/PhysRevApplied.16.054035
+DP  - DOI.org (Crossref)
+VL  - 16
+IS  - 5
+SP  - 054035
+J2  - Phys. Rev. Applied
+LA  - en
+SN  - 2331-7019
+UR  - https://link.aps.org/doi/10.1103/PhysRevApplied.16.054035
+Y2  - 2026/07/13/09:10:32
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of parameterized quantum circuits: on the relation between classification accuracy, expressibility, and entangling capability
+AU  - Hubregtsen, Thomas
+AU  - Pichlmeier, Josef
+AU  - Stecher, Patrick
+AU  - Bertels, Koen
+T2  - Quantum Machine Intelligence
+AB  - An active area of investigation in the search for quantum advantage is Quantum Machine Learning. Quantum Machine Learning, and Parameterized Quantum Circuits in a hybrid quantum-classical setup in particular, could bring advancements in accuracy by utilizing the high dimensionality of the Hilbert space as feature space. But is the ability of a quantum circuit to uniformly address the Hilbert space a good indicator of classiﬁcation accuracy? In our work, we use methods and quantiﬁcations from prior art to perform a numerical study in order to evaluate the level of correlation. We ﬁnd a strong correlation between the ability of the circuit to uniformly address the Hilbert space and the achieved classiﬁcation accuracy for circuits that entail a single embedding layer followed by 1 or 2 circuit designs. This is based on our study encompassing 19 circuits in both 1 and 2 layer conﬁguration, evaluated on 9 datasets of increasing diﬃculty. Future work will evaluate if this holds for diﬀerent circuit designs.
+DA  - 2021/06//
+PY  - 2021
+DO  - 10.1007/s42484-021-00038-w
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 1
+SP  - 9
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+ST  - Evaluation of parameterized quantum circuits
+UR  - https://link.springer.com/10.1007/s42484-021-00038-w
+Y2  - 2026/07/13/09:10:35
+ER  - 
+
+TY  - JOUR
+TI  - TensorFlow Quantum: A Software Framework for Quantum Machine Learning
+AU  - Broughton, Michael
+AU  - Verdon, Guillaume
+AU  - McCourt, Trevor
+AU  - Martinez, Antonio J
+AU  - Yoo, Jae Hyeon
+AU  - Isakov, Sergei V
+AU  - Massey, Philip
+AU  - Halavati, Ramin
+AU  - Niu, Murphy Yuezhen
+AU  - Zlokapa, Alexander
+AU  - Peters, Evan
+AU  - Lockwood, Owen
+AU  - Skolik, Andrea
+AU  - Jerbi, Soﬁene
+AU  - Dunjko, Vedran
+AU  - Leib, Martin
+AU  - Streif, Michael
+AU  - Dollen, David Von
+AU  - Chen, Hongxiang
+AU  - Cao, Shuxiang
+AU  - Wiersema, Roeland
+AU  - Huang, Hsin-Yuan
+AU  - McClean, Jarrod R
+AU  - Boixo, Sergio
+AU  - Bacon, Dave
+AU  - Ho, Alan K
+AU  - Neven, Hartmut
+AU  - Mohseni, Masoud
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Variational quantum circuits for quantum state tomography
+AU  - Liu, Yong
+AU  - Wang, Dongyang
+AU  - Xue, Shichuan
+AU  - Huang, Anqi
+AU  - Fu, Xiang
+AU  - Qiang, Xiaogang
+AU  - Xu, Ping
+AU  - Huang, He-Liang
+AU  - Deng, Mingtang
+AU  - Guo, Chu
+AU  - Yang, Xuejun
+AU  - Wu, Junjie
+T2  - Physical Review A
+DA  - 2020/05/11/
+PY  - 2020
+DO  - 10.1103/PhysRevA.101.052316
+DP  - DOI.org (Crossref)
+VL  - 101
+IS  - 5
+SP  - 052316
+J2  - Phys. Rev. A
+LA  - en
+SN  - 2469-9926, 2469-9934
+UR  - https://link.aps.org/doi/10.1103/PhysRevA.101.052316
+Y2  - 2026/07/13/09:10:40
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Enhancements for Deep Reinforcement Learning in Large Spaces
+AU  - Jerbi, Sofiene
+AU  - Trenkwalder, Lea M.
+AU  - Poulsen Nautrup, Hendrik
+AU  - Briegel, Hans J.
+AU  - Dunjko, Vedran
+T2  - PRX Quantum
+DA  - 2021/02/22/
+PY  - 2021
+DO  - 10.1103/PRXQuantum.2.010328
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 1
+SP  - 010328
+J2  - PRX Quantum
+LA  - en
+SN  - 2691-3399
+UR  - https://link.aps.org/doi/10.1103/PRXQuantum.2.010328
+Y2  - 2026/07/13/09:10:44
+ER  - 
+
+TY  - JOUR
+TI  - Quantum adiabatic machine learning with zooming
+AU  - Zlokapa, Alexander
+AU  - Mott, Alex
+AU  - Job, Joshua
+AU  - Vlimant, Jean-Roch
+AU  - Lidar, Daniel
+AU  - Spiropulu, Maria
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Variational Quantum Circuits for Deep Reinforcement Learning
+AU  - Chen, Samuel Yen-Chi
+AU  - Yang, Chao-Han Huck
+AU  - Qi, Jun
+AU  - Chen, Pin-Yu
+AU  - Ma, Xiaoli
+AU  - Goan, Hsi-Sheng
+T2  - IEEE Access
+AB  - The state-of-the-art machine learning approaches are based on classical von Neumann computing architectures and have been widely used in many industrial and academic domains. With the recent development of quantum computing, researchers and tech-giants have attempted new quantum circuits for machine learning tasks. However, the existing quantum computing platforms are hard to simulate classical deep learning models or problems because of the intractability of deep quantum circuits. Thus, it is necessary to design feasible quantum algorithms for quantum machine learning for noisy intermediate scale quantum (NISQ) devices. This work explores variational quantum circuits for deep reinforcement learning. Speciﬁcally, we reshape classical deep reinforcement learning algorithms like experience replay and target network into a representation of variational quantum circuits. Moreover, we use a quantum information encoding scheme to reduce the number of model parameters compared to classical neural networks. To the best of our knowledge, this work is the ﬁrst proof-of-principle demonstration of variational quantum circuits to approximate the deep Q-value function for decision-making and policy-selection reinforcement learning with experience replay and target network. Besides, our variational quantum circuits can be deployed in many near-term NISQ machines.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1109/ACCESS.2020.3010470
+DP  - DOI.org (Crossref)
+VL  - 8
+SP  - 141007
+EP  - 141024
+J2  - IEEE Access
+LA  - en
+SN  - 2169-3536
+UR  - https://ieeexplore.ieee.org/document/9144562/
+Y2  - 2026/07/13/09:10:49
+ER  - 
+
+TY  - JOUR
+TI  - q-means: A quantum algorithm for unsupervised machine learning
+AU  - Kerenidis, Iordanis
+AU  - Landman, Jonas
+AU  - Luongo, Alessandro
+AU  - Prakash, Anupam
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - PennyLane: Automatic differentiation of hybrid quantum- classical computations
+AU  - Bergholm, Ville
+AU  - Izaac, Josh
+AU  - Schuld, Maria
+AU  - Gogolin, Christian
+AU  - Ahmed, Shahnawaz
+AU  - Ajith, Vishnu
+AU  - Alam, M Sohaib
+AU  - Alonso-Linaje, Guillermo
+AU  - AkashNarayanan, B
+AU  - Asadi, Ali
+AU  - Arrazola, Juan Miguel
+AU  - Azad, Utkarsh
+AU  - Banning, Sam
+AU  - Bromley, Thomas R
+AU  - Cordier, Benjamin A
+AU  - Ceroni, Jack
+AU  - Delgado, Alain
+AU  - Matteo, Olivia Di
+AU  - Dusko, Amintor
+AU  - Garg, Tanya
+AU  - Guala, Diego
+AU  - Hayes, Anthony
+AU  - Hill, Ryan
+AU  - Ijaz, Aroosa
+AU  - Isacsson, Theodor
+AU  - Ittah, David
+AU  - Jahangiri, Soran
+AU  - Jain, Prateek
+AU  - Jiang, Edward
+AU  - Khandelwal, Ankit
+AU  - Kottmann, Korbinian
+AU  - Lang, Robert A
+AU  - Lee, Christina
+AU  - Lowe, Angus
+AU  - McKiernan, Keri
+AU  - Meyer, Johannes Jakob
+AU  - Montañez-Barrera, J A
+AU  - Moyard, Romain
+AU  - Niu, Zeyue
+AU  - O’Riordan, Lee James
+AU  - Oud, Steven
+AU  - Panigrahi, Ashish
+AU  - Park, Chae-Yeun
+AU  - Polatajko, Daniel
+AU  - Quesada, Nicolás
+AU  - Sá, Nahum
+AU  - Schoch, Isidor
+AU  - Shi, Borun
+AU  - Shu, Shuli
+AU  - Sim, Sukin
+AU  - Singh, Arshpreet
+AU  - Strandberg, Ingrid
+AU  - Soni, Jay
+AU  - Száva, Antal
+AU  - Thabet, Slimane
+AU  - Vargas-Hernández, Rodrigo A
+AU  - Vincent, Trevor
+AU  - Vitucci, Nicola
+AU  - Wierichs, David
+AU  - Wiersema, Roeland
+AU  - Willmann, Moritz
+AU  - Wong, Vincent
+AU  - Zhang, Shaoming
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - CONF
+TI  - A quantum-inspired classical algorithm for recommendation systems
+AU  - Tang, Ewin
+T2  - STOC '19: 51st Annual ACM SIGACT Symposium on the Theory of Computing
+AB  - We give a classical analogue to Kerenidis and Prakash’s quantum recommendation system, previously believed to be one of the strongest candidates for provably exponential speedups in quantum machine learning. Our main result is an algorithm that, given an m × n matrix in a data structure supporting certain ℓ2-norm sampling operations, outputs an ℓ2-norm sample from a rank-k approximation of that matrix in time O(poly(k) log(mn)), only polynomially slower than the quantum algorithm. As a consequence, Kerenidis and Prakash’s algorithm does not in fact give an exponential speedup over classical algorithms. Further, under strong input assumptions, the classical recommendation system resulting from our algorithm produces recommendations exponentially faster than previous classical systems, which run in time linear in m and n.
+C1  - Phoenix AZ USA
+C3  - Proceedings of the 51st Annual ACM SIGACT Symposium on Theory of Computing
+DA  - 2019/06/23/
+PY  - 2019
+DO  - 10.1145/3313276.3316310
+DP  - DOI.org (Crossref)
+SP  - 217
+EP  - 228
+LA  - en
+PB  - ACM
+SN  - 978-1-4503-6705-9
+UR  - https://dl.acm.org/doi/10.1145/3313276.3316310
+Y2  - 2026/07/13/09:10:55
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Neuron: an elementary building block for machine learning on quantum computers
+AU  - Cao, Yudong
+AU  - Guerreschi, Gian Giacomo
+AU  - Aspuru-Guzik, Alán
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - CONF
+TI  - QuLTSF: Long-Term Time Series Forecasting with Quantum Machine Learning
+AU  - Chittoor, Hari Hara Suthan
+AU  - Griffin, Paul Robert
+AU  - Neufeld, Ariel
+AU  - Thompson, Jayne
+AU  - Gu, Mile
+AB  - Long-term time series forecasting (LTSF) involves predicting a large number of future values of a time series based on the past values and is an essential task in a wide range of domains including weather forecasting, stock market analysis, disease outbreak prediction. Over the decades LTSF algorithms have transitioned from statistical models to deep learning models like transformer models. Despite the complex architecture of transformer based LTSF models ‘Are Transformers Effective for Time Series Forecasting? (Zeng et al., 2023)’ showed that simple linear models can outperform the state-of-the-art transformer based LTSF models. Recently, quantum machine learning (QML) is evolving as a domain to enhance the capabilities of classical machine learning models. In this paper we initiate the application of QML to LTSF problems by proposing QuLTSF, a simple hybrid QML model for multivariate LTSF. Through extensive experiments on a widely used weather dataset we show the advantages of QuLTSF over the state-of-the-art classical linear models, in terms of reduced mean squared error and mean absolute error.
+C3  - Proceedings of the 17th International Conference on Agents and Artificial Intelligence
+DA  - 2025///
+PY  - 2025
+DO  - 10.5220/0013395500003890
+DP  - arXiv.org
+SP  - 824
+EP  - 829
+LA  - en
+ST  - QuLTSF
+UR  - http://arxiv.org/abs/2412.13769
+Y2  - 2026/07/13/09:10:59
+N1  - Comment: Published in ICAART 2025
+KW  - Computer Science - Artificial Intelligence
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Double descent in quantum machine learning
+AU  - Kempkes, Marie
+AU  - Ijaz, Aroosa
+AU  - Gil-Fuster, Elies
+AU  - Bravo-Prieto, Carlos
+AU  - Spiegelberg, Jakob
+AU  - van Nieuwenburg, Evert
+AU  - Dunjko, Vedran
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Deep Equilibrium Models
+AU  - Schleich, Philipp
+AU  - Skreta, Marta
+AU  - Kristensen, Lasse B
+AU  - Vargas-Hernández, Rodrigo A
+AU  - Aspuru-Guzik, Alán
+AB  - The feasibility of variational quantum algorithms, the most popular correspondent of neural networks on noisy, near-term quantum hardware, is highly impacted by the circuit depth of the involved parametrized quantum circuits (PQCs). Higher depth increases expressivity, but also results in a detrimental accumulation of errors. Furthermore, the number of parameters involved in the PQC significantly influences the performance through the necessary number of measurements to evaluate gradients, which scales linearly with the number of parameters. Motivated by this, we look at deep equilibrium models (DEQs), which mimic an infinite-depth, weight-tied network using a fraction of the memory by employing a root solver to find the fixed points of the network. In this work, we present Quantum Deep Equilibrium Models (QDEQs): a training paradigm that learns parameters of a quantum machine learning model given by a PQC using DEQs. To our knowledge, no work has yet explored the application of DEQs to QML models. We apply QDEQs to find the parameters of a quantum circuit in two settings: the first involves classifying MNIST-4 digits with 4 qubits; the second extends it to 10 classes of MNIST, FashionMNIST and CIFAR. We find that QDEQ is not only competitive with comparable existing baseline models, but also achieves higher performance than a network with 5 times more layers. This demonstrates that the QDEQ paradigm can be used to develop significantly more shallow quantum circuits for a given task, something which is essential for the utility of near-term quantum computers. Our code is available at https://github.com/martaskrt/qdeq.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Reverse Map Projections as Equivariant Quantum Embeddings
+AU  - Arnott, Max
+AU  - Papaioannou, Dimitri
+AU  - McDowall, Kieran
+AU  - Lolur, Phalgun
+AU  - Baldé, Bambordé
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - A quantum leaky integrate-and-fire spiking neuron and network
+AU  - Brand, Dean
+AU  - Petruccione, Francesco
+T2  - npj Quantum Information
+AB  - Abstract
+            Quantum machine learning is in a period of rapid development and discovery, however it still lacks the resources and diversity of computational models of its classical complement. With the growing difficulties of classical models requiring extreme hardware and power solutions, and quantum models being limited by noisy intermediate-scale quantum (NISQ) hardware, there is an emerging opportunity to solve both problems together. Here we introduce a new software model for quantum neuromorphic computing — a quantum leaky integrate-and-fire (QLIF) neuron, implemented as a compact high-fidelity quantum circuit, requiring only 2 rotation gates and no CNOT gates. We use these neurons as building blocks in the construction of a quantum spiking neural network (QSNN), and a quantum spiking convolutional neural network (QSCNN), as the first of their kind. We apply these models to the MNIST, Fashion-MNIST, and KMNIST datasets for a full comparison with other classical and quantum models. We find that the proposed models perform competitively, with comparative accuracy, with efficient scaling and fast computation in classical simulation as well as on quantum devices.
+DA  - 2024/12/02/
+PY  - 2024
+DO  - 10.1038/s41534-024-00921-x
+DP  - DOI.org (Crossref)
+VL  - 10
+IS  - 1
+SP  - 125
+J2  - npj Quantum Inf
+LA  - en
+SN  - 2056-6387
+UR  - https://www.nature.com/articles/s41534-024-00921-x
+Y2  - 2026/07/13/09:11:08
+ER  - 
+
+TY  - GEN
+TI  - Recurrent Quantum Neural Networks
+AU  - Bausch, Johannes
+AB  - Recurrent neural networks are the foundation of many sequence-to-sequence models in machine learning, such as machine translation and speech synthesis. In contrast, applied quantum computing is in its infancy. Nevertheless there already exist quantum machine learning models such as variational quantum eigensolvers which have been used successfully e.g. in the context of energy minimization tasks. In this work we construct a quantum recurrent neural network (QRNN) with demonstrable performance on non-trivial tasks such as sequence learning and integer digit classification. The QRNN cell is built from parametrized quantum neurons, which, in conjunction with amplitude amplification, create a nonlinear activation of polynomials of its inputs and cell state, and allow the extraction of a probability distribution over predicted classes at each step. To study the model's performance, we provide an implementation in pytorch, which allows the relatively efficient optimization of parametrized quantum circuits with thousands of parameters. We establish a QRNN training setup by benchmarking optimization hyperparameters, and analyse suitable network topologies for simple memorisation and sequence prediction tasks from Elman's seminal paper (1990) on temporal structure learning. We then proceed to evaluate the QRNN on MNIST classification, both by feeding the QRNN each image pixel-by-pixel; and by utilising modern data augmentation as preprocessing step. Finally, we analyse to what extent the unitary nature of the network counteracts the vanishing gradient problem that plagues many existing quantum classifiers and classical RNNs.
+DA  - 2020/06/25/
+PY  - 2020
+DO  - 10.48550/arXiv.2006.14619
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/2006.14619
+Y2  - 2026/08/06/14:17:22
+N1  - Comment: 22 pages
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - JOUR
+TI  - Variational quantum Gibbs state preparation with a truncated Taylor series
+AU  - Wang, Youle
+AU  - Li, Guangxi
+AU  - Wang, Xin
+T2  - Physical Review Applied
+AB  - The preparation of quantum Gibbs state is an essential part of quantum computation and has wide-ranging applications in various areas, including quantum simulation, quantum optimization, and quantum machine learning. In this paper, we propose variational hybrid quantum-classical algorithms for quantum Gibbs state preparation. We first utilize a truncated Taylor series to evaluate the free energy and choose the truncated free energy as the loss function. Our protocol then trains the parameterized quantum circuits to learn the desired quantum Gibbs state. Notably, this algorithm can be implemented on near-term quantum computers equipped with parameterized quantum circuits. By performing numerical experiments, we show that shallow parameterized circuits with only one additional qubit can be trained to prepare the Ising chain and spin chain Gibbs states with a fidelity higher than 95%. In particular, for the Ising chain model, we find that a simplified circuit ansatz with only one parameter and one additional qubit can be trained to realize a 99% fidelity in Gibbs state preparation at inverse temperatures larger than 2.
+DA  - 2021/11/18/
+PY  - 2021
+DO  - 10.1103/PhysRevApplied.16.054035
+DP  - arXiv.org
+VL  - 16
+IS  - 5
+SP  - 054035
+J2  - Phys. Rev. Applied
+LA  - en
+SN  - 2331-7019
+UR  - http://arxiv.org/abs/2005.08797
+Y2  - 2026/08/06/14:17:27
+N1  - Comment: v2 accepted in Phys. Rev. Applied
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Computer Science - Information Theory
+KW  - Condensed Matter - Statistical Mechanics
+ER  - 
+
+TY  - GEN
+TI  - Evaluation of Parameterized Quantum Circuits: on the relation between classification accuracy, expressibility and entangling capability
+AU  - Hubregtsen, Thomas
+AU  - Pichlmeier, Josef
+AU  - Stecher, Patrick
+AU  - Bertels, Koen
+AB  - An active area of investigation in the search for quantum advantage is Quantum Machine Learning. Quantum Machine Learning, and Parameterized Quantum Circuits in a hybrid quantum-classical setup in particular, could bring advancements in accuracy by utilizing the high dimensionality of the Hilbert space as feature space. But is the ability of a quantum circuit to uniformly address the Hilbert space a good indicator of classiﬁcation accuracy? In our work, we use methods and quantiﬁcations from prior art to perform a numerical study in order to evaluate the level of correlation. We ﬁnd a strong correlation between the ability of the circuit to uniformly address the Hilbert space and the achieved classiﬁcation accuracy for circuits that entail a single embedding layer followed by 1 or 2 circuit designs. This is based on our study encompassing 19 circuits in both 1 and 2 layer conﬁguration, evaluated on 9 datasets of increasing diﬃculty. Future work will evaluate if this holds for diﬀerent circuit designs.
+DA  - 2020/08/29/
+PY  - 2020
+DO  - 10.48550/arXiv.2003.09887
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - Evaluation of Parameterized Quantum Circuits
+UR  - http://arxiv.org/abs/2003.09887
+Y2  - 2026/08/06/14:17:28
+N1  - Comment: Pre-Print
+KW  - Quantum Physics
+KW  - Computer Science - Neural and Evolutionary Computing
+ER  - 
+
+TY  - GEN
+TI  - TensorFlow Quantum: A Software Framework for Quantum Machine Learning
+AU  - Broughton, Michael
+AU  - Verdon, Guillaume
+AU  - McCourt, Trevor
+AU  - Martinez, Antonio J.
+AU  - Yoo, Jae Hyeon
+AU  - Isakov, Sergei V.
+AU  - Massey, Philip
+AU  - Halavati, Ramin
+AU  - Niu, Murphy Yuezhen
+AU  - Zlokapa, Alexander
+AU  - Peters, Evan
+AU  - Lockwood, Owen
+AU  - Skolik, Andrea
+AU  - Jerbi, Sofiene
+AU  - Dunjko, Vedran
+AU  - Leib, Martin
+AU  - Streif, Michael
+AU  - Dollen, David Von
+AU  - Chen, Hongxiang
+AU  - Cao, Shuxiang
+AU  - Wiersema, Roeland
+AU  - Huang, Hsin-Yuan
+AU  - McClean, Jarrod R.
+AU  - Babbush, Ryan
+AU  - Boixo, Sergio
+AU  - Bacon, Dave
+AU  - Ho, Alan K.
+AU  - Neven, Hartmut
+AU  - Mohseni, Masoud
+AB  - We introduce TensorFlow Quantum (TFQ), an open source library for the rapid prototyping of hybrid quantum-classical models for classical or quantum data. This framework offers high-level abstractions for the design and training of both discriminative and generative quantum models under TensorFlow and supports high-performance quantum circuit simulators. We provide an overview of the software architecture and building blocks through several examples and review the theory of hybrid quantum-classical neural networks. We illustrate TFQ functionalities via several basic applications including supervised learning for quantum classification, quantum control, simulating noisy quantum circuits, and quantum approximate optimization. Moreover, we demonstrate how one can apply TFQ to tackle advanced quantum learning tasks including meta-learning, layerwise learning, Hamiltonian learning, sampling thermal states, variational quantum eigensolvers, classification of quantum phase transitions, generative adversarial networks, and reinforcement learning. We hope this framework provides the necessary tools for the quantum computing and machine learning research communities to explore models of both natural and artificial quantum systems, and ultimately discover new quantum algorithms which could potentially yield a quantum advantage.
+DA  - 2021/08/26/
+PY  - 2021
+DO  - 10.48550/arXiv.2003.02989
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - TensorFlow Quantum
+UR  - http://arxiv.org/abs/2003.02989
+Y2  - 2026/08/06/14:17:31
+N1  - Comment: 56 pages, 34 figures, many updates throughout the manuscript, several new sections are added
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Computer Science - Programming Languages
+KW  - Condensed Matter - Disordered Systems and Neural Networks
+ER  - 
+
+TY  - JOUR
+TI  - Variational Quantum Circuits for Quantum State Tomography
+AU  - Liu, Yong
+AU  - Wang, Dongyang
+AU  - Xue, Shichuan
+AU  - Huang, Anqi
+AU  - Fu, Xiang
+AU  - Qiang, Xiaogang
+AU  - Xu, Ping
+AU  - Huang, He-Liang
+AU  - Deng, Mingtang
+AU  - Guo, Chu
+AU  - Yang, Xuejun
+AU  - Wu, Junjie
+T2  - Physical Review A
+AB  - Quantum state tomography is a key process in most quantum experiments. In this work, we employ quantum machine learning for state tomography. Given an unknown quantum state, it can be learned by maximizing the fidelity between the output of a variational quantum circuit and this state. The number of parameters of the variational quantum circuit grows linearly with the number of qubits and the circuit depth, so that only polynomial measurements are required, even for highly-entangled states. After that, a subsequent classical circuit simulator is used to transform the information of the target quantum state from the variational quantum circuit into a familiar format. We demonstrate our method by performing numerical simulations for the tomography of the ground state of a one-dimensional quantum spin chain, using a variational quantum circuit simulator. Our method is suitable for near-term quantum computing platforms, and could be used for relatively large-scale quantum state tomography for experimentally relevant quantum states.
+DA  - 2020/05/11/
+PY  - 2020
+DO  - 10.1103/PhysRevA.101.052316
+DP  - arXiv.org
+VL  - 101
+IS  - 5
+SP  - 052316
+J2  - Phys. Rev. A
+LA  - en
+SN  - 2469-9926, 2469-9934
+UR  - http://arxiv.org/abs/1912.07286
+Y2  - 2026/08/06/14:17:34
+N1  - Comment: 7 pages, 3 figures
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Physics - Computational Physics
+ER  - 
+
+TY  - GEN
+TI  - Quantum Wasserstein Generative Adversarial Networks
+AU  - Chakrabarti, Shouvanik
+AU  - Huang, Yiming
+AU  - Li, Tongyang
+AU  - Feizi, Soheil
+AU  - Wu, Xiaodi
+AB  - The study of quantum generative models is well motivated, not only because of its importance in quantum machine learning and quantum chemistry but also because of the perspective of its implementation on near-term quantum machines. Inspired by previous studies on the adversarial training of classical and quantum generative models, we propose the ﬁrst design of quantum Wasserstein Generative Adversarial Networks (WGANs), which has been shown to improve the robustness and the scalability of the adversarial training of quantum generative models even on noisy quantum hardware. Speciﬁcally, we propose a deﬁnition of the Wasserstein semimetric between quantum data, which inherits a few key theoretical merits of its classical counterpart. We also demonstrate how to turn the quantum Wasserstein semimetric into a concrete design of quantum WGANs that can be efﬁciently implemented on quantum machines. Our numerical study, via classical simulation of quantum systems, shows the more robust and scalable numerical performance of our quantum WGANs over other quantum GAN proposals. As a surprising application, our quantum WGAN has been used to generate a 3-qubit quantum circuit of ∼50 gates that well approximates a 3-qubit 1-d Hamiltonian simulation circuit that requires over 10k gates using standard techniques.
+DA  - 2019/10/31/
+PY  - 2019
+DO  - 10.48550/arXiv.1911.00111
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/1911.00111
+Y2  - 2026/08/06/14:17:36
+N1  - Comment: Accepted to the 33rd Conference on Neural Information Processing Systems (NeurIPS 2019). Codes are available at https://github.com/yiminghwang/qWGAN
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Quantum enhancements for deep reinforcement learning in large spaces
+AU  - Jerbi, Sofiene
+AU  - Trenkwalder, Lea M.
+AU  - Nautrup, Hendrik Poulsen
+AU  - Briegel, Hans J.
+AU  - Dunjko, Vedran
+T2  - PRX Quantum
+AB  - In the past decade, the field of quantum machine learning has drawn significant attention due to the prospect of bringing genuine computational advantages to now widespread algorithmic methods. However, not all domains of machine learning have benefited equally from quantum enhancements. Notably, deep learning and reinforcement learning, despite their tremendous success in the classical domain, both individually and combined, remain relatively unaddressed by the quantum community. Arguably, one reason behind this is the systematic use in these domains of models and methods without prominent computational bottlenecks, leaving little room for quantum improvements. In this work, we study the state-of-the-art neural-network approaches for reinforcement learning with quantum enhancements in mind. We demonstrate the substantial learning advantage that models with a sampling bottleneck can provide over conventional neural network architectures in complex learning environments. These so-called energy-based models, like deep energy-based reinforcement learning, and deep projective simulation that we also introduce in this work, effectively allow to trade off learning performance for efficiency of computation. To alleviate the additional computational costs, we propose to leverage future and near-term quantum algorithms, resulting in overall more advantageous learning algorithms. This is achieved using cutting-edge and new quantum computing machinery to speed-up classical sampling methods and by employing generalized models to gain an additional quantum advantage.
+DA  - 2021/02/22/
+PY  - 2021
+DO  - 10.1103/PRXQuantum.2.010328
+DP  - arXiv.org
+VL  - 2
+IS  - 1
+SP  - 010328
+J2  - PRX Quantum
+LA  - en
+SN  - 2691-3399
+UR  - http://arxiv.org/abs/1910.12760
+Y2  - 2026/08/06/14:17:39
+N1  - Comment: Significant number of new analyses and results
+KW  - Computer Science - Artificial Intelligence
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - JOUR
+TI  - Quantum adiabatic machine learning with zooming
+AU  - Zlokapa, Alexander
+AU  - Mott, Alex
+AU  - Job, Joshua
+AU  - Vlimant, Jean-Roch
+AU  - Lidar, Daniel
+AU  - Spiropulu, Maria
+T2  - Physical Review A
+AB  - Recent work has shown that quantum annealing for machine learning, referred to as QAML, can perform comparably to state-of-the-art machine learning methods with a specific application to Higgs boson classification. We propose QAML-Z, a novel algorithm that iteratively zooms in on a region of the energy surface by mapping the problem to a continuous space and sequentially applying quantum annealing to an augmented set of weak classifiers. Results on a programmable quantum annealer show that QAML-Z matches classical deep neural network performance at small training set sizes and reduces the performance margin between QAML and classical deep neural networks by almost 50% at large training set sizes, as measured by area under the ROC curve. The significant improvement of quantum annealing algorithms for machine learning and the use of a discrete quantum algorithm on a continuous optimization problem both opens a new class of problems that can be solved by quantum annealers and suggests the approach in performance of near-term quantum machine learning towards classical benchmarks.
+DA  - 2020/12/04/
+PY  - 2020
+DO  - 10.1103/PhysRevA.102.062405
+DP  - arXiv.org
+VL  - 102
+IS  - 6
+SP  - 062405
+J2  - Phys. Rev. A
+LA  - en
+SN  - 2469-9926, 2469-9934
+UR  - http://arxiv.org/abs/1908.04480
+Y2  - 2026/08/06/14:17:42
+N1  - Comment: 9 pages, 5 figures
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - High Energy Physics - Phenomenology
+ER  - 
+
+TY  - GEN
+TI  - Variational Quantum Circuits for Deep Reinforcement Learning
+AU  - Chen, Samuel Yen-Chi
+AU  - Yang, Chao-Han Huck
+AU  - Qi, Jun
+AU  - Chen, Pin-Yu
+AU  - Ma, Xiaoli
+AU  - Goan, Hsi-Sheng
+AB  - The state-of-the-art machine learning approaches are based on classical von Neumann computing architectures and have been widely used in many industrial and academic domains. With the recent development of quantum computing, researchers and tech-giants have attempted new quantum circuits for machine learning tasks. However, the existing quantum computing platforms are hard to simulate classical deep learning models or problems because of the intractability of deep quantum circuits. Thus, it is necessary to design feasible quantum algorithms for quantum machine learning for noisy intermediate scale quantum (NISQ) devices. This work explores variational quantum circuits for deep reinforcement learning. Speciﬁcally, we reshape classical deep reinforcement learning algorithms like experience replay and target network into a representation of variational quantum circuits. Moreover, we use a quantum information encoding scheme to reduce the number of model parameters compared to classical neural networks. To the best of our knowledge, this work is the ﬁrst proof-of-principle demonstration of variational quantum circuits to approximate the deep Q-value function for decision-making and policy-selection reinforcement learning with experience replay and target network. Besides, our variational quantum circuits can be deployed in many near-term NISQ machines.
+DA  - 2020/07/20/
+PY  - 2020
+DO  - 10.48550/arXiv.1907.00397
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/1907.00397
+Y2  - 2026/08/06/14:17:44
+N1  - Comment: Accepted for publication by IEEE Access
+KW  - Computer Science - Artificial Intelligence
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - GEN
+TI  - q-means: A quantum algorithm for unsupervised machine learning
+AU  - Kerenidis, Iordanis
+AU  - Landman, Jonas
+AU  - Luongo, Alessandro
+AU  - Prakash, Anupam
+AB  - Quantum machine learning is one of the most promising applications of a full-scale quantum computer. Over the past few years, many quantum machine learning algorithms have been proposed that can potentially offer considerable speedups over the corresponding classical algorithms. In this paper, we introduce q-means, a new quantum algorithm for clustering which is a canonical problem in unsupervised machine learning. The $q$-means algorithm has convergence and precision guarantees similar to $k$-means, and it outputs with high probability a good approximation of the $k$ cluster centroids like the classical algorithm. Given a dataset of $N$ $d$-dimensional vectors $v_i$ (seen as a matrix $V \in \mathbb{R}^{N \times d})$ stored in QRAM, the running time of q-means is $\widetilde{O}\left( k d \fracη{δ^2}κ(V)(μ(V) + k \fracηδ) + k^2 \frac{η^{1.5}}{δ^2} κ(V)μ(V) \right)$ per iteration, where $κ(V)$ is the condition number, $μ(V)$ is a parameter that appears in quantum linear algebra procedures and $η= \max_{i} ||v_{i}||^{2}$. For a natural notion of well-clusterable datasets, the running time becomes $\widetilde{O}\left( k^2 d \frac{η^{2.5}}{δ^3} + k^{2.5} \frac{η^2}{δ^3} \right)$ per iteration, which is linear in the number of features $d$, and polynomial in the rank $k$, the maximum square norm $η$ and the error parameter $δ$. Both running times are only polylogarithmic in the number of datapoints $N$. Our algorithm provides substantial savings compared to the classical $k$-means algorithm that runs in time $O(kdN)$ per iteration, particularly for the case of large datasets.
+DA  - 2018/12/11/
+PY  - 2018
+DO  - 10.48550/arXiv.1812.03584
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - q-means
+UR  - http://arxiv.org/abs/1812.03584
+Y2  - 2026/08/06/14:17:46
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - GEN
+TI  - PennyLane: Automatic differentiation of hybrid quantum-classical computations
+AU  - Bergholm, Ville
+AU  - Izaac, Josh
+AU  - Schuld, Maria
+AU  - Gogolin, Christian
+AU  - Ahmed, Shahnawaz
+AU  - Ajith, Vishnu
+AU  - Alam, M. Sohaib
+AU  - Alonso-Linaje, Guillermo
+AU  - AkashNarayanan, B.
+AU  - Asadi, Ali
+AU  - Arrazola, Juan Miguel
+AU  - Azad, Utkarsh
+AU  - Banning, Sam
+AU  - Blank, Carsten
+AU  - Bromley, Thomas R.
+AU  - Cordier, Benjamin A.
+AU  - Ceroni, Jack
+AU  - Delgado, Alain
+AU  - Matteo, Olivia Di
+AU  - Dusko, Amintor
+AU  - Garg, Tanya
+AU  - Guala, Diego
+AU  - Hayes, Anthony
+AU  - Hill, Ryan
+AU  - Ijaz, Aroosa
+AU  - Isacsson, Theodor
+AU  - Ittah, David
+AU  - Jahangiri, Soran
+AU  - Jain, Prateek
+AU  - Jiang, Edward
+AU  - Khandelwal, Ankit
+AU  - Kottmann, Korbinian
+AU  - Lang, Robert A.
+AU  - Lee, Christina
+AU  - Loke, Thomas
+AU  - Lowe, Angus
+AU  - McKiernan, Keri
+AU  - Meyer, Johannes Jakob
+AU  - Montañez-Barrera, J. A.
+AU  - Moyard, Romain
+AU  - Niu, Zeyue
+AU  - O'Riordan, Lee James
+AU  - Oud, Steven
+AU  - Panigrahi, Ashish
+AU  - Park, Chae-Yeun
+AU  - Polatajko, Daniel
+AU  - Quesada, Nicolás
+AU  - Roberts, Chase
+AU  - Sá, Nahum
+AU  - Schoch, Isidor
+AU  - Shi, Borun
+AU  - Shu, Shuli
+AU  - Sim, Sukin
+AU  - Singh, Arshpreet
+AU  - Strandberg, Ingrid
+AU  - Soni, Jay
+AU  - Száva, Antal
+AU  - Thabet, Slimane
+AU  - Vargas-Hernández, Rodrigo A.
+AU  - Vincent, Trevor
+AU  - Vitucci, Nicola
+AU  - Weber, Maurice
+AU  - Wierichs, David
+AU  - Wiersema, Roeland
+AU  - Willmann, Moritz
+AU  - Wong, Vincent
+AU  - Zhang, Shaoming
+AU  - Killoran, Nathan
+AB  - PennyLane is a Python 3 software framework for differentiable programming of quantum computers. The library provides a unified architecture for near-term quantum computing devices, supporting both qubit and continuous-variable paradigms. PennyLane's core feature is the ability to compute gradients of variational quantum circuits in a way that is compatible with classical techniques such as backpropagation. PennyLane thus extends the automatic differentiation algorithms common in optimization and machine learning to include quantum and hybrid computations. A plugin system makes the framework compatible with any gate-based quantum simulator or hardware. We provide plugins for hardware providers including the Xanadu Cloud, Amazon Braket, and IBM Quantum, allowing PennyLane optimizations to be run on publicly accessible quantum devices. On the classical front, PennyLane interfaces with accelerated machine learning libraries such as TensorFlow, PyTorch, JAX, and Autograd. PennyLane can be used for the optimization of variational quantum eigensolvers, quantum approximate optimization, quantum machine learning models, and many other applications.
+DA  - 2022/07/29/
+PY  - 2022
+DO  - 10.48550/arXiv.1811.04968
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - PennyLane
+UR  - http://arxiv.org/abs/1811.04968
+Y2  - 2026/08/06/14:17:48
+N1  - Comment: Code available at https://github.com/XanaduAI/pennylane/ . Significant contributions to the code (new features, new plugins, etc.) will be recognized by the opportunity to be a co-author on this paper
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Physics - Computational Physics
+KW  - Computer Science - Emerging Technologies
+ER  - 
+
+TY  - CONF
+TI  - A quantum-inspired classical algorithm for recommendation systems
+AU  - Tang, Ewin
+AB  - We give a classical analogue to Kerenidis and Prakash’s quantum recommendation system, previously believed to be one of the strongest candidates for provably exponential speedups in quantum machine learning. Our main result is an algorithm that, given an m × n matrix in a data structure supporting certain ℓ2-norm sampling operations, outputs an ℓ2-norm sample from a rank-k approximation of that matrix in time O(poly(k) log(mn)), only polynomially slower than the quantum algorithm. As a consequence, Kerenidis and Prakash’s algorithm does not in fact give an exponential speedup over classical algorithms. Further, under strong input assumptions, the classical recommendation system resulting from our algorithm produces recommendations exponentially faster than previous classical systems, which run in time linear in m and n.
+C3  - Proceedings of the 51st Annual ACM SIGACT Symposium on Theory of Computing
+DA  - 2019/06/23/
+PY  - 2019
+DO  - 10.1145/3313276.3316310
+DP  - arXiv.org
+SP  - 217
+EP  - 228
+LA  - en
+UR  - http://arxiv.org/abs/1807.04271
+Y2  - 2026/08/06/14:17:50
+N1  - Comment: 32 pages; revised structure of document, improved runtime, simplified algorithm and notation
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Computer Science - Data Structures and Algorithms
+KW  - Computer Science - Information Retrieval
+ER  - 
+
+TY  - GEN
+TI  - Quantum Neuron: an elementary building block for machine learning on quantum computers
+AU  - Cao, Yudong
+AU  - Guerreschi, Gian Giacomo
+AU  - Aspuru-Guzik, Alán
+AB  - Even the most sophisticated artificial neural networks are built by aggregating substantially identical units called neurons. A neuron receives multiple signals, internally combines them, and applies a non-linear function to the resulting weighted sum. Several attempts to generalize neurons to the quantum regime have been proposed, but all proposals collided with the difficulty of implementing non-linear activation functions, which is essential for classical neurons, due to the linear nature of quantum mechanics. Here we propose a solution to this roadblock in the form of a small quantum circuit that naturally simulates neurons with threshold activation. Our quantum circuit defines a building block, the "quantum neuron", that can reproduce a variety of classical neural network constructions while maintaining the ability to process superpositions of inputs and preserve quantum coherence and entanglement. In the construction of feedforward networks of quantum neurons, we provide numerical evidence that the network not only can learn a function when trained with superposition of inputs and the corresponding output, but that this training suffices to learn the function on all individual inputs separately. When arranged to mimic Hopfield networks, quantum neural networks exhibit properties of associative memory. Patterns are encoded using the simple Hebbian rule for the weights and we demonstrate attractor dynamics from corrupted inputs. Finally, the fact that our quantum model closely captures (traditional) neural network dynamics implies that the vast body of literature and results on neural networks becomes directly relevant in the context of quantum machine learning.
+DA  - 2017/11/30/
+PY  - 2017
+DO  - 10.48550/arXiv.1711.11240
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - Quantum Neuron
+UR  - http://arxiv.org/abs/1711.11240
+Y2  - 2026/08/06/14:17:52
+N1  - Comment: 27 pages, 11 figures
+KW  - Quantum Physics
+KW  - Computer Science - Neural and Evolutionary Computing
+ER  - 
+
+TY  - CONF
+TI  - QuLTSF: Long-Term Time Series Forecasting with Quantum Machine Learning
+AU  - Chittoor, Hari Hara Suthan
+AU  - Griffin, Paul Robert
+AU  - Neufeld, Ariel
+AU  - Thompson, Jayne
+AU  - Gu, Mile
+AB  - Long-term time series forecasting (LTSF) involves predicting a large number of future values of a time series based on the past values and is an essential task in a wide range of domains including weather forecasting, stock market analysis, disease outbreak prediction. Over the decades LTSF algorithms have transitioned from statistical models to deep learning models like transformer models. Despite the complex architecture of transformer based LTSF models ‘Are Transformers Effective for Time Series Forecasting? (Zeng et al., 2023)’ showed that simple linear models can outperform the state-of-the-art transformer based LTSF models. Recently, quantum machine learning (QML) is evolving as a domain to enhance the capabilities of classical machine learning models. In this paper we initiate the application of QML to LTSF problems by proposing QuLTSF, a simple hybrid QML model for multivariate LTSF. Through extensive experiments on a widely used weather dataset we show the advantages of QuLTSF over the state-of-the-art classical linear models, in terms of reduced mean squared error and mean absolute error.
+C3  - Proceedings of the 17th International Conference on Agents and Artificial Intelligence
+DA  - 2025///
+PY  - 2025
+DO  - 10.5220/0013395500003890
+DP  - arXiv.org
+SP  - 824
+EP  - 829
+LA  - en
+ST  - QuLTSF
+UR  - http://arxiv.org/abs/2412.13769
+Y2  - 2026/08/06/14:17:54
+N1  - Comment: Published in ICAART 2025
+KW  - Computer Science - Artificial Intelligence
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - JOUR
+TI  - Double descent in quantum kernel methods
+AU  - Kempkes, Marie
+AU  - Ijaz, Aroosa
+AU  - Gil-Fuster, Elies
+AU  - Bravo-Prieto, Carlos
+AU  - Spiegelberg, Jakob
+AU  - Nieuwenburg, Evert van
+AU  - Dunjko, Vedran
+T2  - PRX Quantum
+AB  - The double descent phenomenon challenges traditional statistical learning theory by revealing scenarios where larger models do not necessarily lead to reduced performance on unseen data. While this counterintuitive behavior has been observed in a variety of classical machine learning models, particularly modern neural network architectures, it remains elusive within the context of quantum machine learning. In this work, we analytically demonstrate that linear regression models in quantum feature spaces can exhibit double descent behavior by drawing on insights from classical linear regression and random matrix theory. Additionally, our numerical experiments on quantum kernel methods across different real-world datasets and system sizes further confirm the existence of a test error peak, a characteristic feature of double descent. Our findings provide evidence that quantum models can operate in the modern, overparameterized regime without experiencing overfitting, potentially opening pathways to improved learning performance beyond traditional statistical learning theory.
+DA  - 2026/01/16/
+PY  - 2026
+DO  - 10.1103/cn64-gs6b
+DP  - arXiv.org
+VL  - 7
+IS  - 1
+SP  - 010312
+J2  - PRX Quantum
+LA  - en
+SN  - 2691-3399
+UR  - http://arxiv.org/abs/2501.10077
+Y2  - 2026/08/06/14:17:57
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - GEN
+TI  - Quantum Deep Equilibrium Models
+AU  - Schleich, Philipp
+AU  - Skreta, Marta
+AU  - Kristensen, Lasse B.
+AU  - Vargas-Hernández, Rodrigo A.
+AU  - Aspuru-Guzik, Alán
+AB  - The feasibility of variational quantum algorithms, the most popular correspondent of neural networks on noisy, near-term quantum hardware, is highly impacted by the circuit depth of the involved parametrized quantum circuits (PQCs). Higher depth increases expressivity, but also results in a detrimental accumulation of errors. Furthermore, the number of parameters involved in the PQC significantly influences the performance through the necessary number of measurements to evaluate gradients, which scales linearly with the number of parameters. Motivated by this, we look at deep equilibrium models (DEQs), which mimic an infinite-depth, weight-tied network using a fraction of the memory by employing a root solver to find the fixed points of the network. In this work, we present Quantum Deep Equilibrium Models (QDEQs): a training paradigm that learns parameters of a quantum machine learning model given by a PQC using DEQs. To our knowledge, no work has yet explored the application of DEQs to QML models. We apply QDEQs to find the parameters of a quantum circuit in two settings: the first involves classifying MNIST-4 digits with 4 qubits; the second extends it to 10 classes of MNIST, FashionMNIST and CIFAR. We find that QDEQ is not only competitive with comparable existing baseline models, but also achieves higher performance than a network with 5 times more layers. This demonstrates that the QDEQ paradigm can be used to develop significantly more shallow quantum circuits for a given task, something which is essential for the utility of near-term quantum computers. Our code is available at https://github.com/martaskrt/qdeq.
+DA  - 2024/10/31/
+PY  - 2024
+DO  - 10.48550/arXiv.2410.23940
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/2410.23940
+Y2  - 2026/08/06/14:17:59
+N1  - Comment: To be published in NeurIPS 2024
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - GEN
+TI  - Reverse Map Projections as Equivariant Quantum Embeddings
+AU  - Arnott, Max
+AU  - Papaioannou, Dimitri
+AU  - McDowall, Kieran
+AU  - Lolur, Phalgun
+AU  - Baldé, Bambordé
+AB  - We introduce the novel class $(E_α)_{α\in [-\infty,1)}$ of reverse map projection embeddings, each one defining a unique new method of encoding classical data into quantum states. Inspired by well-known map projections from the unit sphere onto its tangent planes, used in practice in cartography, these embeddings address the common drawback of the amplitude embedding method, wherein scalar multiples of data points are identified and information about the norm of data is lost. We show how reverse map projections can be utilised as equivariant embeddings for quantum machine learning. Using these methods, we can leverage symmetries in classical datasets to significantly strengthen performance on quantum machine learning tasks. Finally, we select four values of $α$ with which to perform a simple classification task, taking $E_α$ as the embedding and experimenting with both equivariant and non-equivariant setups. We compare their results alongside those of standard amplitude embedding.
+DA  - 2024/08/19/
+PY  - 2024
+DO  - 10.48550/arXiv.2407.19906
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/2407.19906
+Y2  - 2026/08/06/14:18:01
+KW  - Computer Science - Artificial Intelligence
+KW  - Quantum Physics
+KW  - Computer Science - Emerging Technologies
+KW  - Mathematical Physics
+ER  - 
+
+TY  - JOUR
+TI  - A Quantum Leaky Integrate-and-Fire Spiking Neuron and Network
+AU  - Brand, Dean
+AU  - Petruccione, Francesco
+T2  - npj Quantum Information
+AB  - Quantum machine learning is in a period of rapid development and discovery, however it still lacks the resources and diversity of computational models of its classical complement. With the growing difficulties of classical models requiring extreme hardware and power solutions, and quantum models being limited by noisy intermediate-scale quantum (NISQ) hardware, there is an emerging opportunity to solve both problems together. Here we introduce a new software model for quantum neuromorphic computing -- a quantum leaky integrate-and-fire (QLIF) neuron, implemented as a compact high-fidelity quantum circuit, requiring only 2 rotation gates and no CNOT gates. We use these neurons as building blocks in the construction of a quantum spiking neural network (QSNN), and a quantum spiking convolutional neural network (QSCNN), as the first of their kind. We apply these models to the MNIST, Fashion-MNIST, and KMNIST datasets for a full comparison with other classical and quantum models. We find that the proposed models perform competitively, with comparative accuracy, with efficient scaling and fast computation in classical simulation as well as on quantum devices.
+DA  - 2024/12/02/
+PY  - 2024
+DO  - 10.1038/s41534-024-00921-x
+DP  - arXiv.org
+VL  - 10
+IS  - 1
+SP  - 125
+J2  - npj Quantum Inf
+LA  - en
+SN  - 2056-6387
+UR  - http://arxiv.org/abs/2407.16398
+Y2  - 2026/08/06/14:18:03
+N1  - Comment: 9 pages, 6 figures, 1 table
+KW  - Quantum Physics
+KW  - Computer Science - Neural and Evolutionary Computing
+KW  - Computer Science - Emerging Technologies
+ER  - 
+
+TY  - GEN
+TI  - Feature Importance and Explainability in Quantum Machine Learning
+AU  - Power, Luke
+AU  - Guha, Krishnendu
+AB  - Many Machine Learning (ML) models are referred to as black-box models, providing no real insights into why a prediction is made. Feature importance and explainability are important for increasing transparency and trust in ML models, particularly in settings such as healthcare and finance. With quantum computing’s unique capabilities, such as leveraging quantum mechanical phenomena like superposition, this can be combined with ML techniques to create the field of Quantum Machine Learning (QML), and such techniques may be applied to QML models. This article explores feature importance and explainability insights in QML compared to Classical ML models. Utilizing the widely recognized Iris dataset, classical ML algorithms— SVM and Random Forests, are compared against hybrid quantum counterparts, implemented via IBM’s Qiskit platform: the Variational Quantum Classifier (VQC) and Quantum Support Vector Classifier (QSVC). This article aims to provide an in-depth comparison of the insights generated in ML by employing permutation and leave-one-out feature importance methods, alongside ALE (Accumulated Local Effects) and SHAP (SHapley Additive exPlanations) explainers.
+DA  - 2024/05/14/
+PY  - 2024
+DO  - 10.48550/arXiv.2405.08917
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+UR  - http://arxiv.org/abs/2405.08917
+Y2  - 2026/08/06/14:18:05
+N1  - Comment: Amended final year project. 23 pages
+KW  - Computer Science - Machine Learning
+KW  - Mathematics - Quantum Algebra
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - GEN
+TI  - Better than classical? The subtle art of benchmarking quantum machine learning models
+AU  - Bowles, Joseph
+AU  - Ahmed, Shahnawaz
+AU  - Schuld, Maria
+AB  - Benchmarking models via classical simulations is one of the main ways to judge ideas in quantum machine learning before noise-free hardware is available. However, the huge impact of the experimental design on the results, the small scales within reach today, as well as narratives influenced by the commercialisation of quantum technologies make it difficult to gain robust insights. To facilitate better decision-making we develop an open-source package based on the PennyLane software framework and use it to conduct a large-scale study that systematically tests 12 popular quantum machine learning models on 6 binary classification tasks used to create 160 individual datasets. We find that overall, out-of-the-box classical machine learning models outperform the quantum classifiers. Moreover, removing entanglement from a quantum model often results in as good or better performance, suggesting that "quantumness" may not be the crucial ingredient for the small learning tasks considered here. Our benchmarks also unlock investigations beyond simplistic leaderboard comparisons, and we identify five important questions for quantum model design that follow from our results.
+DA  - 2024/03/14/
+PY  - 2024
+DO  - 10.48550/arXiv.2403.07059
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - Better than classical?
+UR  - http://arxiv.org/abs/2403.07059
+Y2  - 2026/08/06/14:18:07
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+ER  - 
+
+TY  - GEN
+TI  - Élivágar: Efficient Quantum Circuit Search for Classification
+AU  - Anagolum, Sashwat
+AU  - Alavisamani, Narges
+AU  - Das, Poulami
+AU  - Qureshi, Moinuddin
+AU  - Kessler, Eric
+AU  - Shi, Yunong
+AB  - Designing performant and noise-robust circuits for Quantum Machine Learning (QML) is challenging — the design space scales exponentially with circuit size, and there are few well-supported guiding principles for QML circuit design. Although recent Quantum Circuit Search (QCS) methods attempt to search for performant QML circuits that are also robust to hardware noise, they directly adopt designs from classical Neural Architecture Search (NAS) that are misaligned with the unique constraints of quantum hardware, resulting in high search overheads and severe performance bottlenecks.
+DA  - 2024/01/17/
+PY  - 2024
+DO  - 10.48550/arXiv.2401.09393
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - Élivágar
+UR  - http://arxiv.org/abs/2401.09393
+Y2  - 2026/08/06/14:18:09
+N1  - Comment: 13 pages, 11 figures. To appear in ASPLOS 2024
+KW  - Computer Science - Machine Learning
+KW  - Quantum Physics
+KW  - Computer Science - Hardware Architecture
+ER  - 
+
+TY  - CONF
+TI  - Challenges for Reinforcement Learning in Quantum Circuit Design
+AU  - Altmann, Philipp
+AU  - Stein, Jonas
+AU  - Kölle, Michael
+AU  - Bärligea, Adelina
+AU  - Zorn, Maximilian
+AU  - Gabor, Thomas
+AU  - Phan, Thomy
+AU  - Feld, Sebastian
+AU  - Linnhoff-Popien, Claudia
+T2  - 2024 IEEE International Conference on Quantum Computing and Engineering (QCE)
+AB  - Quantum computing (QC) in the current NISQ era is still limited in size and precision. Hybrid applications mitigating those shortcomings are prevalent to gain early insight and advantages. Hybrid quantum machine learning (QML) comprises both the application of QC to improve machine learning (ML) and ML to improve QC architectures. This work considers the latter, leveraging reinforcement learning (RL) to improve quantum circuit design (QCD), which we formalize by a set of generic objectives. Furthermore, we propose qcd-gym, a concrete framework formalized as a Markov decision process, to enable learning policies capable of controlling a universal set of continuously parameterized quantum gates. Finally, we provide benchmark comparisons to assess the shortcomings and strengths of current state-of-the-art RL algorithms.
+C1  - Montreal, QC, Canada
+C3  - 2024 IEEE International Conference on Quantum Computing and Engineering (QCE)
+DA  - 2024/09/15/
+PY  - 2024
+DO  - 10.1109/QCE60285.2024.00187
+DP  - DOI.org (Crossref)
+SP  - 1600
+EP  - 1610
+LA  - en
+PB  - IEEE
+SN  - 979-8-3315-4137-8
+UR  - https://ieeexplore.ieee.org/document/10821312/
+Y2  - 2026/08/06/14:18:12
+ER  - 
+
+TY  - JOUR
+TI  - Training robust and generalizable quantum models
+AU  - Berberich, Julian
+AU  - Fink, Daniel
+AU  - Pranjić, Daniel
+AU  - Tutschku, Christian
+AU  - Holm, Christian
+T2  - Physical Review Research
+AB  - Adversarial robustness and generalization are both crucial properties of reliable machine learning models. In this paper, we study these properties in the context of quantum machine learning based on Lipschitz bounds. We derive parameter-dependent Lipschitz bounds for quantum models with trainable encoding, showing that the norm of the data encoding has a crucial impact on the robustness against data perturbations. Further, we derive a bound on the generalization error which explicitly involves the parameters of the data encoding. Based on these theoretical results, we propose a practical strategy for training robust and generalizable quantum models by regularizing the Lipschitz bound in the cost. Moreover, we show that, for fixed and nontrainable encodings, as those frequently employed in quantum machine learning, the Lipschitz bound cannot be influenced by tuning the parameters. Thus trainable encodings are crucial for systematically adapting robustness and generalization during training. The practical implications of our theoretical findings are illustrated with numerical results.
+            
+              
+              
+                
+                  Published by the American Physical Society
+                  2024
+DA  - 2024/12/27/
+PY  - 2024
+DO  - 10.1103/PhysRevResearch.6.043326
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 4
+SP  - 043326
+J2  - Phys. Rev. Research
+LA  - en
+SN  - 2643-1564
+UR  - https://link.aps.org/doi/10.1103/PhysRevResearch.6.043326
+Y2  - 2026/08/06/14:18:15
+ER  - 
+
+TY  - JOUR
+TI  - sQUlearn: A Python Library for Quantum Machine Learning [Focus: Quantum Software and Its Engineering]
+AU  - Kreplin, David A.
+AU  - Willmann, Moritz
+AU  - Schnabel, Jan
+AU  - Rapp, Frederic
+AU  - Hagelüken, Manuel
+AU  - Roth, Marco
+T2  - IEEE Software
+DA  - 2025/09//
+PY  - 2025
+DO  - 10.1109/MS.2025.3527736
+DP  - DOI.org (Crossref)
+VL  - 42
+IS  - 5
+SP  - 65
+EP  - 72
+J2  - IEEE Softw.
+LA  - en
+SN  - 0740-7459, 1937-4194
+ST  - sQUlearn
+UR  - https://ieeexplore.ieee.org/document/10841386/
+Y2  - 2026/08/06/14:18:17
+ER  - 
+
+TY  - JOUR
+TI  - A general learning scheme for classical and quantum Ising machines
+AU  - Schmid, Ludwig
+AU  - Zardini, Enrico
+AU  - Pastorello, Davide
+T2  - SciPost Physics Core
+AB  - An Ising machine is any hardware specifically designed for finding the ground state of the Ising model. Relevant examples are coherent Ising machines and quantum annealers. In this paper, we propose a new machine learning model that is based on the Ising structure and can be efficiently trained using gradient descent. We provide a mathematical characterization of the training process, which is based upon optimizing a loss function whose partial derivatives are not explicitly calculated but estimated by the Ising machine itself. Moreover, we present some experimental results on the training and execution of the proposed learning model. These results point out new possibilities offered by Ising machines for different learning tasks. In particular, in the quantum realm, the quantum resources are used for both the execution and the training of the model, providing a promising perspective in quantum machine learning.
+DA  - 2024/03/14/
+PY  - 2024
+DO  - 10.21468/SciPostPhysCore.7.1.013
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 013
+J2  - SciPost Phys. Core
+LA  - en
+SN  - 2666-9366
+UR  - https://scipost.org/10.21468/SciPostPhysCore.7.1.013
+Y2  - 2026/08/06/14:18:19
+ER  - 
+
+TY  - JOUR
+TI  - Generative Quantum Machine Learning via Denoising Diffusion Probabilistic Models
+AU  - Zhang, Bingzhi
+AU  - Xu, Peng
+AU  - Chen, Xiaohui
+AU  - Zhuang, Quntao
+T2  - Physical Review Letters
+DA  - 2024/03/05/
+PY  - 2024
+DO  - 10.1103/PhysRevLett.132.100602
+DP  - DOI.org (Crossref)
+VL  - 132
+IS  - 10
+SP  - 100602
+J2  - Phys. Rev. Lett.
+LA  - en
+SN  - 0031-9007, 1079-7114
+UR  - https://link.aps.org/doi/10.1103/PhysRevLett.132.100602
+Y2  - 2026/08/06/14:18:22
+ER  - 
+
+TY  - JOUR
+TI  - Learning Quantum Processes with Quantum Statistical Queries
+AU  - Wadhwa, Chirag
+AU  - Doosti, Mina
+AB  - Learning complex quantum processes is a central challenge in many areas of quantum computing and quantum machine learning, with applications in quantum benchmarking, cryptanalysis, and variational quantum algorithms. This paper introduces the first learning framework for studying quantum process learning within the Quantum Statistical Query (QSQ) model, providing the first formal definition of statistical queries to quantum processes (QPSQs). The framework allows us to propose an efficient QPSQ learner for arbitrary quantum processes accompanied by a provable performance guarantee. We also provide numerical simulations to demonstrate the efficacy of this algorithm. In our new framework, we prove exponential query complexity lower bounds for learning unitary 2-designs, and a doubly exponential lower bound for learning haar-random unitaries. The practical relevance of this framework is exemplified through application in cryptography, highlighting vulnerabilities of a large class of Classical-Readout Quantum Physical Unclonable Functions (CR-QPUFs), addressing an important open question in the field of quantum hardware security. This work marks a significant step towards understanding the learnability of quantum processes and shedding light on their security implications.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Sub-universal variational circuits for combinatorial optimization problems
+AU  - Weitz, Gal
+AU  - Pira, Lirande
+AU  - Ferrie, Chris
+AU  - Combes, Joshua
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - CONF
+TI  - Application-Oriented Benchmarking of Quantum Generative Learning Using QUARK
+AU  - Kiwit, Florian J.
+AU  - Marso, Marwa
+AU  - Ross, Philipp
+AU  - Riofrío, Carlos A.
+AU  - Klepsch, Johannes
+AU  - Luckow, Andre
+T2  - 2023 IEEE International Conference on Quantum Computing and Engineering (QCE)
+AB  - Benchmarking of quantum machine learning (QML) algorithms is challenging due to the complexity and variability of QML systems, e. g., regarding model ansatzes, data sets, training techniques, and hyper-parameters selection. The QUantum computing Application benchmaRK (QUARK) framework simplifies and standardizes benchmarking studies for quantum computing applications. Here, we propose several extensions of QUARK to include the ability to evaluate the training and deployment of quantum generative models. We describe the updated software architecture and illustrate its flexibility through several example applications: (1) We trained different quantum generative models using several circuit ansatzes, data sets, and data transformations. (2) We evaluated our models on GPU and real quantum hardware. (3) We assessed the generalization capabilities of our generative models using a broad set of metrics that capture, e. g., the novelty and validity of the generated data.
+C1  - Bellevue, WA, USA
+C3  - 2023 IEEE International Conference on Quantum Computing and Engineering (QCE)
+DA  - 2023/09/17/
+PY  - 2023
+DO  - 10.1109/QCE57702.2023.00061
+DP  - DOI.org (Crossref)
+SP  - 475
+EP  - 484
+LA  - en
+PB  - IEEE
+SN  - 979-8-3503-4323-6
+UR  - https://ieeexplore.ieee.org/document/10313723/
+Y2  - 2026/08/06/14:18:28
+ER  - 
+
+TY  - JOUR
+TI  - Quantum convolutional neural networks with interaction layers for classification of classical data
+AU  - Mahmud, Jishnu
+AU  - Mashtura, Raisa
+AU  - Fattah, Shaikh Anowarul
+AU  - Saquib, Mohammad
+T2  - Quantum Machine Intelligence
+AB  - Quantum Machine Learning (QML) has come into the limelight due to the exceptional computational abilities of quantum computers. With the promises of near error-free quantum computers in the not-so-distant future, it is important that the effect of multi-qubit interactions on quantum neural networks is studied extensively. This paper introduces a Quantum Convolutional Network with novel Interaction layers exploiting three-qubit interactions, while studying the network’s expressibility and entangling capability, for classifying both image and one-dimensional data. The proposed approach is tested on three publicly available datasets namely MNIST, Fashion MNIST, and Iris datasets, flexible in performing binary and multiclass classifications, and is found to supersede the performance of existing state-of-the-art methods.
+DA  - 2024/06//
+PY  - 2024
+DO  - 10.1007/s42484-024-00145-4
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 1
+SP  - 11
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+UR  - https://link.springer.com/10.1007/s42484-024-00145-4
+Y2  - 2026/08/06/14:18:30
+ER  - 
+
+TY  - JOUR
+TI  - Understanding quantum machine learning also requires rethinking generalization
+AU  - Gil-Fuster, Elies
+AU  - Eisert, Jens
+AU  - Bravo-Prieto, Carlos
+T2  - Nature Communications
+AB  - Abstract
+            Quantum machine learning models have shown successful generalization performance even when trained with few data. In this work, through systematic randomization experiments, we show that traditional approaches to understanding generalization fail to explain the behavior of such quantum models. Our experiments reveal that state-of-the-art quantum neural networks accurately fit random states and random labeling of training data. This ability to memorize random data defies current notions of small generalization error, problematizing approaches that build on complexity measures such as the VC dimension, the Rademacher complexity, and all their uniform relatives. We complement our empirical results with a theoretical construction showing that quantum neural networks can fit arbitrary labels to quantum states, hinting at their memorization ability. Our results do not preclude the possibility of good generalization with few training data but rather rule out any possible guarantees based only on the properties of the model family. These findings expose a fundamental challenge in the conventional understanding of generalization in quantum machine learning and highlight the need for a paradigm shift in the study of quantum models for machine learning tasks.
+DA  - 2024/03/13/
+PY  - 2024
+DO  - 10.1038/s41467-024-45882-z
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 1
+SP  - 2277
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-024-45882-z
+Y2  - 2026/08/06/14:18:32
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing variational quantum state diagonalization using reinforcement learning techniques
+AU  - Kundu, Akash
+AU  - Bedełek, Przemysław
+AU  - Ostaszewski, Mateusz
+AU  - Danaci, Onur
+AU  - Patel, Yash J
+AU  - Dunjko, Vedran
+AU  - Miszczak, Jarosław A
+T2  - New Journal of Physics
+AB  - The variational quantum algorithms are crucial for the application of NISQ computers. Such algorithms require short quantum circuits, which are more amenable to implementation on near-term hardware, and many such methods have been developed. One of particular interest is the so-called variational quantum state diagonalization method, which constitutes an important algorithmic subroutine and can be used directly to work with data encoded in quantum states. In particular, it can be applied to discern the features of quantum states, such as entanglement properties of a system, or in quantum machine learning algorithms. In this work, we tackle the problem of designing a very shallow quantum circuit, required in the quantum state diagonalization task, by utilizing reinforcement learning (RL). We use a novel encoding method for the RL-state, a dense reward function, and an ϵ-greedy policy to achieve this. We demonstrate that the circuits proposed by the reinforcement learning methods are shallower than the standard variational quantum state diagonalization algorithm and thus can be used in situations where hardware capabilities limit the depth of quantum circuits. The methods we propose in the paper can be readily adapted to address a wide range of variational quantum algorithms.
+DA  - 2024/01/01/
+PY  - 2024
+DO  - 10.1088/1367-2630/ad1b7f
+DP  - DOI.org (Crossref)
+VL  - 26
+IS  - 1
+SP  - 013034
+J2  - New J. Phys.
+LA  - en
+SN  - 1367-2630
+UR  - https://iopscience.iop.org/article/10.1088/1367-2630/ad1b7f
+Y2  - 2026/08/06/14:18:34
+ER  - 
+
+TY  - CONF
+TI  - Software Supply Chain Vulnerabilities Detection in Source Code: Performance Comparison between Traditional and Quantum Machine Learning Algorithms
+AU  - Akter, Mst Shapna
+AU  - Faruk, Md Jobair Hossain
+AU  - Anjum, Nafisa
+AU  - Masum, Mohammad
+AU  - Shahriar, Hossain
+AU  - Sakib, Nazmus
+AU  - Rahman, Akond
+AU  - Wu, Fan
+AU  - Cuzzocrea, Alfredo
+T2  - 2022 IEEE International Conference on Big Data (Big Data)
+AB  - The software supply chain (SSC) attack has become one of the crucial issues that are being increased rapidly with the advancement of the software development domain. In general, SSC attacks execute during the software development processes lead to vulnerabilities in software products targeting downstream customers and even involved stakeholders. Machine Learning approaches are proven in detecting and preventing software security vulnerabilities. Besides, emerging quantum machine learning can be promising in addressing SSC attacks. Considering the distinction between traditional and quantum machine learning, performance could be varies based on the proportions of the experimenting dataset. In this paper, we conduct a comparative analysis between quantum neural networks (QNN) and conventional neural networks (NN) with a software supply chain attack dataset known as ClaMP. Our goal is to distinguish the performance between QNN and NN and to conduct the experiment, we develop two different models for QNN and NN by utilizing Pennylane for quantum and TensorFlow and Keras for traditional respectively. We evaluated the performance of both models with different proportions of the ClaMP dataset to identify the f1 score, recall, precision, and accuracy. We also measure the execution time to check the efficiency of both models. The demonstration result indicates that execution time for QNN is slower than NN with a higher percentage of datasets. Due to recent advancements in QNN, a large level of experiments shall be carried out to understand both models accurately in our future research.
+C1  - Osaka, Japan
+C3  - 2022 IEEE International Conference on Big Data (Big Data)
+DA  - 2022/12/17/
+PY  - 2022
+DO  - 10.1109/BigData55660.2022.10020813
+DP  - DOI.org (Crossref)
+SP  - 5639
+EP  - 5645
+LA  - en
+PB  - IEEE
+SN  - 978-1-6654-8045-1
+ST  - Software Supply Chain Vulnerabilities Detection in Source Code
+UR  - https://ieeexplore.ieee.org/document/10020813/
+Y2  - 2026/08/06/14:18:36
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Convolutional Neural Networks for Multi-Channel Supervised Learning
+AU  - Smaldone, Anthony M
+AU  - Kyro, Gregory W
+AU  - Batista, Victor S
+AB  - As the rapidly evolving field of machine learning continues to produce incredibly useful tools and models, the potential for quantum computing to provide speed up for machine learning algorithms is becoming increasingly desirable. In particular, quantum circuits in place of classical convolutional filters for image detection-based tasks are being investigated for the ability to exploit quantum advantage. However, these attempts, referred to as quantum convolutional neural networks (QCNNs), lack the ability to efficiently process data with multiple channels and therefore are limited to relatively simple inputs. In this work, we present a variety of hardware-adaptable quantum circuit ansatzes for use as convolutional kernels, and demonstrate that the quantum neural networks we report outperform existing QCNNs on classification tasks involving multi-channel data. We envision that the ability of these implementations to effectively learn interchannel information will allow quantum machine learning methods to operate with more complex data.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Explaining quantum circuits with Shapley values: towards explainable quantum machine learning
+AU  - Heese, Raoul
+AU  - Gerlach, Thore
+AU  - Mücke, Sascha
+AU  - Müller, Sabine
+AU  - Jakobs, Matthias
+AU  - Piatkowski, Nico
+T2  - Quantum Machine Intelligence
+AB  - Methods of artiﬁcial intelligence (AI) and especially machine learning (ML) have been growing ever more complex, and at the same time have more and more impact on people’s lives. This leads to explainable AI (XAI) manifesting itself as an important research ﬁeld that helps humans to better comprehend ML systems. In parallel, quantum machine learning (QML) is emerging with the ongoing improvement of quantum computing hardware combined with its increasing availability via cloud services. QML enables quantum-enhanced ML in which quantum mechanics is exploited to facilitate ML tasks, typically in form of quantum-classical hybrid algorithms that combine quantum and classical resources. Quantum gates constitute the building blocks of gate-based quantum hardware and form circuits that can be used for quantum computations. For QML applications, quantum circuits are typically parameterized and their parameters are optimized classically such that a suitably deﬁned objective function is minimized. Inspired by XAI, we raise the question of explainability of such circuits by quantifying the importance of (groups of) gates for speciﬁc goals. To this end, we transfer and adapt the well-established concept of Shapley values to the quantum realm. The resulting attributions can be interpreted as explanations for why a speciﬁc circuit works well for a given task, improving the understanding of how to construct parameterized (or variational) quantum circuits, and fostering their human interpretability in general. An experimental evaluation on simulators and two superconducting quantum hardware devices demonstrates the beneﬁts of the proposed framework for classiﬁcation, generative modeling, transpilation, and optimization. Furthermore, our results shed some light on the role of speciﬁc gates in popular QML approaches.
+DA  - 2025/06//
+PY  - 2025
+DO  - 10.1007/s42484-025-00254-8
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 27
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+ST  - Explaining quantum circuits with Shapley values
+UR  - https://link.springer.com/10.1007/s42484-025-00254-8
+Y2  - 2026/08/06/14:18:39
+ER  - 
+
+TY  - CONF
+TI  - SEQUENT: Towards Traceable Quantum Machine Learning Using Sequential Quantum Enhanced Training:
+AU  - Altmann, Philipp
+AU  - Sünkel, Leo
+AU  - Stein, Jonas
+AU  - Müller, Tobias
+AU  - Roch, Christoph
+AU  - Linnhoff-Popien, Claudia
+T2  - 15th International Conference on Agents and Artificial Intelligence
+AB  - Applying new computing paradigms like quantum computing to the ﬁeld of machine learning has recently gained attention. However, as high-dimensional real-world applications are not yet feasible to be solved using purely quantum hardware, hybrid methods using both classical and quantum machine learning paradigms have been proposed. For instance, transfer learning methods have been shown to be successfully applicable to hybrid image classiﬁcation tasks. Nevertheless, beneﬁcial circuit architectures still need to be explored. Therefore, tracing the impact of the chosen circuit architecture and parameterization is crucial for the development of beneﬁcially applicable hybrid methods. However, current methods include processes where both parts are trained concurrently, therefore not allowing for a strict separability of classical and quantum impact. Thus, those architectures might produce models that yield a superior prediction accuracy whilst employing the least possible quantum impact. To tackle this issue, we propose Sequential Quantum Enhanced Training (SEQUENT) an improved architecture and training process for the traceable application of quantum computing methods to hybrid machine learning. Furthermore, we provide formal evidence for the disadvantage of current methods and preliminary experimental results as a proof-of-concept for the applicability of SEQUENT.
+C1  - Lisbon, Portugal
+C3  - Proceedings of the 15th International Conference on Agents and Artificial Intelligence
+DA  - 2023///
+PY  - 2023
+DO  - 10.5220/0011772400003393
+DP  - DOI.org (Crossref)
+SP  - 744
+EP  - 751
+LA  - en
+PB  - SCITEPRESS - Science and Technology Publications
+SN  - 978-989-758-623-1
+ST  - SEQUENT
+UR  - https://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0011772400003393
+Y2  - 2026/08/06/14:18:42
+ER  - 
+
+TY  - JOUR
+TI  - Hybrid Quantum–Classical Generative Adversarial Network for High-Resolution Image Generation
+AU  - Tsang, Shu Lok
+AU  - West, Maxwell T.
+AU  - Erfani, Sarah M.
+AU  - Usman, Muhammad
+T2  - IEEE Transactions on Quantum Engineering
+DA  - 2023///
+PY  - 2023
+DO  - 10.1109/TQE.2023.3319319
+DP  - DOI.org (Crossref)
+VL  - 4
+SP  - 1
+EP  - 19
+J2  - IEEE Trans. Quantum Eng.
+LA  - en
+SN  - 2689-1808
+UR  - https://ieeexplore.ieee.org/document/10264175/
+Y2  - 2026/08/06/14:18:44
+ER  - 
+
+TY  - JOUR
+TI  - QuACK: Accelerating Gradient-Based Quantum Optimization with Koopman Operator Learning
+AU  - Luo, Di
+AU  - Shen, Jiayu
+AB  - Quantum optimization, a key application of quantum computing, has traditionally been stymied by the linearly increasing complexity of gradient calculations with an increasing number of parameters. This work bridges the gap between Koopman operator theory, which has found utility in applications because it allows for a linear representation of nonlinear dynamical systems, and natural gradient methods in quantum optimization, leading to a significant acceleration of gradient-based quantum optimization. We present Quantum-circuit Alternating Controlled Koopman learning (QuACK), a novel framework that leverages an alternating algorithm for efficient prediction of gradient dynamics on quantum computers. We demonstrate QuACK’s remarkable ability to accelerate gradient-based optimization across a range of applications in quantum optimization and machine learning. In fact, our empirical studies, spanning quantum chemistry, quantum condensed matter, quantum machine learning, and noisy environments, have shown accelerations of more than 200x speedup in the overparameterized regime, 10x speedup in the smooth regime, and 3x speedup in the non-smooth regime. With QuACK, we offer a robust advancement that harnesses the advantage of gradient-based quantum optimization for practical benefits.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - A kernel-based quantum random forest for improved classification
+AU  - Srikumar, Maiyuren
+AU  - Hill, Charles D.
+AU  - Hollenberg, Lloyd C. L.
+T2  - Quantum Machine Intelligence
+DA  - 2024/06//
+PY  - 2024
+DO  - 10.1007/s42484-023-00131-2
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 1
+SP  - 10
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+UR  - https://link.springer.com/10.1007/s42484-023-00131-2
+Y2  - 2026/08/06/14:18:48
+ER  - 
+
+TY  - JOUR
+TI  - Scalable Quantum Neural Networks for Classiﬁcation
+AU  - Wu, Jindi
+AU  - Tao, Zeyi
+AU  - Li, Qun
+AB  - Many recent machine learning tasks resort to quantum computing to improve classiﬁcation accuracy and training efﬁciency by taking advantage of quantum mechanics, known as quantum machine learning (QML). The variational quantum circuit (VQC) is frequently utilized to build a quantum neural network (QNN), which is a counterpart to the conventional neural network. Due to hardware limitations, however, current quantum devices only allow one to use few qubits to represent data and perform simple quantum computations. The limited quantum resource on a single quantum device degrades the data usage and limits the scale of the quantum circuits, preventing quantum advantage to some extent. To alleviate this constraint, we propose an approach to implementing a scalable quantum neural network (SQNN) by utilizing the quantum resource of multiple small-size quantum devices cooperatively. In an SQNN system, several quantum devices are used as quantum feature extractors, extracting local features from an input instance in parallel, and a quantum device works as a quantum predictor, performing prediction over the local features collected through classical communication channels. The quantum feature extractors in the SQNN system are independent of each other, so one can ﬂexibly use quantum devices of varying sizes, with larger quantum devices extracting more local features. Especially, the SQNN can be performed on a single quantum device in a modular fashion. Our work is exploratory and carried out on a quantum system simulator using the TensorFlow Quantum library. The evaluation conducts a binary classiﬁcation on the MNIST dataset. It shows that the SQNN model achieves a comparable classiﬁcation accuracy to a regular QNN model of the same scale. Furthermore, it demonstrates that the SQNN model with more quantum resources can signiﬁcantly improve classiﬁcation accuracy.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Machine Learning for Distributed Quantum Protocols with Local Operations and Noisy Classical Communications
+AU  - Chittoor, Hari Hara Suthan
+AU  - Simeone, Osvaldo
+T2  - Entropy
+AB  - Distributed quantum information processing protocols such as quantum entanglement distillation and quantum state discrimination rely on local operations and classical communications (LOCC). Existing LOCC-based protocols typically assume the availability of ideal, noiseless, communication channels. In this paper, we study the case in which classical communication takes place over noisy channels, and we propose to address the design of LOCC protocols in this setting via the use of quantum machine learning tools. We speciﬁcally focus on the important tasks of quantum entanglement distillation and quantum state discrimination, and implement local processing through parameterized quantum circuits (PQCs) that are optimized to maximize the average ﬁdelity and average success probability in the respective tasks, while accounting for communication errors. The introduced approach, Noise Aware-LOCCNet (NALOCCNet), is shown to have signiﬁcant advantages over existing protocols designed for noiseless communications.
+DA  - 2023/02/14/
+PY  - 2023
+DO  - 10.3390/e25020352
+DP  - DOI.org (Crossref)
+VL  - 25
+IS  - 2
+SP  - 352
+J2  - Entropy
+LA  - en
+SN  - 1099-4300
+UR  - https://www.mdpi.com/1099-4300/25/2/352
+Y2  - 2026/08/06/14:18:53
+ER  - 
+
+TY  - CHAP
+TI  - Verifying Fairness in Quantum Machine Learning
+AU  - Guan, Ji
+AU  - Fang, Wang
+AU  - Ying, Mingsheng
+T2  - Computer Aided Verification
+A2  - Shoham, Sharon
+A2  - Vizel, Yakir
+AB  - Due to the beyond-classical capability of quantum computing, quantum machine learning is applied independently or embedded in classical models for decision making, especially in the ﬁeld of ﬁnance. Fairness and other ethical issues are often one of the main concerns in decision making. In this work, we deﬁne a formal framework for the fairness veriﬁcation and analysis of quantum machine learning decision models, where we adopt one of the most popular notions of fairness in the literature based on the intuition — any two similar individuals must be treated similarly and are thus unbiased. We show that quantum noise can improve fairness and develop an algorithm to check whether a (noisy) quantum machine learning model is fair. In particular, this algorithm can ﬁnd bias kernels of quantum data (encoding individuals) during checking. These bias kernels generate inﬁnitely many bias pairs for investigating the unfairness of the model. Our algorithm is designed based on a highly eﬃcient data structure — Tensor Networks — and implemented on Google’s TensorFlow Quantum. The utility and eﬀectiveness of our algorithm are conﬁrmed by the experimental results, including income prediction and credit scoring on real-world data, for a class of random (noisy) quantum decision models with 27 qubits (227-dimensional state space) tripling (218 times more than) that of the state-of-the-art algorithms for verifying quantum machine learning models.
+CY  - Cham
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-13188-2_20
+DP  - DOI.org (Crossref)
+VL  - 13372
+SP  - 408
+EP  - 429
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-031-13187-5 978-3-031-13188-2
+UR  - https://link.springer.com/10.1007/978-3-031-13188-2_20
+Y2  - 2026/08/06/14:18:55
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Advantage Seeker with Kernels (QuASK): a software framework to speed up the research in quantum machine learning
+AU  - Di Marcantonio, Francesco
+AU  - Incudini, Massimiliano
+AU  - Tezza, Davide
+AU  - Grossi, Michele
+T2  - Quantum Machine Intelligence
+AB  - Abstract
+            Exploiting the properties of quantum information to the benefit of machine learning models is perhaps the most active field of research in quantum computation. This interest has supported the development of a multitude of software frameworks (e.g. Qiskit, Pennylane, Braket) to implement, simulate, and execute quantum algorithms. Most of them allow us to define quantum circuits, run basic quantum algorithms, and access low-level primitives depending on the hardware such software is supposed to run. For most experiments, these frameworks have to be manually integrated within a larger machine learning software pipeline. The researcher is in charge of knowing different software packages, integrating them through the development of long code scripts, analyzing the results, and generating the plots. Long code often leads to erroneous applications, due to the average number of bugs growing proportional with respect to the program length. Moreover, other researchers will struggle to understand and reproduce the experiment, due to the need to be familiar with all the different software frameworks involved in the code script. We propose QuASK, an open-source quantum machine learning framework written in Python that aids the researcher in performing their experiments, with particular attention to quantum kernel techniques. QuASK can be used as a command-line tool to download datasets, pre-process them, quantum machine learning routines, analyze and visualize the results. QuASK implements most state-of-the-art algorithms to analyze the data through quantum kernels, with the possibility to use projected kernels, (gradient-descent) trainable quantum kernels, and structure-optimized quantum kernels. Our framework can also be used as a library and integrated into pre-existing software, maximizing code reuse.
+DA  - 2023/06//
+PY  - 2023
+DO  - 10.1007/s42484-023-00107-2
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 1
+SP  - 20
+J2  - Quantum Mach. Intell.
+LA  - en
+SN  - 2524-4906, 2524-4914
+ST  - Quantum Advantage Seeker with Kernels (QuASK)
+UR  - https://link.springer.com/10.1007/s42484-023-00107-2
+Y2  - 2026/08/06/14:18:57
+ER  - 
+
+TY  - JOUR
+TI  - Variational Quantum Approximate Support Vector Machine with Inference Transfer
+AU  - Park, Siheon
+AU  - Park, Daniel K
+AU  - Rhee, June-Koo Kevin
+AB  - A kernel-based quantum classiﬁer is the most practical and inﬂuential quantum machine learning technique for the hyper-linear classiﬁcation of complex data. We propose a Variational Quantum Approximate Support Vector Machine (VQASVM) algorithm that demonstrates empirical sub-quadratic run-time complexity with quantum operations feasible even in NISQ computers. We experimented our algorithm with toy example dataset on cloud-based NISQ machines as a proof of concept. We also numerically investigated its performance on the standard Iris ﬂower and MNIST datasets to conﬁrm the practicality and scalability.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Design and Implementation of a Quantum Kernel for Natural Language Processing
+AU  - Wright, Matt
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Discriminating Quantum States with Quantum Machine Learning
+AU  - Quiroga, David
+AU  - Date, Prasanna
+AU  - Pooser, Raphael
+AB  - Quantum machine learning (QML) algorithms have obtained great relevance in the machine learning (ML) ﬁeld due to the promise of quantum speedups when performing basic linear algebra subroutines (BLAS), a fundamental element in most ML algorithms. By making use of BLAS operations, we propose, implement and analyze a quantum k-means (qk-means) algorithm with a low time complexity of O(N Klog(D)I/C) to apply it to the fundamental problem of discriminating quantum states at readout. Discriminating quantum states allows the identiﬁcation of quantum states |0〉 and |1〉 from low-level inphase and quadrature signal (IQ) data, and can be done using custom ML models. In order to reduce dependency on a classical computer, we use the qk-means to perform state discrimination on the IBMQ Bogota device and managed to ﬁnd assignment ﬁdelities of up to 98.7% that were only marginally lower than that of the k-means algorithm. Inspection of assignment ﬁdelity scores resulting from applying both algorithms to a combination of quantum states showed concordance to our correlation analysis using Pearson Correlation coefﬁcients, where evidence shows cross-talk in the (1, 2) and (2, 3) neighboring qubit couples for the analyzed device.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Importance of Kernel Bandwidth in Quantum Machine Learning
+AU  - Shaydulin, Ruslan
+AU  - Wild, Stefan M
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum machine learning beyond kernel methods
+AU  - Jerbi, Sofiene
+AU  - Fiderer, Lukas J.
+AU  - Poulsen Nautrup, Hendrik
+AU  - Kübler, Jonas M.
+AU  - Briegel, Hans J.
+AU  - Dunjko, Vedran
+T2  - Nature Communications
+AB  - Abstract
+            Machine learning algorithms based on parametrized quantum circuits are prime candidates for near-term applications on noisy quantum computers. In this direction, various types of quantum machine learning models have been introduced and studied extensively. Yet, our understanding of how these models compare, both mutually and to classical models, remains limited. In this work, we identify a constructive framework that captures all standard models based on parametrized quantum circuits: that of linear quantum models. In particular, we show using tools from quantum information theory how data re-uploading circuits, an apparent outlier of this framework, can be efficiently mapped into the simpler picture of linear models in quantum Hilbert spaces. Furthermore, we analyze the experimentally-relevant resource requirements of these models in terms of qubit number and amount of data needed to learn. Based on recent results from classical machine learning, we prove that linear quantum models must utilize exponentially more qubits than data re-uploading models in order to solve certain learning tasks, while kernel methods additionally require exponentially more data points. Our results provide a more comprehensive view of quantum machine learning models as well as insights on the compatibility of different models with NISQ constraints.
+DA  - 2023/01/31/
+PY  - 2023
+DO  - 10.1038/s41467-023-36159-y
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 1
+SP  - 517
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-023-36159-y
+Y2  - 2026/08/06/14:19:07
+ER  - 
+
+TY  - JOUR
+TI  - Entangled Datasets for Quantum Machine Learning
+AU  - Schatzki, Louis
+AU  - Arrasmith, Andrew
+AU  - Coles, Patrick J
+AU  - Cerezo, M
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing Quantum Variational Circuits with Deep Reinforcement Learning
+AU  - Lockwood, Owen
+AB  - Quantum Machine Learning (QML) is considered to be one of the most promising applications of near term quantum devices. However, the optimization of quantum machine learning models presents numerous challenges arising from the imperfections of hardware and the fundamental obstacles in navigating an exponentially scaling Hilbert space. In this work, we evaluate the potential of contemporary methods in deep reinforcement learning to augment gradient based optimization routines in quantum variational circuits. We ﬁnd that reinforcement learning augmented optimizers consistently outperform gradient descent in noisy environments. All code and pretrained weights are available to replicate the results or deploy the models at: github.com/lockwo/rl qvc opt .
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum machine learning of large datasets using randomized measurements
+AU  - Haug, Tobias
+AU  - Self, Chris N
+AU  - Kim, M S
+T2  - Machine Learning: Science and Technology
+AB  - Abstract
+            Quantum computers promise to enhance machine learning for practical applications. Quantum machine learning for real-world data has to handle extensive amounts of high-dimensional data. However, conventional methods for measuring quantum kernels are impractical for large datasets as they scale with the square of the dataset size. Here, we measure quantum kernels using randomized measurements. The quantum computation time scales linearly with dataset size and quadratic for classical post-processing. While our method scales in general exponentially in qubit number, we gain a substantial speed-up when running on intermediate-sized quantum computers. Further, we efficiently encode high-dimensional data into quantum computers with the number of features scaling linearly with the circuit depth. The encoding is characterized by the quantum Fisher information metric and is related to the radial basis function kernel. Our approach is robust to noise via a cost-free error mitigation scheme. We demonstrate the advantages of our methods for noisy quantum computers by classifying images with the IBM quantum computer. To achieve further speedups we distribute the quantum computational tasks between different quantum computers. Our method enables benchmarking of quantum machine learning algorithms with large datasets on currently available quantum computers.
+DA  - 2023/03/01/
+PY  - 2023
+DO  - 10.1088/2632-2153/acb0b4
+DP  - DOI.org (Crossref)
+VL  - 4
+IS  - 1
+SP  - 015005
+J2  - Mach. Learn.: Sci. Technol.
+LA  - en
+SN  - 2632-2153
+UR  - https://iopscience.iop.org/article/10.1088/2632-2153/acb0b4
+Y2  - 2026/08/06/14:19:13
+ER  - 
+
+TY  - JOUR
+TI  - A quantum algorithm for training wide and deep classical neural networks
+AU  - Zlokapa, Alexander
+AU  - Neven, Hartmut
+AU  - Lloyd, Seth
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Trainable Discrete Feature Embeddings for Variational Quantum Classiﬁer
+AU  - Thumwanit, Napat
+AU  - Yano, Hiroshi
+AU  - Lortaraprasert, Chayaphol
+AU  - Raymond, Rudy
+AB  - Quantum classiﬁers provide sophisticated embeddings of input data in Hilbert space promising quantum advantage. The advantage stems from quantum feature maps encoding the inputs into quantum states with variational quantum circuits. A recent work shows how to map discrete features with fewer quantum bits using Quantum Random Access Coding (QRAC), an important primitive to encode binary strings into quantum states. We propose a new method to embed discrete features with trainable quantum circuits by combining QRAC and a recently proposed strategy for training quantum feature map called quantum metric learning. We show that the proposed trainable embedding requires not only as few qubits as QRAC but also overcomes the limitations of QRAC to classify inputs whose classes are based on hard Boolean functions. We numerically demonstrate its use in variational quantum classiﬁers to achieve better performances in classifying real-world datasets, and thus its possibility to leverage near-term quantum computers for quantum machine learning.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Variational Quanvolutional Neural Networks with enhanced image encoding
+AU  - Mattern, Denny
+AU  - Martyniuk, Darya
+AU  - Willems, Henri
+AU  - Bergmann, Fabian
+AU  - Paschke, Adrian
+AB  - Image classiﬁcation is an important task in various machine learning applications. In recent years, a number of classiﬁcation methods based on quantum machine learning and different quantum image encoding techniques have been proposed. In this paper, we study the effect of three different quantum image encoding approaches on the performance of a convolution-inspired hybrid quantum-classical image classiﬁcation algorithm called quanvolutional neural network (QNN). We furthermore examine the effect of variational – i.e. trainable – quantum circuits on the classiﬁcation results. Our experiments indicate that some image encodings are better suited for variational circuits. However, our experiments show as well that there is not one best image encoding, but that the choice of the encoding depends on the speciﬁc constraints of the application.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - The Dilemma of Quantum Neural Networks
+AU  - Qian, Yang
+AU  - Wang, Xinbiao
+AU  - Du, Yuxuan
+AU  - Wu, Xingyao
+AU  - Tao, Dacheng
+T2  - IEEE Transactions on Neural Networks and Learning Systems
+AB  - The core of quantum machine learning is to devise quantum models with good trainability and low generalization error bound than their classical counterparts to ensure better reliability and interpretability. Recent studies conﬁrmed that quantum neural networks (QNNs) have the ability to achieve this goal on speciﬁc datasets. With this regard, it is of great importance to understand whether these advantages are still preserved on real-world tasks. Through systematic numerical experiments, we empirically observe that current QNNs fail to provide any beneﬁt over classical learning models. Concretely, our results deliver two key messages. First, QNNs suﬀer from the severely limited eﬀective model capacity, which incurs poor generalization on real-world datasets. Second, the trainability of QNNs is insensitive to regularization techniques, which sharply contrasts with the classical scenario. These empirical results force us to rethink the role of current QNNs and to design novel protocols for solving real-world problems with quantum advantages.
+DA  - 2024/04//
+PY  - 2024
+DO  - 10.1109/TNNLS.2022.3208313
+DP  - DOI.org (Crossref)
+VL  - 35
+IS  - 4
+SP  - 5603
+EP  - 5615
+J2  - IEEE Trans. Neural Netw. Learning Syst.
+LA  - en
+SN  - 2162-237X, 2162-2388
+UR  - https://ieeexplore.ieee.org/document/9908575/
+Y2  - 2026/08/06/14:19:22
+ER  - 
+
+TY  - JOUR
+TI  - The Inductive Bias of Quantum Kernels
+AU  - Kübler, Jonas M
+AU  - Buchholz, Simon
+AU  - Schölkopf, Bernhard
+AB  - It has been hypothesized that quantum computers may lend themselves well to applications in machine learning. In the present work, we analyze function classes deﬁned via quantum kernels. Quantum computers offer the possibility to efﬁciently compute inner products of exponentially large density operators that are classically hard to compute. However, having an exponentially large feature space renders the problem of generalization hard. Furthermore, being able to evaluate inner products in high dimensional spaces efﬁciently by itself does not guarantee a quantum advantage, as already classically tractable kernels can correspond to highor inﬁnite-dimensional reproducing kernel Hilbert spaces (RKHS). We analyze the spectral properties of quantum kernels and ﬁnd that we can expect an advantage if their RKHS is low dimensional and contains functions that are hard to compute classically. If the target function is known to lie in this class, this implies a quantum advantage, as the quantum computer can encode this inductive bias, whereas there is no classically efﬁcient way to constrain the function class in the same way. However, we show that ﬁnding suitable quantum kernels is not easy because the kernel evaluation might require exponentially many measurements.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Quantum Perceptron Revisited: Computational-Statistical Tradeoﬀs
+AU  - Roget, Mathieu
+AU  - Université, Aix-Marseille
+AB  - Quantum machine learning algorithms could provide signiﬁcant speed-ups over their classical counterparts; however, whether they could also achieve good generalization remains unclear. Recently, two quantum perceptron models which give a quadratic improvement over the classical perceptron algorithm using Grover’s search have been proposed by Wiebe et al. [35]. While the ﬁrst model reduces the complexity with respect to the size of the training set, the second one improves the bound on the number of mistakes made by the perceptron. In this paper, we introduce a hybrid quantum-classical perceptron algorithm with lower complexity and better generalization ability than the classical perceptron. We show a quadratic improvement over the classical perceptron in both the number of samples and the margin of the data. We derive a bound on the expected error of the hypothesis returned by our algorithm, which compares favorably to the one obtained with the classical online perceptron. We use numerical experiments to illustrate the trade-oﬀ between computational complexity and statistical accuracy in quantum perceptron learning and discuss some of the key practical issues surrounding the implementation of quantum perceptron models into near-term quantum devices, whose practical implementation represents a serious challenge due to inherent noise. However, the potential beneﬁts make correcting this worthwhile.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - CONF
+TI  - Quantum Federated Learning with Quantum Data
+AU  - Chehimi, Mahdi
+AU  - Saad, Walid
+T2  - ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+AB  - Quantum machine learning (QML) has emerged as a promising ﬁeld that leans on the developments in quantum computing to explore large complex machine learning problems. Recently, some purely quantum machine learning models were proposed such as quantum convolutional neural networks (QCNN) to perform classiﬁcation on quantum data. However, all of the existing QML models rely on centralized solutions that cannot scale well for large-scale and distributed quantum networks. Hence, it is apropos to consider more practical quantum federated learning (QFL) solutions tailored towards emerging quantum network architectures. Indeed, developing QFL frameworks for quantum networks is critical given the fragile nature of computing qubits and the difﬁculty of transferring them. On top of its practical momentousness, QFL allows for distributing quantum learning by leveraging existing wireless communication infrastructure. This paper proposes the ﬁrst fully quantum federated learning framework that can operate over quantum data and, thus, share the learning of quantum circuit parameters in a decentralized manner. First, given the lack of existing quantum federated datasets in the literature, the proposed framework begins by generating the ﬁrst quantum federated dataset, with a hierarchical data format, for distributed quantum networks. Then, clients sharing QCNN models are fed with the quantum data to perform a classiﬁcation task. Subsequently, the server aggregates the learnable quantum circuit parameters from clients and performs federated averaging. Extensive experiments are conducted to evaluate and validate the effectiveness of the proposed QFL solution. This work is the ﬁrst to combine Google’s TensorFlow Federated and TensorFlow Quantum in a practical implementation.
+C1  - Singapore, Singapore
+C3  - ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+DA  - 2022/05/23/
+PY  - 2022
+DO  - 10.1109/ICASSP43922.2022.9746622
+DP  - DOI.org (Crossref)
+SP  - 8617
+EP  - 8621
+LA  - en
+PB  - IEEE
+SN  - 978-1-6654-0540-9
+UR  - https://ieeexplore.ieee.org/document/9746622/
+Y2  - 2026/08/06/14:19:28
+ER  - 
+
+TY  - JOUR
+TI  - Optimal training of variational quantum algorithms without barren plateaus
+AU  - Haug, Tobias
+AU  - Kim, M S
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - Practical distributed quantum information processing with LOCCNet
+AU  - Zhao, Xuanqiang
+AU  - Zhao, Benchi
+AU  - Wang, Zihe
+AU  - Song, Zhixin
+AU  - Wang, Xin
+T2  - npj Quantum Information
+AB  - Abstract
+            Distributed quantum information processing is essential for building quantum networks and enabling more extensive quantum computations. In this regime, several spatially separated parties share a multipartite quantum system, and the most natural set of operations is Local Operations and Classical Communication (LOCC). As a pivotal part in quantum information theory and practice, LOCC has led to many vital protocols such as quantum teleportation. However, designing practical LOCC protocols is challenging due to LOCC’s intractable structure and limitations set by near-term quantum devices. Here we introduce LOCCNet, a machine learning framework facilitating protocol design and optimization for distributed quantum information processing tasks. As applications, we explore various quantum information tasks such as entanglement distillation, quantum state discrimination, and quantum channel simulation. We discover protocols with evident improvements, in particular, for entanglement distillation with quantum states of interest in quantum information. Our approach opens up new opportunities for exploring entanglement and its applications with machine learning, which will potentially sharpen our understanding of the power and limitations of LOCC. An implementation of LOCCNet is available in Paddle Quantum, a quantum machine learning Python package based on PaddlePaddle deep learning platform.
+DA  - 2021/11/04/
+PY  - 2021
+DO  - 10.1038/s41534-021-00496-x
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 159
+J2  - npj Quantum Inf
+LA  - en
+SN  - 2056-6387
+UR  - https://www.nature.com/articles/s41534-021-00496-x
+Y2  - 2026/08/06/14:19:32
+ER  - 
+
+TY  - JOUR
+TI  - Supervised quantum machine learning models are kernel methods
+AU  - Schuld, Maria
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - VSQL: Variational Shadow Quantum Learning for Classification
+AU  - Li, Guangxi
+AU  - Song, Zhixin
+AU  - Wang, Xin
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+AB  - Classiﬁcation of quantum data is essential for quantum machine learning and near-term quantum technologies. In this paper, we propose a new hybrid quantum-classical framework for supervised quantum learning, which we call Variational Shadow Quantum Learning (VSQL). Our method in particular utilizes the classical shadows of quantum data, which fundamentally represent the side information of quantum data with respect to certain physical observables. Speciﬁcally, we ﬁrst use variational shadow quantum circuits to extract classical features in a convolution way and then utilize a fullyconnected neural network to complete the classiﬁcation task. We show that this method could sharply reduce the number of parameters and thus better facilitate quantum circuit training. Simultaneously, less noise will be introduced since fewer quantum gates are employed in such shadow circuits. Moreover, we show that the Barren Plateau issue, a signiﬁcant gradient vanishing problem in quantum machine learning, could be avoided in VSQL. Finally, we demonstrate the efﬁciency of VSQL in quantum classiﬁcation via numerical experiments on the classiﬁcation of quantum states and the recognition of multi-labeled handwritten digits. In particular, our VSQL approach outperforms existing variational quantum classiﬁers in the test accuracy in the binary case of handwritten digit recognition and notably requires much fewer parameters.
+DA  - 2021/05/18/
+PY  - 2021
+DO  - 10.1609/aaai.v35i9.17016
+DP  - DOI.org (Crossref)
+VL  - 35
+IS  - 9
+SP  - 8357
+EP  - 8365
+J2  - AAAI
+LA  - en
+SN  - 2374-3468, 2159-5399
+ST  - VSQL
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/17016
+Y2  - 2026/08/06/14:19:37
+ER  - 
+
+TY  - JOUR
+TI  - The power of quantum neural networks
+AU  - Abbas, Amira
+AU  - Sutter, David
+AU  - Zoufal, Christa
+AU  - Lucchi, Aurelien
+AU  - Figalli, Alessio
+AU  - Woerner, Stefan
+T2  - Nature Computational Science
+AB  - Fault-tolerant quantum computers oﬀer the promise of dramatically improving machine learning through speed-ups in computation or improved model scalability. In the near-term, however, the beneﬁts of quantum machine learning are not so clear. Understanding expressibility and trainability of quantum models—and quantum neural networks in particular—requires further investigation. In this work, we use tools from information geometry to deﬁne a notion of expressibility for quantum and classical models. The eﬀective dimension, which depends on the Fisher information, is used to prove a novel generalisation bound and establish a robust measure of expressibility. We show that quantum neural networks are able to achieve a signiﬁcantly better eﬀective dimension than comparable classical neural networks. To then assess the trainability of quantum models, we connect the Fisher information spectrum to barren plateaus, the problem of vanishing gradients. Importantly, certain quantum neural networks can show resilience to this phenomenon and train faster than classical models due to their favourable optimisation landscapes, captured by a more evenly spread Fisher information spectrum. Our work is the ﬁrst to demonstrate that well-designed quantum neural networks oﬀer an advantage over classical neural networks through a higher eﬀective dimension and faster training ability, which we verify on real quantum hardware.
+DA  - 2021/06/24/
+PY  - 2021
+DO  - 10.1038/s43588-021-00084-1
+DP  - DOI.org (Crossref)
+VL  - 1
+IS  - 6
+SP  - 403
+EP  - 409
+J2  - Nat Comput Sci
+LA  - en
+SN  - 2662-8457
+UR  - https://www.nature.com/articles/s43588-021-00084-1
+Y2  - 2026/08/06/14:19:39
+ER  - 
+
+TY  - JOUR
+TI  - A rigorous and robust quantum speed-up in supervised machine learning
+AU  - Liu, Yunchao
+AU  - Arunachalam, Srinivasan
+AU  - Temme, Kristan
+T2  - Nature Physics
+DA  - 2021/09//
+PY  - 2021
+DO  - 10.1038/s41567-021-01287-z
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 9
+SP  - 1013
+EP  - 1017
+J2  - Nat. Phys.
+LA  - en
+SN  - 1745-2473, 1745-2481
+UR  - https://www.nature.com/articles/s41567-021-01287-z
+Y2  - 2026/08/06/14:19:41
+ER  - 
+
+TY  - JOUR
+TI  - The effect of data encoding on the expressive power of variational quantum machine learning models
+AU  - Schuld, Maria
+AU  - Sweke, Ryan
+AU  - Meyer, Johannes Jakob
+T2  - Physical Review A
+AB  - Quantum computers can be used for supervised learning by treating parametrised quantum circuits as models that map data inputs to predictions. While a lot of work has been done to investigate practical implications of this approach, many important theoretical properties of these models remain unknown. Here we investigate how the strategy with which data is encoded into the model influences the expressive power of parametrised quantum circuits as function approximators. We show that one can naturally write a quantum model as a partial Fourier series in the data, where the accessible frequencies are determined by the nature of the data encoding gates in the circuit. By repeating simple data encoding gates multiple times, quantum models can access increasingly rich frequency spectra. We show that there exist quantum models which can realise all possible sets of Fourier coefficients, and therefore, if the accessible frequency spectrum is asymptotically rich enough, such models are universal function approximators.
+DA  - 2021/03/24/
+PY  - 2021
+DO  - 10.1103/PhysRevA.103.032430
+DP  - arXiv.org
+VL  - 103
+IS  - 3
+SP  - 032430
+J2  - Phys. Rev. A
+LA  - en
+SN  - 2469-9926, 2469-9934
+UR  - http://arxiv.org/abs/2008.08605
+Y2  - 2026/08/06/14:19:43
+N1  - Comment: Minor corrections, including credits to a closely related paper. Source code available at https://github.com/XanaduAI/expressive_power_of_quantum_models
+KW  - Quantum Physics
+KW  - Statistics - Machine Learning
+ER  - 
+
+TY  - JOUR
+TI  - REINFORCEMENT LEARNING WITH QUANTUM VARIATIONAL CIRCUITS
+AU  - Lockwood, Owen
+AU  - Si, Mei
+AB  - The development of quantum computational techniques has advanced greatly in recent years, parallel to the advancements in techniques for deep reinforcement learning. This work explores the potential for quantum computing to facilitate reinforcement learning problems. Quantum computing approaches offer important potential improvements in time and space complexity over traditional algorithms because of its ability to exploit the quantum phenomena of superposition and entanglement. Speciﬁcally, we investigate the use of quantum variational circuits, a form of quantum machine learning. We present our techniques for encoding classical data for a quantum variational circuit, we further explore pure and hybrid quantum algorithms for DQN and Double DQN. Our results indicate both hybrid and pure quantum variational circuit have the ability to solve reinforcement learning tasks with a smaller parameter space. These comparison are conducted with two OpenAI Gym environments: CartPole and Blackjack, The success of this work is indicative of a strong future relationship between quantum machine learning and deep reinforcement learning.
+DP  - Zotero
+LA  - en
+ER  - 
+
+TY  - JOUR
+TI  - A divide-and-conquer algorithm for quantum state preparation
+AU  - Araujo, Israel F.
+AU  - Park, Daniel K.
+AU  - Petruccione, Francesco
+AU  - Da Silva, Adenilton J.
+T2  - Scientific Reports
+AB  - Advantages in several ﬁelds of research and industry are expected with the rise of quantum computers. However, the computational cost to load classical data in quantum computers can impose restrictions on possible quantum speedups. Known algorithms to create arbitrary quantum states require quantum circuits with depth O(N) to load an N-dimensional vector. Here, we show that it is possible to load an N-dimensional vector with exponential time advantage using a quantum circuit with polylogarithmic depth and entangled information in ancillary qubits. Results show that we can efﬁciently load data in quantum devices using a divide-and-conquer strategy to exchange computational time for space. We demonstrate a proof of concept on a real quantum device and present two applications for quantum machine learning. We expect that this new loading strategy allows the quantum speedup of tasks that require to load a signiﬁcant volume of information to quantum devices.
+DA  - 2021/03/18/
+PY  - 2021
+DO  - 10.1038/s41598-021-85474-1
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 1
+SP  - 6329
+J2  - Sci Rep
+LA  - en
+SN  - 2045-2322
+UR  - https://www.nature.com/articles/s41598-021-85474-1
+Y2  - 2026/08/06/14:19:47
+ER  - 
+
+TY  - CONF
+TI  - Quantum One-class Classification With a Distance-based Classifier
+AU  - De Oliveira, Nicolas M.
+AU  - De Albuquerque, Lucas P.
+AU  - De Oliveira, Wilson R.
+AU  - Ludermir, Teresa B.
+AU  - Da Silva, Adenilton J.
+T2  - 2021 International Joint Conference on Neural Networks (IJCNN)
+AB  - The advancement of technology in Quantum Computing has brought possibilities for the execution of algorithms in real quantum devices. However, the existing errors in the current quantum hardware and the low number of available qubits make it necessary to use solutions that use fewer qubits and fewer operations, mitigating such obstacles. Hadamard Classiﬁer (HC) is a distance-based quantum machine learning model for pattern recognition. We present a new classiﬁer based on HC named Quantum One-class Classiﬁer (QOCC) that consists of a minimal quantum machine learning model with fewer operations and qubits, thus being able to mitigate errors from NISQ (Noisy Intermediate-Scale Quantum) computers. Experimental results were obtained by running the proposed classiﬁer on a quantum device and show that QOCC has advantages over HC.
+C1  - Shenzhen, China
+C3  - 2021 International Joint Conference on Neural Networks (IJCNN)
+DA  - 2021/07/18/
+PY  - 2021
+DO  - 10.1109/IJCNN52387.2021.9533441
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 7
+LA  - en
+PB  - IEEE
+SN  - 978-1-6654-3900-8
+UR  - https://ieeexplore.ieee.org/document/9533441/
+Y2  - 2026/08/06/14:19:50
+ER  - 
+

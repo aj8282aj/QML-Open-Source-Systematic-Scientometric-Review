@@ -1,0 +1,3 @@
+Response to Reviewer 1’s Comment 2:
+
+We sincerely thank the reviewer for pointing out this issue. We agree that the previous “available by request” statement did not provide the level of public accessibility and reproducibility expected for this study. In response to the reviewer’s comment, we have deposited the complete dataset and supporting files used in the systematic and scientometric analyses in a public GitHub repository. The previous access arrangement has therefore been replaced by a publicly accessible repository. The Data Availability statement in the manuscript has been revised to provide the GitHub repository link directly. All corresponding changes are highlighted in red in the revised manuscript.

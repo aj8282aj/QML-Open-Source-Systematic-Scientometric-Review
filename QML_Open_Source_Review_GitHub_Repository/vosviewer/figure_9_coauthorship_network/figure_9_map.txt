@@ -1,0 +1,327 @@
+id	label	weight
+1	Dunjko, Vedran	5
+2	Schuld, Maria	4
+3	Jerbi, Sofiene	3
+4	Lockwood, Owen	3
+5	Wang, Xin	3
+6	Zlokapa, Alexander	3
+7	Ahmed, Shahnawaz	2
+8	Altmann, Philipp	2
+9	Aspuru-Guzik, Alán	2
+10	Bravo-Prieto, Carlos	2
+11	Briegel, Hans J.	2
+12	Chittoor, Hari Hara Suthan	2
+13	Da Silva, Adenilton J.	2
+14	Gil-Fuster, Elies	2
+15	Haug, Tobias	2
+16	Ijaz, Aroosa	2
+17	Kim, M S	2
+18	Li, Guangxi	2
+19	Linnhoff-Popien, Claudia	2
+20	Meyer, Johannes Jakob	2
+21	Neven, Hartmut	2
+22	Petruccione, Francesco	2
+23	Song, Zhixin	2
+24	Stein, Jonas	2
+25	Vargas-Hernández, Rodrigo A.	2
+26	Wiersema, Roeland	2
+27	Willmann, Moritz	2
+28	Abbas, Amira	1
+29	Ajith, Vishnu	1
+30	AkashNarayanan, B.	1
+31	Akter, Mst Shapna	1
+32	Alam, M. Sohaib	1
+33	Alavisamani, Narges	1
+34	Alonso-Linaje, Guillermo	1
+35	Anagolum, Sashwat	1
+36	Anjum, Nafisa	1
+37	Araujo, Israel F.	1
+38	Arnott, Max	1
+39	Arrasmith, Andrew	1
+40	Arrazola, Juan Miguel	1
+41	Arunachalam, Srinivasan	1
+42	Asadi, Ali	1
+43	Azad, Utkarsh	1
+44	Babbush, Ryan	1
+45	Bacon, Dave	1
+46	Baldé, Bambordé	1
+47	Banning, Sam	1
+48	Batista, Victor S.	1
+49	Bausch, Johannes	1
+50	Bedełek, Przemysław	1
+51	Berberich, Julian	1
+52	Bergholm, Ville	1
+53	Bergmann, Fabian	1
+54	Bertels, Koen	1
+55	Blank, Carsten	1
+56	Boixo, Sergio	1
+57	Bowles, Joseph	1
+58	Brand, Dean	1
+59	Bromley, Thomas R.	1
+60	Broughton, Michael	1
+61	Buchholz, Simon	1
+62	Bärligea, Adelina	1
+63	Cao, Shuxiang	1
+64	Cao, Yudong	1
+65	Cerezo, M	1
+66	Ceroni, Jack	1
+67	Chakrabarti, Shouvanik	1
+68	Chehimi, Mahdi	1
+69	Chen, Hongxiang	1
+70	Chen, Pin-Yu	1
+71	Chen, Samuel Yen-Chi	1
+72	Chen, Xiaohui	1
+73	Coles, Patrick J	1
+74	Combes, Joshua	1
+75	Cordier, Benjamin A.	1
+76	Cuzzocrea, Alfredo	1
+77	Danaci, Onur	1
+78	Dangovski, Rumen	1
+79	Das, Poulami	1
+80	Date, Prasanna	1
+81	De Albuquerque, Lucas P.	1
+82	De Oliveira, Nicolas M.	1
+83	De Oliveira, Wilson R.	1
+84	Delgado, Alain	1
+85	Deng, Mingtang	1
+86	Di Marcantonio, Francesco	1
+87	Dollen, David Von	1
+88	Doosti, Mina	1
+89	Du, Yuxuan	1
+90	Dusko, Amintor	1
+91	Eisert, Jens	1
+92	Erfani, Sarah M.	1
+93	Fang, Wang	1
+94	Faruk, Md Jobair Hossain	1
+95	Fattah, Shaikh Anowarul	1
+96	Feizi, Soheil	1
+97	Feld, Sebastian	1
+98	Ferrie, Chris	1
+99	Fiderer, Lukas J.	1
+100	Figalli, Alessio	1
+101	Fink, Daniel	1
+102	Fu, Xiang	1
+103	Gabor, Thomas	1
+104	Garg, Tanya	1
+105	Gerlach, Thore	1
+106	Goan, Hsi-Sheng	1
+107	Gogolin, Christian	1
+108	Griffin, Paul Robert	1
+109	Grossi, Michele	1
+110	Gu, Mile	1
+111	Guala, Diego	1
+112	Guan, Ji	1
+113	Guerreschi, Gian Giacomo	1
+114	Guha, Krishnendu	1
+115	Guo, Chu	1
+116	Hagelüken, Manuel	1
+117	Halavati, Ramin	1
+118	Hayes, Anthony	1
+119	Heese, Raoul	1
+120	Hill, Charles D.	1
+121	Hill, Ryan	1
+122	Ho, Alan K.	1
+123	Hollenberg, Lloyd C. L.	1
+124	Holm, Christian	1
+125	Huang, Anqi	1
+126	Huang, He-Liang	1
+127	Huang, Hsin-Yuan	1
+128	Huang, Yiming	1
+129	Hubregtsen, Thomas	1
+130	Incudini, Massimiliano	1
+131	Isacsson, Theodor	1
+132	Isakov, Sergei V.	1
+133	Ittah, David	1
+134	Izaac, Josh	1
+135	Jahangiri, Soran	1
+136	Jain, Prateek	1
+137	Jakobs, Matthias	1
+138	Jiang, Edward	1
+139	Job, Joshua	1
+140	Kempkes, Marie	1
+141	Kerenidis, Iordanis	1
+142	Kessler, Eric	1
+143	Khandelwal, Ankit	1
+144	Killoran, Nathan	1
+145	Kiwit, Florian J.	1
+146	Klepsch, Johannes	1
+147	Kottmann, Korbinian	1
+148	Kreplin, David A.	1
+149	Kristensen, Lasse B.	1
+150	Kundu, Akash	1
+151	Kyro, Gregory W.	1
+152	Kölle, Michael	1
+153	Kübler, Jonas M	1
+154	Kübler, Jonas M.	1
+155	Landman, Jonas	1
+156	Lang, Robert A.	1
+157	Lee, Christina	1
+158	Leib, Martin	1
+159	Li, Qun	1
+160	Li, Tongyang	1
+161	Lidar, Daniel	1
+162	Liu, Yong	1
+163	Liu, Yunchao	1
+164	Lloyd, Seth	1
+165	Loke, Thomas	1
+166	Lolur, Phalgun	1
+167	Lortaraprasert, Chayaphol	1
+168	Lowe, Angus	1
+169	Lucchi, Aurelien	1
+170	Luckow, Andre	1
+171	Ludermir, Teresa B.	1
+172	Luo, Di	1
+173	Luongo, Alessandro	1
+174	Ma, Xiaoli	1
+175	Mahmud, Jishnu	1
+176	Marso, Marwa	1
+177	Martinez, Antonio J.	1
+178	Martyniuk, Darya	1
+179	Mashtura, Raisa	1
+180	Massey, Philip	1
+181	Masum, Mohammad	1
+182	Matteo, Olivia Di	1
+183	Mattern, Denny	1
+184	McClean, Jarrod R.	1
+185	McCourt, Trevor	1
+186	McDowall, Kieran	1
+187	McKiernan, Keri	1
+188	Miszczak, Jarosław A.	1
+189	Mohseni, Masoud	1
+190	Montañez-Barrera, J. A.	1
+191	Mott, Alex	1
+192	Moyard, Romain	1
+193	Mücke, Sascha	1
+194	Müller, Sabine	1
+195	Müller, Tobias	1
+196	Nautrup, Hendrik Poulsen	1
+197	Neufeld, Ariel	1
+198	Niu, Murphy Yuezhen	1
+199	Niu, Zeyue	1
+200	O'Riordan, Lee James	1
+201	Ostaszewski, Mateusz	1
+202	Oud, Steven	1
+203	Panigrahi, Ashish	1
+204	Papaioannou, Dimitri	1
+205	Park, Chae-Yeun	1
+206	Park, Daniel K	1
+207	Park, Daniel K.	1
+208	Park, Siheon	1
+209	Paschke, Adrian	1
+210	Pastorello, Davide	1
+211	Patel, Yash J.	1
+212	Peters, Evan	1
+213	Phan, Thomy	1
+214	Piatkowski, Nico	1
+215	Pichlmeier, Josef	1
+216	Pira, Lirandë	1
+217	Polatajko, Daniel	1
+218	Pooser, Raphael	1
+219	Poulsen Nautrup, Hendrik	1
+220	Power, Luke	1
+221	Prakash, Anupam	1
+222	Pranjić, Daniel	1
+223	Qi, Jun	1
+224	Qian, Yang	1
+225	Qiang, Xiaogang	1
+226	Quesada, Nicolás	1
+227	Quiroga, David	1
+228	Qureshi, Moinuddin	1
+229	Rahman, Akond	1
+230	Rapp, Frederic	1
+231	Raymond, Rudy	1
+232	Rhee, June-Koo Kevin	1
+233	Riofrío, Carlos A.	1
+234	Roberts, Chase	1
+235	Roch, Christoph	1
+236	Roget, Mathieu	1
+237	Ross, Philipp	1
+238	Roth, Marco	1
+239	Saad, Walid	1
+240	Sakib, Nazmus	1
+241	Saquib, Mohammad	1
+242	Schatzki, Louis	1
+243	Schleich, Philipp	1
+244	Schmid, Ludwig	1
+245	Schnabel, Jan	1
+246	Schoch, Isidor	1
+247	Schölkopf, Bernhard	1
+248	Self, Chris N	1
+249	Shahriar, Hossain	1
+250	Shaydulin, Ruslan	1
+251	Shen, Jiayu	1
+252	Shi, Borun	1
+253	Shi, Yunong	1
+254	Shu, Shuli	1
+255	Si, Mei	1
+256	Sim, Sukin	1
+257	Simeone, Osvaldo	1
+258	Singh, Arshpreet	1
+259	Skolik, Andrea	1
+260	Skreta, Marta	1
+261	Smaldone, Anthony M.	1
+262	Soljačić, Marin	1
+263	Soni, Jay	1
+264	Spiegelberg, Jakob	1
+265	Spiropulu, Maria	1
+266	Srikumar, Maiyuren	1
+267	Stecher, Patrick	1
+268	Strandberg, Ingrid	1
+269	Streif, Michael	1
+270	Sutter, David	1
+271	Sweke, Ryan	1
+272	Száva, Antal	1
+273	Sá, Nahum	1
+274	Sünkel, Leo	1
+275	Tang, Ewin	1
+276	Tao, Dacheng	1
+277	Tao, Zeyi	1
+278	Temme, Kristan	1
+279	Tezza, Davide	1
+280	Thabet, Slimane	1
+281	Thompson, Jayne	1
+282	Thumwanit, Napat	1
+283	Trenkwalder, Lea M.	1
+284	Tsang, Shu Lok	1
+285	Tutschku, Christian	1
+286	Université, Aix-Marseille	1
+287	Usman, Muhammad	1
+288	Verdon, Guillaume	1
+289	Vincent, Trevor	1
+290	Vitucci, Nicola	1
+291	Vlimant, Jean-Roch	1
+292	Wadhwa, Chirag	1
+293	Wang, Dongyang	1
+294	Wang, Xinbiao	1
+295	Wang, Youle	1
+296	Wang, Zihe	1
+297	Weber, Maurice	1
+298	Weitz, Gal	1
+299	West, Maxwell T.	1
+300	Wierichs, David	1
+301	Wild, Stefan M	1
+302	Willems, Henri	1
+303	Woerner, Stefan	1
+304	Wong, Vincent	1
+305	Wright, Matt	1
+306	Wu, Fan	1
+307	Wu, Jindi	1
+308	Wu, Junjie	1
+309	Wu, Xiaodi	1
+310	Wu, Xingyao	1
+311	Xu, Peng	1
+312	Xu, Ping	1
+313	Xue, Shichuan	1
+314	Yang, Chao-Han Huck	1
+315	Yang, Xuejun	1
+316	Yano, Hiroshi	1
+317	Ying, Mingsheng	1
+318	Yoo, Jae Hyeon	1
+319	Zardini, Enrico	1
+320	Zhang, Bingzhi	1
+321	Zhang, Shaoming	1
+322	Zhao, Benchi	1
+323	Zhao, Xuanqiang	1
+324	Zhuang, Quntao	1
+325	Zoufal, Christa	1
+326	van Nieuwenburg, Evert	1
