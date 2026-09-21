@@ -1,0 +1,23 @@
+﻿ID,Label,arXiv_Code,Occurrences
+1,Quantum Physics,quant-ph,37
+2,Computer Science - Machine Learning,cs.LG,32
+3,Statistics - Machine Learning,stat.ML,8
+4,Computer Science - Artificial Intelligence,cs.AI,7
+5,Computer Science - Emerging Technologies,cs.ET,3
+6,Computer Science - Neural and Evolutionary Computing,cs.NE,3
+7,Physics - Computational Physics,physics.comp-ph,3
+8,Mathematics - Optimization and Control,math.OC,2
+9,Computer Science - Computational Complexity,,1
+10,Computer Science - Computer Vision and Pattern Recognition,cs.CV,1
+11,Computer Science - Data Structures and Algorithms,cs.DS,1
+12,"Computer Science - Distributed, Parallel, and Cluster Computing",cs.DC,1
+13,Computer Science - Hardware Architecture,cs.AR,1
+14,Computer Science - Information Retrieval,cs.IR,1
+15,Computer Science - Information Theory,cs.IT,1
+16,Computer Science - Programming Languages,cs.PL,1
+17,Condensed Matter - Disordered Systems and Neural Networks,cond-mat.dis-nn,1
+18,Condensed Matter - Quantum Gases,cond-mat.quant-gas,1
+19,Condensed Matter - Statistical Mechanics,cond-mat.stat-mech,1
+20,High Energy Physics - Phenomenology,hep-ph,1
+21,Mathematical Physics,math-ph,1
+22,Mathematics - Quantum Algebra,math.QA,1

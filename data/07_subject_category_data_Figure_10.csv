@@ -1,0 +1,110 @@
+﻿Paper_ID,Title,arXiv_Subject_Class,arXiv_Code
+1,Quantum Neuron: an elementary building block for machine learning on quantum computers,Quantum Physics,quant-ph
+1,Quantum Neuron: an elementary building block for machine learning on quantum computers,Computer Science - Neural and Evolutionary Computing,cs.NE
+2,A quantum-inspired classical algorithm for recommendation systems,Computer Science - Machine Learning,cs.LG
+2,A quantum-inspired classical algorithm for recommendation systems,Quantum Physics,quant-ph
+2,A quantum-inspired classical algorithm for recommendation systems,Computer Science - Data Structures and Algorithms,cs.DS
+2,A quantum-inspired classical algorithm for recommendation systems,Computer Science - Information Retrieval,cs.IR
+3,PennyLane: Automatic differentiation of hybrid quantum-classical computation,Computer Science - Machine Learning,cs.LG
+3,PennyLane: Automatic differentiation of hybrid quantum-classical computation,Quantum Physics,quant-ph
+3,PennyLane: Automatic differentiation of hybrid quantum-classical computation,Physics - Computational Physics,physics.comp-ph
+3,PennyLane: Automatic differentiation of hybrid quantum-classical computation,Computer Science - Emerging Technologies,cs.ET
+4,q-means: A quantum algorithm for unsupervised machine learning,Computer Science - Machine Learning,cs.LG
+4,q-means: A quantum algorithm for unsupervised machine learning,Quantum Physics,quant-ph
+5,Variational Quantum Circuits for Deep Reinforcement Learning,Computer Science - Artificial Intelligence,cs.AI
+5,Variational Quantum Circuits for Deep Reinforcement Learning,Computer Science - Machine Learning,cs.LG
+5,Variational Quantum Circuits for Deep Reinforcement Learning,Quantum Physics,quant-ph
+5,Variational Quantum Circuits for Deep Reinforcement Learning,Statistics - Machine Learning,stat.ML
+7,Quantum Wasserstein GANs,Computer Science - Machine Learning,cs.LG
+7,Quantum Wasserstein GANs,Quantum Physics,quant-ph
+8,Variational Quantum Circuits for Quantum State Tomography,Computer Science - Machine Learning,cs.LG
+8,Variational Quantum Circuits for Quantum State Tomography,Quantum Physics,quant-ph
+8,Variational Quantum Circuits for Quantum State Tomography,Physics - Computational Physics,physics.comp-ph
+9,TensorFlow Quantum: A Software Framework for Quantum Machine Learning,Computer Science - Machine Learning,cs.LG
+9,TensorFlow Quantum: A Software Framework for Quantum Machine Learning,Quantum Physics,quant-ph
+9,TensorFlow Quantum: A Software Framework for Quantum Machine Learning,Computer Science - Programming Languages,cs.PL
+9,TensorFlow Quantum: A Software Framework for Quantum Machine Learning,Condensed Matter - Disordered Systems and Neural Networks,cond-mat.dis-nn
+10,Recurrent Quantum Neural Networks,Computer Science - Machine Learning,cs.LG
+10,Recurrent Quantum Neural Networks,Quantum Physics,quant-ph
+10,Recurrent Quantum Neural Networks,Statistics - Machine Learning,stat.ML
+13,Quantum adiabatic machine learning with zooming,Computer Science - Machine Learning,cs.LG
+13,Quantum adiabatic machine learning with zooming,Quantum Physics,quant-ph
+13,Quantum adiabatic machine learning with zooming,High Energy Physics - Phenomenology,hep-ph
+14,The effect of data encoding on the expressive power of variational quantum machine learning models,Quantum Physics,quant-ph
+14,The effect of data encoding on the expressive power of variational quantum machine learning models,Statistics - Machine Learning,stat.ML
+16,Quantum enhancements for deep reinforcement learning in large spaces,Computer Science - Artificial Intelligence,cs.AI
+16,Quantum enhancements for deep reinforcement learning in large spaces,Computer Science - Machine Learning,cs.LG
+16,Quantum enhancements for deep reinforcement learning in large spaces,Quantum Physics,quant-ph
+16,Quantum enhancements for deep reinforcement learning in large spaces,Statistics - Machine Learning,stat.ML
+17,Evaluation of Parameterized Quantum Circuits,Quantum Physics,quant-ph
+17,Evaluation of Parameterized Quantum Circuits,Computer Science - Neural and Evolutionary Computing,cs.NE
+42,Variational quantum Gibbs state preparation with a truncated Taylor series,Computer Science - Machine Learning,cs.LG
+42,Variational quantum Gibbs state preparation with a truncated Taylor series,Quantum Physics,quant-ph
+42,Variational quantum Gibbs state preparation with a truncated Taylor series,Computer Science - Information Theory,cs.IT
+42,Variational quantum Gibbs state preparation with a truncated Taylor series,Condensed Matter - Statistical Mechanics,cond-mat.stat-mech
+43,QuACK: Accelerating Gradient-Based Quantum Optimization with Koopman Operator Learning,Computer Science - Artificial Intelligence,cs.AI
+43,QuACK: Accelerating Gradient-Based Quantum Optimization with Koopman Operator Learning,Computer Science - Machine Learning,cs.LG
+43,QuACK: Accelerating Gradient-Based Quantum Optimization with Koopman Operator Learning,Quantum Physics,quant-ph
+43,QuACK: Accelerating Gradient-Based Quantum Optimization with Koopman Operator Learning,Mathematics - Optimization and Control,math.OC
+43,QuACK: Accelerating Gradient-Based Quantum Optimization with Koopman Operator Learning,Physics - Computational Physics,physics.comp-ph
+44,Hybrid Quantum-Classical Generative Adversarial Network for High Resolution Image Generation,Computer Science - Machine Learning,cs.LG
+44,Hybrid Quantum-Classical Generative Adversarial Network for High Resolution Image Generation,Quantum Physics,quant-ph
+44,Hybrid Quantum-Classical Generative Adversarial Network for High Resolution Image Generation,Computer Science - Computer Vision and Pattern Recognition,cs.CV
+45,SEQUENT: Towards Traceable Quantum Machine Learning using Sequential Quantum Enhanced Training,Computer Science - Machine Learning,cs.LG
+45,SEQUENT: Towards Traceable Quantum Machine Learning using Sequential Quantum Enhanced Training,Quantum Physics,quant-ph
+46,Explaining Quantum Circuits with Shapley Values: Towards Explainable Quantum Machine Learning,Computer Science - Machine Learning,cs.LG
+46,Explaining Quantum Circuits with Shapley Values: Towards Explainable Quantum Machine Learning,Quantum Physics,quant-ph
+46,Explaining Quantum Circuits with Shapley Values: Towards Explainable Quantum Machine Learning,Statistics - Machine Learning,stat.ML
+47,Quantum Convolutional Neural Networks for Multi-Channel Supervised Learning,Quantum Physics,quant-ph
+47,Quantum Convolutional Neural Networks for Multi-Channel Supervised Learning,Statistics - Machine Learning,stat.ML
+49,Application-Oriented Benchmarking of Quantum Generative Learning Using QUARK,Computer Science - Machine Learning,cs.LG
+49,Application-Oriented Benchmarking of Quantum Generative Learning Using QUARK,Quantum Physics,quant-ph
+49,Application-Oriented Benchmarking of Quantum Generative Learning Using QUARK,"Computer Science - Distributed, Parallel, and Cluster Computing",cs.DC
+50,Sub-universal variational circuits for combinatorial optimization problems,Computer Science - Machine Learning,cs.LG
+50,Sub-universal variational circuits for combinatorial optimization problems,Quantum Physics,quant-ph
+51,Learning Quantum Processes with Quantum Statistical Queries,Computer Science - Machine Learning,cs.LG
+51,Learning Quantum Processes with Quantum Statistical Queries,Quantum Physics,quant-ph
+51,Learning Quantum Processes with Quantum Statistical Queries,Computer Science - Computational Complexity,
+52,Enhancing variational quantum state diagonalization using reinforcement learning techniques,Computer Science - Artificial Intelligence,cs.AI
+52,Enhancing variational quantum state diagonalization using reinforcement learning techniques,Computer Science - Machine Learning,cs.LG
+52,Enhancing variational quantum state diagonalization using reinforcement learning techniques,Quantum Physics,quant-ph
+53,Understanding quantum machine learning also requires rethinking generalization,Computer Science - Machine Learning,cs.LG
+53,Understanding quantum machine learning also requires rethinking generalization,Quantum Physics,quant-ph
+53,Understanding quantum machine learning also requires rethinking generalization,Statistics - Machine Learning,stat.ML
+53,Understanding quantum machine learning also requires rethinking generalization,Condensed Matter - Quantum Gases,cond-mat.quant-gas
+54,Quantum Convolutional Neural Networks with Interaction Layers for Classification of Classical Data,Computer Science - Machine Learning,cs.LG
+54,Quantum Convolutional Neural Networks with Interaction Layers for Classification of Classical Data,Quantum Physics,quant-ph
+55,Generative Quantum Machine Learning via Denoising Diffusion Probabilistic Models,Computer Science - Artificial Intelligence,cs.AI
+55,Generative Quantum Machine Learning via Denoising Diffusion Probabilistic Models,Computer Science - Machine Learning,cs.LG
+55,Generative Quantum Machine Learning via Denoising Diffusion Probabilistic Models,Quantum Physics,quant-ph
+56,general learning scheme for classical and quantum Ising machines,Computer Science - Machine Learning,cs.LG
+56,general learning scheme for classical and quantum Ising machines,Quantum Physics,quant-ph
+57,A kernel-based quantum random forest for improved classification,Computer Science - Machine Learning,cs.LG
+57,A kernel-based quantum random forest for improved classification,Quantum Physics,quant-ph
+58,sQUlearn– A Python Library for Quantum Machine Learning,Computer Science - Machine Learning,cs.LG
+58,sQUlearn– A Python Library for Quantum Machine Learning,Quantum Physics,quant-ph
+59,Training robust and generalizable quantum models,Computer Science - Machine Learning,cs.LG
+59,Training robust and generalizable quantum models,Quantum Physics,quant-ph
+59,Training robust and generalizable quantum models,Mathematics - Optimization and Control,math.OC
+60,Challenges for Reinforcement Learning in Quantum Circuit Design,Computer Science - Machine Learning,cs.LG
+60,Challenges for Reinforcement Learning in Quantum Circuit Design,Quantum Physics,quant-ph
+61,Élivágar: Efficient Quantum Circuit Search for Classification,Computer Science - Machine Learning,cs.LG
+61,Élivágar: Efficient Quantum Circuit Search for Classification,Quantum Physics,quant-ph
+61,Élivágar: Efficient Quantum Circuit Search for Classification,Computer Science - Hardware Architecture,cs.AR
+62,Better than classical? The subtle art of benchmarking quantum machine learning models,Computer Science - Machine Learning,cs.LG
+62,Better than classical? The subtle art of benchmarking quantum machine learning models,Quantum Physics,quant-ph
+63,Feature Importance and Explainability in Quantum Machine Learning,Computer Science - Machine Learning,cs.LG
+63,Feature Importance and Explainability in Quantum Machine Learning,Mathematics - Quantum Algebra,math.QA
+63,Feature Importance and Explainability in Quantum Machine Learning,Statistics - Machine Learning,stat.ML
+64,A Quantum Leaky Integrate-and-Fire Spiking Neuron and Network,Quantum Physics,quant-ph
+64,A Quantum Leaky Integrate-and-Fire Spiking Neuron and Network,Computer Science - Neural and Evolutionary Computing,cs.NE
+64,A Quantum Leaky Integrate-and-Fire Spiking Neuron and Network,Computer Science - Emerging Technologies,cs.ET
+65,Reverse Map Projections as Equivariant Quantum Embeddings,Computer Science - Artificial Intelligence,cs.AI
+65,Reverse Map Projections as Equivariant Quantum Embeddings,Quantum Physics,quant-ph
+65,Reverse Map Projections as Equivariant Quantum Embeddings,Computer Science - Emerging Technologies,cs.ET
+65,Reverse Map Projections as Equivariant Quantum Embeddings,Mathematical Physics,math-ph
+66,Quantum Deep Equilibrium Models,Computer Science - Machine Learning,cs.LG
+66,Quantum Deep Equilibrium Models,Quantum Physics,quant-ph
+68,QuLTSF: Long-Term Time Series Forecasting with Quantum Machine Learning,Computer Science - Artificial Intelligence,cs.AI
+68,QuLTSF: Long-Term Time Series Forecasting with Quantum Machine Learning,Computer Science - Machine Learning,cs.LG
+68,QuLTSF: Long-Term Time Series Forecasting with Quantum Machine Learning,Quantum Physics,quant-ph

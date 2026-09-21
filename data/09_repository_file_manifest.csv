@@ -1,0 +1,23 @@
+﻿File,Description,Source/Status
+README.md,Repository file,Supporting/source metadata
+vosviewer/figure_10_subject_category_network/subject_category_nodes.csv,Repository file,Generated from revised manuscript and available source metadata
+vosviewer/figure_10_subject_category_network/subject_category_edges.csv,Repository file,Generated from revised manuscript and available source metadata
+vosviewer/figure_10_subject_category_network/figure_10_network.txt,Repository file,Generated from revised manuscript and available source metadata
+vosviewer/figure_10_subject_category_network/figure_10_map.txt,Repository file,Generated from revised manuscript and available source metadata
+vosviewer/figure_9_coauthorship_network/coauthorship_edges.csv,Repository file,Generated from revised manuscript and available source metadata
+vosviewer/figure_9_coauthorship_network/coauthorship_nodes.csv,Repository file,Generated from revised manuscript and available source metadata
+vosviewer/figure_9_coauthorship_network/figure_9_network.txt,Repository file,Generated from revised manuscript and available source metadata
+vosviewer/figure_9_coauthorship_network/figure_9_map.txt,Repository file,Generated from revised manuscript and available source metadata
+source_metadata/raw_affiliations_68_papers.txt,Repository file,Supporting/source metadata
+source_metadata/Myeeeeeeeibrary.ris,Repository file,Supporting/source metadata
+source_metadata/matching_report.json,Repository file,Supporting/source metadata
+supplementary/data_provenance_and_dictionary.md,Repository file,Supporting/source metadata
+supplementary/data_provenance_and_reconstruction_notes.md,Repository file,Supporting/source metadata
+data/04_country_counts_Figure_6.csv,Repository file,Generated from revised manuscript and available source metadata
+data/08_subject_category_counts_Figure_10.csv,Repository file,Generated from revised manuscript and available source metadata
+data/06_author_counts_Figure_8.csv,Repository file,Generated from revised manuscript and available source metadata
+data/07_subject_category_data_Figure_10.csv,Repository file,Generated from revised manuscript and available source metadata
+data/02_extracted_metadata_and_classifications.csv,Repository file,Generated from revised manuscript and available source metadata
+data/01_final_68_paper_dataset.csv,Repository file,Generated from revised manuscript and available source metadata
+data/03_reproducibility_assessment_Table_A3.csv,Repository file,Generated from revised manuscript and available source metadata
+data/05_institution_counts_Figure_7.csv,Repository file,Generated from revised manuscript and available source metadata
