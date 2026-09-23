@@ -1,0 +1,1 @@
+Figure 6. Country representation in the 68 selected QML papers based on paper-level counting. Each country was counted once per paper when at least one author affiliation was associated with that country. A paper containing affiliations from multiple countries contributes once to each corresponding country; therefore, country counts are not expected to sum to 68.

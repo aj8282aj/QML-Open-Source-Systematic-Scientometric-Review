@@ -1,0 +1,69 @@
+﻿Paper_ID,Countries_Count,Countries
+1,2,Canada; United States
+2,1,United States
+3,12,Australia; Brazil; Canada; France; Germany; India; Netherlands; Spain; Sweden; Switzerland; United Kingdom; United States
+4,2,France; Singapore
+5,2,Taiwan; United States
+6,2,United Kingdom; United States
+7,3,Austria; Germany; Netherlands
+8,2,China; United States
+9,1,China
+10,6,Austria; Canada; Germany; Netherlands; United Kingdom; United States
+11,2,Germany; Netherlands
+12,2,Australia; China
+13,1,United Kingdom
+14,1,Brazil
+15,3,Brazil; South Africa; South Korea
+16,1,United States
+17,2,Canada; Germany
+18,1,United States
+19,2,Germany; South Africa
+20,2,Australia; China
+21,1,Canada
+22,1,China
+23,1,United Kingdom
+24,1,United States
+25,1,France
+26,1,Germany
+27,2,Australia; China
+28,1,Germany
+29,1,Japan
+30,1,United States
+31,1,United Kingdom
+32,1,United States
+33,1,United States
+34,3,Austria; Germany; Netherlands
+35,1,United States
+36,2,Colombia; United States
+37,1,Canada
+38,1,South Korea
+39,2,Italy; Switzerland
+40,1,China
+41,1,United Kingdom
+42,1,United States
+43,1,Australia
+44,1,United States
+45,1,Australia
+46,1,Germany
+47,1,Germany
+48,1,United States
+49,2,Italy; United States
+50,2,Netherlands; Poland
+51,1,Germany
+52,2,Bangladesh; United States
+53,1,Germany
+54,2,Australia; United States
+55,1,United Kingdom
+56,1,United States
+57,2,Germany; Italy
+58,1,Germany
+59,1,Germany
+60,3,Germany; Netherlands; United States
+61,1,United States
+62,2,Canada; Sweden
+63,1,Ireland
+64,1,South Africa
+65,2,United Kingdom; United States
+66,2,Canada; Denmark
+67,3,Canada; Germany; Netherlands
+68,1,Singapore

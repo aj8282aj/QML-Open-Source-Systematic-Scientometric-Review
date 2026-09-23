@@ -1,0 +1,7 @@
+﻿Metric,Value
+Corpus papers,68
+Distinct countries,25
+Total country-paper occurrences,115
+Counting unit,Reviewed paper
+Counting rule,Each country counted once per paper when represented by at least one author affiliation
+Country totals sum to 68,No - papers may contain affiliations from multiple countries
