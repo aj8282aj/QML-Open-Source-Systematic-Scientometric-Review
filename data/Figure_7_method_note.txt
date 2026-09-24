@@ -1,0 +1,6 @@
+Figure 7 recalculation method
+
+Unit of analysis: reviewed paper.
+For each paper, each institution/organization appearing in the author-affiliation information was counted once. Multiple authors, departments, or repeated affiliation identifiers referring to the same normalized institution within one paper generated one occurrence for that paper.
+Institutional names were normalized where the source clearly used departmental/subunit variants of the same parent organization (e.g., TU Munich -> Technical University of Munich; IBM Quantum/IBM Japan -> IBM).
+Figure 7 displays institutions represented in at least 3 of the 68 papers. The complete paper-by-paper audit and all normalized institution counts are provided in the accompanying CSV files.
