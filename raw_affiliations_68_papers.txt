@@ -1,0 +1,462 @@
+paper 1-
+1Department of Chemistry and Chemical Biology,
+Harvard University, Cambridge, MA 02138
+2Parallel Computing Lab, Intel Corporation, Santa Clara, CA 95054
+3Senior Fellow, Canadian Institute for Advanced Research, Toronto, Ontario M5G 1Z8, Canada
+------------------------
+paper 2-
+The University of Texas at Austin
+Austin, TX, USA
+-----------------------
+paper 3-
+1Xanadu, 777 Bay Street, Toronto, Canada
+2Wallenberg Centre for Quantum Technology, Department of Microtechnology and Nanoscience, Chalmers University of Technology, 412 96 Gothenburg,
+Sweden
+3Indian Institute of Information Technology, Kottayam
+4Quantum Artificial Intelligence Laboratory (QuAIL), NASA Ames Research Center, Moffett Field, CA, 94035, USA
+5USRA Research Institute for Advanced Computer Science (RIACS), Mountain View, CA, 94043, USA
+6data cybernetics, Martin-Kolmsperger-Str 26, 86899 Landsberg, Germany
+7Department of Medical Informatics and Clinical Epidemiology, Oregon Health and Science University, Portland, OR 97202, USA
+8Dept. of Electrical and Computer Engineering, The University of British Columbia, Vancouver, BC, V6T 1Z4, Canada
+9Department of Physics, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India
+10qBraid, 5235 South Harper Court, Chicago, IL 60615
+11Factal Analytics, Level 2 Chimes Building Plot 61, Sector- 44, Gurgaon 122003, Haryana, India
+12Centre for High Energy Physics, Indian Institute of Science, Bengaluru, Karnataka, India 560012
+13ICFO- Institut de Ciencies Fotoniques, The Barcelona Institute of Science and Technology, Av. Carl Friedrich Gauss 3, 08860 Castelldefels (Barcelona),
+Spain
+14Chemical Physics Theory Group, Department of Chemistry, University of Toronto, Canada
+15DUG Technology, 76 Kings Park Rd, West Perth WA 6005 Australia
+16Rigetti Computing, 2919 Seventh Street, Berkeley, CA 94710
+17Dahlem Center for Complex Quantum Systems, Freie Universität Berlin, 14195 Berlin, Germany
+18Institute for Advanced Simulation, Jülich Supercomputing Centre, Forschungszentrum Jülich, 52425 Jülich, Germany
+19University of Amsterdam
+20School of Physical Sciences, National Institute of Science Education and Research, HBNI, Jatni, 752 050 Odisha, India
+21Cervest
+22Centro Brasileiro de Pesquisas Físicas, Rua Dr. Xavier Sigaud 150, 22290-180 Rio de Janeiro, Brazil
+23ETH Zurich, Quantum Engineering, Department of Information Technology and Electrical Engineering (D-ITET), 8092 Zurich, Switzerland.
+24Neo4j UK Ltd.
+25Zapata Computing, Inc.
+26ITC Infotech Bangalore
+27Department of Microtechnology and Nanoscience MC2, Chalmers University of Technology, SE-412 96 G öteborg, Sweden
+28Pasqal, 7 rue Léonard de Vinci, 91300 Massy, France
+29LIP6, CNRS, Sorbonne Université, 4 place Jussieu, 75005 Paris, France
+30Vector Institute, MaRS Centre, Toronto, Ontario, M5G 1M1, Canada
+31ETH Zürich, Department of Computer Science, 8092 Zïrich, Switzerland.
+32Institute for Theoretical Physics, University of Cologne, Germany
+33Department of Physics and Astronomy, University of Waterloo, Ontario, N2L 3G1, Canada
+34TRIUMF, Vancouver, BC, Canada V6T 2A3
+35Technical University of Munich, Department of Informatics, Boltzmannstraße 3, 85748 Garching, Germany
+36BMW Group, Munich, Germany
+---------------------
+paper 4-
+CNRS, IRIF, Universit´e Paris Diderot, Paris, France
+2Centre for Quantum Technologies, National University of Singapore, Singapore
+3Ecole Polytechnique, Palaiseau, France
+4Atos Bull, Les Clayes Sous Bois, France
+---------------------
+paper 5-
+Department of Physics and Center for Theoretical Physics, National Taiwan University, Taipei, Taiwan
+2School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA
+3IBM Research Yorktown Heights, NY, USA
+4 Center for Quantum Science and Engineering National Taiwan University, Taipei, Taiwan
+
+-------------------
+paper 6-
+Division of Physics, Mathematics & Astronomy, Alliance for Quantum Technologies,
+California Institute of Technology, Pasadena, CA 91125, USA
+2DeepMind Technologies, London, UK
+3Lockheed Martin Advanced Technology Center, Sunnyvale, CA 94089, USA
+4Departments of Electrical and Computer Engineering, Chemistry,
+and Physics & Astronomy, and Center for Quantum Information Science & Technology,
+University of Southern California, Los Angeles, CA 90089, USA
+-------------------
+paepr 7-
+1Institute for Theoretical Physics, University of Innsbruck, Technikerstr. 21a, A-6020 Innsbruck, Austria
+2Department of Philosophy, University of Konstanz, Fach 17, 78457 Konstanz, Germany
+3LIACS, Leiden University, Niels Bohrweg 1, 2333 CA Leiden, The Netherlands
+-------------------
+paper 8-
+Joint Center for Quantum Information and Computer Science, University of Maryland
+2 Department of Computer Science, University of Maryland
+3 School of Information and Software Engineering
+University of Electronic Science and Technology of China
+-------------------
+paper 9-
+Institute for Quantum Information & State Key Laboratory of High Performance Computing,
+College of Computer, National University of Defense Technology, Changsha 410073, China
+2National Innovation Institute of Defense Technology, AMS, 100071 Beijing, China
+3Henan Key Laboratory of Quantum Information and Cryptography, IEU, Zhengzhou 450001, China
+4Hefei National Laboratory for Physical Sciences at Microscale and Department of Modern Physics,
+University of Science and Technology of China, Hefei, Anhui 230026, China
+5CAS Centre for Excellence and Synergetic Innovation Centre in Quantum Information and Quantum Physics,
+University of Science and Technology of China, Hefei, Anhui 230026, China
+6Quantum Intelligence Lab, Supremacy Future Technologies, Guangzhou 511340, China
+-------------------
+paper 10-
+GoogleQuantumAI,MountainView, CA
+2Sandbox@Alphabet,MountainView, CA
+3Google,MountainView, CA
+4Institute forQuantumComputing,UniversityofWaterloo,Waterloo,Ontario,N2L3G1,Canada
+5School ofComputerScience,UniversityofWaterloo,Waterloo,Ontario,N2L3G1,Canada
+6DepartmentofAppliedMathematics,UniversityofWaterloo,Waterloo,Ontario,N2L3G1,Canada
+7Department ofMechanical&MechatronicsEngineering,
+UniversityofWaterloo,Waterloo,Ontario,N2L3G1, Canada
+8DepartmentofPhysics&Astronomy,UniversityofWaterloo,Waterloo,Ontario,N2L3G1,Canada
+9DivisionofPhysics,MathematicsandAstronomy,Caltech,Pasadena,CA91125
+10FermiNationalAcceleratorLaboratory,P.O.Box500,Batavia, IL, 605010
+11Department ofComputerScience,RensselaerPolytechnic Institute,Troy,NY12180,USA
+12Data:Lab,VolkswagenGroup,Ungererstr. 69, 80805München,Germany
+13LeidenUniversity,NielsBohrweg1, 2333CALeiden,Netherlands
+14QuantumArtificial IntelligenceLaboratory,NASAAmesResearchCenter (QuAIL)
+15USRAResearch Institute forAdvancedComputerScience (RIACS)
+16Institute forTheoreticalPhysics,Universityof Innsbruck,Technikerstr. 21a,A-6020Innsbruck,Austria
+17UniversityErlangen-Nürnberg(FAU), InstituteofTheoreticalPhysics,Staudtstr. 7,91058Erlangen,Germany
+18VolkswagenGroupAdvancedTechnologies, SanFrancisco,CA94108
+19RahkoLtd., FinsburyPark, London,N43JP,UnitedKingdom
+20DepartmentofComputerScience,UniversityCollegeLondon,WC1E6BT,UnitedKingdom
+21ClarendonLaboratory,DepartmentofPhysics,UniversityofOxford. Oxford,OX13PU,UnitedKingdom
+22Vector Institute,MaRSCentre,Toronto,Ontario,M5G1M1,Canada
+23DepartmentofPhysicsandAstronomy,UniversityofWaterloo,Ontario,N2L3G1,Canada
+24Institute forQuantumInformationandMatter,Caltech,Pasadena,CA,USA
+25Department ofComputingandMathematical Sciences,Caltech,Pasadena,CA,USA
+-------------------
+paper 11-
+BMW Group Research, New Technologies, Innovations,
+Garching bei M¨unchen, Germany
+2Dahlem Center for Complex Quantum Systems, Freie Uni
+versitaet Berlin, Berlin, Germany
+3Delft University of Technology, Delft, Netherlands
+4Technical University of Munich, Department of Informatics,
+Garching bei M¨unchen, Germany
+-------------------
+paper 12-
+Institute for Quantum Computing, Baidu Research, Beijing 100193, China
+2Centre for Quantum Software and Information, University of Technology Sydney, NSW 2007, Australia
+-------------------
+paper 13-
+university of Cambridge  uk
+-------------------
+paper 14-
+Nicolas M. de Oliveira, Lucas P. de Albuquerque
+Centro de Inform´atica
+Universidade Federal de Pernambuco
+Recife, Brazil
+{nmo, lpa}@cin.ufpe.br
+Departamento de Estat´ıstica e Inform´atica
+Universidade Federal Rural de Pernambuco
+Recife, Brazil
+Centro de Inform´atica
+Universidade Federal de Pernambuco
+Recife, Brazil
+-------------------
+paper 15-
+1Centro de Inform´ atica, Universidade Federal de Pernambuco, Recife, Pernambuco, Brazil
+2Sungkyunkwan University Advanced Institute of Nanotechnology, Suwon, Korea
+3Quantum Research Group, School of Chemistry and Physics, University of KwaZulu-Natal, Durban,
+KwaZulu-Natal, 4001, South Africa
+4National Institute for Theoretical Physics (NITheP), KwaZulu-Natal, 4001, South Africa
+-------------------
+paper 16-
+1Department of Computer Science, Rensselaer Polytechnic Institute
+
+-------------------
+paper 17-
+1Xanadu, Toronto, ON, M5G 2C8, Canada
+2Dahlem Center for Complex Quantum Systems,
+Freie Universit¨at Berlin, 14195 Berlin, Germany
+-------------------
+paper 18-
+1Department of Electrical Engineering and Computer Sciences,
+University of California, Berkeley, CA 94720
+2IBM Quantum, T.J. Watson Research Center, Yorktown Heights, NY 10598
+-------------------
+paper 19-
+IBM Quantum, IBM Research– Zurich
+2University of KwaZulu-Natal, Durban
+3ETH Zurich
+-------------------
+paper 20-
+Institute for Quantum Computing, Baidu Research, Beijing 100193, China
+2Centre for Quantum Software and Information, University of Technology Sydney, NSW 2007, Australia
+-------------------
+paper 21-
+Xanadu, Toronto, ON, M5G 2C8, Canada
+-------------------
+paper 22-
+1Institute for Quantum Computing, Baidu Research, Beijing 100193, China
+-------------------
+paper 23-
+QOLS, Blackett Laboratory, Imperial College London SW7 2AZ, UK
+-------------------
+paper 24-
+Department of Electrical and Computer Engineering
+Virginia Tech
+-------------------
+paper 25-
+Giuseppe Di Molfetta Aix-Marseille Université, CNRS, France
+Hachem Kadri Aix-Marseille Université, CNRS, France
+-------------------
+paper 26-
+Max Planck Institute for Intelligent Systems
+Tübingen, Germany
+-------------------
+paper 27-
+School of Computer Science, The University of Sydney
+†JD Explore Academy
+‡Institute of Artificial Intelligence, School of Computer Science, Wuhan University
+-------------------
+paper 28-
+Data Analytics Center
+Fraunhofer FOKUS
+Berlin, Germany
+-------------------
+paper 29-
+Dept. of Computer Science
+The University of Tokyo
+Bunkyo-ku, Tokyo, Japan
+Dept. of Applied Physics and Physico-Informatics
+Keio University
+Kohoku-ku, Yokohama, Japan
+IBM Quantum
+IBM Japan
+Chuo-ku, Tokyo, Japan
+-------------------
+paper 30
+1Department of Physics, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139
+2Google Quantum AI, Venice, California 90291
+3Department of Mechanical Engineering and Research Laboratory of Electronics,
+Massachusetts Institute of Technology, Cambridge, Massachusetts 02139
+-------------------
+paper 31-
+QOLS, Blackett Laboratory, Imperial College London SW7 2AZ, UK
+-------------------
+paper 32-
+Department of Computer Science
+Rensselaer Polytechnic Institute, Troy NY, USA
+-------------------
+paper 33-
+Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87545, USA
+2Department of Electrical and Computer Engineering,
+University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA
+3Information Sciences, Los Alamos National Laboratory, Los Alamos, NM 87545, USA
+4Center for Nonlinear Studies, Los Alamos National Laboratory, Los Alamos, NM, USA
+-------------------
+paper 34-
+1Institute for Theoretical Physics, University of Innsbruck, Technikerstr. 21a, A-6020 Innsbruck, Austria
+2Max Planck Institute for Intelligent Systems, T¨ubingen, Germany
+3Leiden University, Niels Bohrweg 1, 2333 CA Leiden, Netherlands
+-------------------
+paper 35-
+Global Technology Applied Research, JPMorgan Chase, New York, NY 10017 USA
+2Mathematics and Computer Science Division, Argonne National Laboratory, Lemont, IL 60439 USA
+-------------------
+paper 36-
+Engineering Faculty
+Universidad de Antioquia
+Medell´ ın, Colombia
+Computer Science and Mathematics
+Oak Ridge National Laboratory
+Oak Ridge, United States
+-------------------
+paper 37-
+Queen’s University
+Kingston, Ontario, Canada
+-------------------
+paper 38-
+1KAIST, School of Electrical Engineering, Daejeon, 34141, South Korea
+2Yonsei University, Dept. of Applied Statistics & Dept. of Statistics and Data Science, Seoul, 03722, South Korea
+3Qunova Computing, Inc., Daejeon, 34051, South Korea
+-------------------
+paper 39-
+European Organization for Nuclear Research (CERN), Geneva,
+1211, Switzerland.
+2Dipartimento di Informatica, Universit`a di Verona, Verona, 34137,
+Italy.
+3Dipartimento di Matematica, Universit`a di Trento, Povo, 38123,
+Italy.
+4Data Reply s.r.l., Turin, 10126, Italy.
+-------------------
+paper 40-
+State Key Laboratory of Computer Science, Institute of Software, Chinese
+Academy of Sciences, Beijing 100190, China
+University of Chinese Academy of Sciences, Beijing 100049, China
+3 Department of Computer Science and Technology, Tsinghua University, Beijing
+100084, China
+-------------------
+paper 41-
+Department of Engineering of Kings College
+London, UK 
+-------------------
+paper 42-
+Department of Computer Science
+William & Mary
+Williamsburg, VA, USA
+-------------------
+paper 43-
+School of Physics, University of Melbourne, VIC, Parkville, 3010, Australia.
+2School of Mathematics and Statistics, University of Melbourne, VIC, Parkville, 3010, Australia.
+-------------------
+paper 44-
+Center for Theoretical Physics,
+Massachusetts Institute of Technology,
+Cambridge, MA 02139, USA
+Department of Physics, Harvard University,
+Cambridge, MA 02138, USA
+The NSF AI Institute for Artificial
+Intelligence and Fundamental Interactions
+Department of Physics,
+University of Illinois, Urbana-Champaign
+Urbana, IL 61801, USA
+Illinois Quantum Information Science
+and Technology Center
+Illinois Center for Advanced Studies
+of the Universe
+Department of Electrical Engineering
+and Computer Science,
+Massachusetts Institute of Technology
+Cambridge, MA 02139, USA
+Department of Physics,
+Massachusetts Institute of Technology
+Cambridge, MA 02139, USA
+-------------------
+paper 45-
+School of Computing and Information Systems, Melbourne School of Engineering,
+The University of Melbourne, Parkville, 3010, VIC, Australia
+2School of Physics, The University of Melbourne, Parkville, 3010, VIC, Australia
+3Data61, CSIRO, Clayton, 3168, VIC, Australia
+-------------------
+paper 46-
+LMU Munich
+2SAP SE, Walldorf, Germany
+-------------------
+paper 47-
+1Fraunhofer ITWM, 2Fraunhofer IAIS, 3TU Dortmund
+-------------------
+paper 48-
+Department of Chemistry, Yale University, 225 Prospect Street, New
+Haven, 06511, CT, USA.
+-------------------
+paper 49-
+∗Department of Computer Science, Kennesaw State University, USA 
+†Department of Information Technology, Kennesaw State University, USA 
+§Department of Applied Data Science, San Jose State University, USA 
+¶Department of Computer Science and Software Engineering, Auburn University, USA 
+††Department of Computer Science, Tuskegee University, USA  
+∥iDEA Lab, University of Calabria, Rende, Italy
+-------------------
+paper 50-
+Institute of Theoretical and Applied Informatics, Polish Academy of Sciences, Gliwice,
+Poland
+Joint Doctoral School, Silesian University of Technology, Gliwice, Poland
+3Warsaw University of Technology, Institute of Computer Science, Warsaw, Poland
+4Applied Quantum Algorithms, Lorentz Institute, Leiden University, Leiden, the
+Netherlands
+5Leiden Institute of Physics, Leiden University, Leiden, the Netherlands
+6Leiden Institute of Advanced Computer Science, Leiden University, Leiden, the
+Netherlands
+-------------------
+paper 51-
+Dahlem Center for Complex Quantum Systems, Freie Universit¨at Berlin, 14195 Berlin, Germany
+2Fraunhofer Heinrich Hertz Institute, 10587 Berlin, Germany
+3Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, 14109 Berlin, Germany
+-------------------
+paper 52-
+Department of Electrical & Electronic Engineering, Bangladesh
+University of Engineering & Technology, Dhaka, 1000, Bangladesh.
+2Department of Electrical Engineering, The University of Texas at
+Dallas, Texas, 75083-0688, USA.
+-------------------
+paper 53-
+BMW Group, Munich Germany
+†Technical University Munich, Germany
+‡Ludwig Maximilian University Munich, Germany
+-------------------
+paper 54-
+Department of Physics, University of Colorado Boulder, Boulder, CO 80309, USA
+2University of Technology Sydney, Centre for Quantum Software and Information, Ultimo NSW 2007, Australia
+3Department of Electrical, Computer and Energy Engineering,
+University of Colorado Boulder, Boulder, Colorado 80309, USA
+-------------------
+paper 55-
+1School of Informatics, University of Edinburgh, United Kingdom
+-------------------
+paper 56-
+1Department of Physics and Astronomy, University of Southern California, Los Angeles, California 90089, USA
+2Ming Hsieh Department of Electrical and Computer Engineering,
+University of Southern California, Los Angeles, California 90089, USA
+3Department of Statistics, University of Illinois at Urbana-Champaign, Champaign, Illinois 61820, USA
+4Department of Mathematics, University of Southern California, Los Angeles, California 90089, USA
+-------------------
+paper 57-
+Chair for Design Automation — Technical University of Munich, 80333 Munich, Germany
+2 Department of Information Engineering and Computer Science — University of Trento,
+38123 Trento, Italy
+3 Department of Mathematics — University of Bologna, 40126 Bologna, Italy
+4 TIFPA-INFN, 38123 Povo-Trento, Italy
+-------------------
+paper 58-
+Fraunhofer Institute for Manufacturing Engineering and Automation IPA, Nobelstraße 12, D-70569 Stuttgart, Germany
+-------------------
+paper 59-
+1University of Stuttgart, Institute for Systems Theory and Automatic Control, 70569 Stuttgart, Germany
+2University of Stuttgart, Institute for Computational Physics, 70569 Stuttgart, Germany
+3Fraunhofer IAO, Fraunhofer Institute for Industrial Engineering, 70569 Stuttgart, Germany
+-------------------
+paper 60-
+LMU Munich
+Munich, Germany
+TU Munich
+Munich, Germany
+University of Southern California
+Los Angeles, USA
+Delft University of Technology
+Delft, The Netherland
+-------------------
+paper 61-
+Pennsylvania State University
+Georgia Institute of Technology
+University of Texas, Austin
+AWS Quantum Technologies
+-------------------
+paper 62-
+Xanadu, Toronto, ON, M5G 2C8, Canada
+2Chalmers University of Technology
+-------------------
+paper 63-
+School of Computer Science and Information Technology, University College Cork, Ireland
+-------------------
+paper 64-
+Department of Physics and School of Data Science and Computational Thinking,
+Stellenbosch University, Stellenbosch, 7604, South Africa
+2National Institute for Theoretical and Computational Sciences (NITheCS), Stellenbosch, 7604, South Africa
+-------------------
+paper 65-
+1Zaiku Group Ltd., 7th Floor, 4 St Paul’s Square, Liverpool L3 9SJ, UK
+2Tecacet Inc., San Francisco, CA, USA
+3National Quantum Computing Centre, Rutherford Appleton Laboratory, Didcot OX11 0FA, UK
+-------------------
+paper 66-
+Department of Computer Science
+University of Toronto
+Vector Institute
+Department of Computer Science
+University of Copenhagen
+Department of Chemistry
+&Chemical Biology
+McMaster University, ON
+-------------------
+paper 67-
+Leiden University, Niels Bohrweg 1, 2333 CA Leiden, Netherlands
+2Volkswagen Group Innovation, Berliner Ring 2, 38440 Wolfsburg, Germany
+3Department of Physics and Astronomy, University of Waterloo, ON N2L 3G1, Canada
+4Vector Institute, Toronto, ON M5G 0C6, Canada
+5Dahlem Center for Complex Quantum Systems, Freie Universit¨at Berlin, 14195 Berlin, Germany
+6Fraunhofer Heinrich Hertz Institute, 10587 Berlin, Germany
+-------------------
+paper 68-
+School of Computing and Information Systems, Singapore Management University, Singapore, 178902
+2Nanyang Quantum Hub, School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore
+Institute of High Performance Computing (IHPC), Agency for Science, Technology and Research (A*STAR), Singapore
+4Horizon Quantum, 29 Media Cir., #05-22/23/24 ALICE@MEDIAPOLIS, South Tower, Singapore 138565
+5Centre for Quantum Technologies, National University of Singapore, Singapore
+-------------------
